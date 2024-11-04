@@ -47,7 +47,9 @@ public class TicketPool {
              if(actualTicketsRemoved > 0){
                  for(int i = 0; i < actualTicketsRemoved; i++)
                  {
-                     System.out.println();
+                     System.out.println(
+
+                     );
                  }
              }
 
