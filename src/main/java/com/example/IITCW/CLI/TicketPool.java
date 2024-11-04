@@ -40,20 +40,21 @@ public class TicketPool {
         }
     }
     //Method to remove a ticket (used by customers)
-    public int removeTicket(int numberOfTicketsToRemove){
+    public boolean removeTicket(int numberOfTicketsToRemove){
          synchronized (tickets) {/*This synchronizes the list to prevent multiple threads from removing at the same time*/
              int actualTicketsRemoved = Math.min(numberOfTicketsToRemove, tickets.size());
 
              if(actualTicketsRemoved > 0){
-                 for(int i = 0; i < actualTicketsRemoved; i++)
-                 {
-                     System.out.println(
-
-                     );
+                 for(int i = 0; i < actualTicketsRemoved; i++){
+                     tickets.remove(0);
                  }
+                 System.out.println(actualTicketsRemoved + " tickets removed. " + tickets.size() + "tickets remaining");
+                 return true;
              }
-
-
+             else{
+                 System.out.println("There are no available tickets to remove");
+                 return false;
+             }
          }
     }
 }
