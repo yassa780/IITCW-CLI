@@ -57,4 +57,16 @@ public class TicketPool {
              }
          }
     }
+
+    //An additional method to check if the pool has reached the maximum capacity
+    public boolean isMaxCapacity() {
+         synchronized (tickets){
+             return tickets.size() >= maxCapacity;
+         }
+    }
+    public int getTicketCount(){
+         synchronized (tickets){
+             return tickets.size();
+         }
+    }
 }
