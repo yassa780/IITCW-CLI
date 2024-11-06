@@ -18,6 +18,7 @@ public class IitcwApplication {
 		//SpringApplication.run(IitcwApplication.class, args);
 		Scanner input = new Scanner(System.in);
 		ConfigurationManager configurationManager = new ConfigurationManager();
+		TicketPool ticketPool = new TicketPool(50); //Created the ticketpool object
 
 		System.out.println( YELLOW +
 				"\n" +
@@ -30,7 +31,44 @@ public class IitcwApplication {
 				"                                 \n" +
 				"                                 \n" + ConfigurationManager.RESET);
 
-		//Collect and validate inputs
+		System.out.print("Please select an option: ");
+		System.out.print("1. Configure");
+		System.out.print("2. Vendor");
+		System.out.print("3. Customer");
+		System.out.print("Enter your choice: ");
+
+		int choice  = input.nextInt();
+
+		switch (choice){
+			case 1:
+				configureSystem(input, configurationManager);
+				break;
+			case 2:
+				vendorSystem(ticketPool);
+				break;
+		}
+    }
+
+	//Collect and validate inputs
+	public static int InputValidation(Scanner input){
+		int number;
+		while(true){
+			try{
+				number = input.nextInt();
+				if(number > 0){
+					return number;//Will return from the method and execute the program
+				}
+				else {
+					ConfigurationManager.errorMessage("The number should be greater than 0");
+				}
+			} catch (Exception e) {
+				ConfigurationManager.errorMessage("Invalid input. Please enter a valid integer: ");
+				input.next();
+			}
+		}
+	}
+
+	public static void configureSystem(Scanner input, ConfigurationManager configurationManager ){
 		System.out.print("Enter the total no. of tickets: ");
 		int totalTickets = InputValidation(input);
 
@@ -53,9 +91,8 @@ public class IitcwApplication {
 
 		Configuration config = new Configuration(totalTickets,ticketReleaseDate,customerRetrievalDate,maximunTicketCapacity);
 		configurationManager.writeJson(config);
-
-		TicketPool ticketPool = new TicketPool(20); //Created the ticketpool object
-
+	}
+	public static void vendorSystem(TicketPool ticketPool){
 		//Creating Vendor objects with different release intervals and ticket amounts
 		Vendor vendor1 = new Vendor("1", 5,1000,ticketPool);
 		Vendor vendor2 = new Vendor("2",3,1500,ticketPool);
@@ -69,31 +106,13 @@ public class IitcwApplication {
 		vendorThread2.start();
 
 		try{
-			vendorThread1.join();
+			vendorThread1.join();//It will pause the main thread and start executing the sub threads
 			vendorThread2.join();
 		} catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+			e.printStackTrace();
+		}
 
 		//The final output
 		System.out.println("Final tickets in pool: " + ticketPool.getTicketCount());
-    }
-
-	public static int InputValidation(Scanner input){
-		int number;
-		while(true){
-			try{
-				number = input.nextInt();
-				if(number > 0){
-					return number;//Will return from the method and execute the program
-				}
-				else {
-					ConfigurationManager.errorMessage("The number should be greater than 0");
-				}
-			} catch (Exception e) {
-				ConfigurationManager.errorMessage("Invalid input. Please enter a valid integer: ");
-				input.next();
-			}
-		}
 	}
 }
