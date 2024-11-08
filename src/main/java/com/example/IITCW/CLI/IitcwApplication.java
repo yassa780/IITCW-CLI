@@ -1,9 +1,5 @@
-package com.example.IITCW;
+package com.example.IITCW.CLI;
 
-import com.example.IITCW.CLI.Configuration;
-import com.example.IITCW.CLI.ConfigurationManager;
-import com.example.IITCW.CLI.TicketPool;
-import com.example.IITCW.CLI.Vendor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -31,10 +27,10 @@ public class IitcwApplication {
 				"                                 \n" +
 				"                                 \n" + ConfigurationManager.RESET);
 
-		System.out.print("Please select an option: ");
-		System.out.print("1. Configure");
-		System.out.print("2. Vendor");
-		System.out.print("3. Customer");
+		System.out.println("Please select an option: ");
+		System.out.println("1. Configure");
+		System.out.println("2. Vendor");
+		System.out.println("3. Customer");
 		System.out.print("Enter your choice: ");
 
 		int choice  = input.nextInt();
@@ -45,6 +41,9 @@ public class IitcwApplication {
 				break;
 			case 2:
 				vendorSystem(ticketPool);
+				break;
+			case 3:
+				customerSystem(ticketPool);
 				break;
 		}
     }
@@ -113,6 +112,33 @@ public class IitcwApplication {
 		}
 
 		//The final output
+		System.out.println("Total tickets released by Vendor 1: " + vendor1.getTotalTicketsReleased());
+		System.out.println("Total tickets released by Vendor 2: " + vendor2.getTotalTicketsReleased());
 		System.out.println("Final tickets in pool: " + ticketPool.getTicketCount());
+	}
+
+	public static void customerSystem(TicketPool ticketPool){
+		Customer customer1 = new Customer("customer1", 1000, 3, ticketPool);
+		Customer customer2 = new Customer("customer2", 5000, 5, ticketPool);
+
+		//Create threads for each Customer
+		Thread customerThread1 = new Thread(customer1);
+		Thread customerThread2 = new Thread(customer2);
+
+		//Starting each customer thread
+		customerThread1.start();
+		customerThread2.start();
+
+		try{
+			customerThread1.join(); //It will pause the main thread and start executing the sub threads
+			customerThread2.join();
+
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		//The final output
+		System.out.println("Total tickets purchased by customer 1: " + customer1.getTotalTicketsPurchased());
+		System.out.println("Total tickets purchased by customer 2: " + customer2.getTotalTicketsPurchased());
 	}
 }
