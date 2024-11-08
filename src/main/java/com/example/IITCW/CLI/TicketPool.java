@@ -1,7 +1,6 @@
 package com.example.IITCW.CLI;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -16,7 +15,7 @@ public class TicketPool {
      private final int maxCapacity;
 
      public TicketPool(int maxCapacity) {
-         this.tickets = Collections.synchronizedList(new ArrayList<>());//Use Collections.synchronizedList to make it thrad-safe
+         this.tickets = Collections.synchronizedList(new ArrayList<>());//Use Collections.synchronizedList to make it thread-safe
          this.maxCapacity = maxCapacity;
      }
 

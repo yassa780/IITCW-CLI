@@ -22,14 +22,15 @@ public class Customer implements Runnable {
             int remainingTickets = ticketPool.removeTicket(ticketsToBuy);
 
             if(remainingTickets >= 0){
-                System.out.println("Customer " + customerId + "purchased " + ticketsToBuy + " tickets. Remaining ticket count" + remainingTickets);
+                System.out.println("Customer " + customerId + "purchased " + ticketsToBuy );
             }
             else{
                 System.out.println("Customer " + customerId + " attempted to purchase tickets but none were available");
+                break;
             }
 
             try{
-                Thread.sleep(retrievalInterval); //Wait before attempting the net=xt purchase
+                Thread.sleep(retrievalInterval); //Wait before attempting the next purchase
             }
             catch(InterruptedException e){
                 System.out.println("Customer " + customerId + " was interupted");
