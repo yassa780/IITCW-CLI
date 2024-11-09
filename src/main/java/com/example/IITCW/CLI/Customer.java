@@ -14,9 +14,21 @@ public class Customer implements Runnable {
         this.ticketPool = ticketPool;
     }
 
+    public volatile boolean isRunning = true;
+
+    public void stop(){
+        isRunning = false;
+    }
+
     @Override
     public void run() {
-        while (true) {
+        while (isRunning) {
+
+            //Checking if there are tickets in the pool
+            if (ticketPool.getTicketCount() == 0){
+                System.out.println("Customer " + customerId + "could not purchase tickets");
+                stop();
+            }
             //Attempting ot purchase tickets
             int ticketsRemoved = ticketPool.removeTicket(ticketsToBuy);
 
@@ -38,7 +50,7 @@ public class Customer implements Runnable {
                 break;
             }
         }
-        System.out.println("Customer " + customerId + " has purchasing tickets. Total tickets purchased: " + totalTicketsPurchased);
+        System.out.println("Customer " + customerId + " has purchased tickets. Total tickets purchased: " + totalTicketsPurchased);
     }
 
     public int getTotalTicketsPurchased() {

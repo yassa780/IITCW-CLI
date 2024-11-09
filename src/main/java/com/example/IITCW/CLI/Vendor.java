@@ -14,17 +14,21 @@ public class Vendor implements Runnable {
         this.ticketPool = ticketPool;
     }
 
+    private volatile boolean isRunning = true;
+    public void stop() {
+        isRunning = false;
+    }
+
     @Override
     public void run() {//This is a built in method where the thread will start executing
 
-        while (true){
+        while (isRunning){
             if(ticketPool.isMaxCapacity()){
                 System.out.println("Vendor ID: " + vendorId + ":The ticketpool has reached its maximum capacity. Stopping ticket release");
                 break;
             }
 
             System.out.println("Vendor ID: " + vendorId + " is attempting to release tickets");
-
             boolean ticketsAdded = ticketPool.addTickets(ticketsPerRelease);
 
             if(ticketsAdded){

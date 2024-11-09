@@ -126,6 +126,30 @@ public class CLIApplication {
         customerThread3.start();
         customerThread4.start();
 
+        while (true){
+            if (ticketPool.getTicketCount() == 0){
+                vendor1.stop();
+                vendor2.stop();
+                vendor3.stop();
+                vendor4.stop();
+
+                customer1.stop();
+                customer2.stop();
+                customer3.stop();
+                customer4.stop();
+                break;
+            }
+        }
+
+        try{
+            Thread.sleep(1000);
+        } catch (InterruptedException e){
+            System.out.println("Main thread interrupted during sleep");
+            Thread.currentThread().interrupt();
+        }
+
+        //Joining the threads for proper termination
+        /* The join() ensures all threads have completed their work before the main threads proceeds*/
 
         try{
             vendorThread1.join();//It will pause the main thread and start executing the sub threads
