@@ -152,8 +152,8 @@ public class CLIApplication {
         //The final output
         System.out.println("Total tickets purchased by customer 1: " + customer1.getTotalTicketsPurchased());
         System.out.println("Total tickets purchased by customer 2: " + customer2.getTotalTicketsPurchased());
-        System.out.println("Total tickets purchased by customer 2: " + customer3.getTotalTicketsPurchased());
-        System.out.println("Total tickets purchased by customer 2: " + customer4.getTotalTicketsPurchased());
+        System.out.println("Total tickets purchased by customer 3: " + customer3.getTotalTicketsPurchased());
+        System.out.println("Total tickets purchased by customer 4: " + customer4.getTotalTicketsPurchased());
     }
 
     public static void displayHelp() {

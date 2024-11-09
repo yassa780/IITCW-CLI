@@ -17,29 +17,28 @@ public class Customer implements Runnable {
     @Override
     public void run() {
         while (true) {
+            //Attempting ot purchase tickets
+            int ticketsRemoved = ticketPool.removeTicket(ticketsToBuy);
 
-            //Attempt to remove a ticket from the ticket pool
-            int remainingTickets = ticketPool.removeTicket(ticketsToBuy);
-
-            if(remainingTickets >= 0){
-                System.out.println("Customer " + customerId + "purchased " + ticketsToBuy );
+            if(ticketsRemoved > 0){
+                //Tickets successfully purchased
+                totalTicketsPurchased += ticketsRemoved;
+                System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets.");
             }
             else{
-                System.out.println("Customer " + customerId + " attempted to purchase tickets but none were available");
+                System.out.println("Customer " + customerId + "could not purchase tickets");
                 break;
             }
-
             try{
                 Thread.sleep(retrievalInterval); //Wait before attempting the next purchase
             }
-            catch(InterruptedException e){
-                System.out.println("Customer " + customerId + " was interupted");
-                Thread.currentThread().interrupt();  /*This will restore the interrupted status and it lets other part of the
-                program know that the thread was interrupted*/
+            catch (InterruptedException e){
+                System.out.println("Customer " + customerId + " was interrupted.");
+                Thread.currentThread().interrupt();//restore the interuppted status
                 break;
             }
         }
-        System.out.println("Customer " + customerId + " has finished attempting to purchase tickets");
+        System.out.println("Customer " + customerId + " has purchasing tickets. Total tickets purchased: " + totalTicketsPurchased);
     }
 
     public int getTotalTicketsPurchased() {

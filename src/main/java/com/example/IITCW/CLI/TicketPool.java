@@ -20,52 +20,54 @@ public class TicketPool {
      }
 
      //Method to add tickets(used by vendors)
-    public boolean addTickets(int numberOfTicketsToAdd) {
-        synchronized (tickets) {
-            int availableTicketSpace = maxCapacity - tickets.size();
-            int actualTicketsAdded = Math.min(numberOfTicketsToAdd, availableTicketSpace);
-
-            if (actualTicketsAdded > 0) {
-                for(int i = 0; i < actualTicketsAdded; i++){
-                    tickets.add("Ticket " + tickets.size() + 1);
-                }
-                System.out.println(actualTicketsAdded + " tickets.added. Total tickets: " + tickets.size());
-                return true; //The tickets will be successfully added and it will return from the method
-            }
-            else{
-                System.out.println("The maximum capacity has been reached. No more tickets can be added");
-                return false;
-            }
+    public synchronized boolean addTickets(int numberOfTicketsToAdd) {
+        if (tickets.size() >= maxCapacity) {
+            System.out.println("Ticket pool has reached its maximum capacity");
+            return false;
         }
+
+        int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
+
+        for (int i = 0; i < ticketsToAdd; i++) {
+            tickets.add("Ticket " + (tickets.size() + 1));
+        }
+
+        System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
+
+        notifyAll();//Will notify the customers waiting for tickets
+        return true;
     }
     //Method to remove a ticket (used by customers)
-    public int removeTicket(int numberOfTicketsToRemove){
-         synchronized (tickets) {/*This synchronizes the list to prevent multiple threads from removing at the same time*/
-             int actualTicketsRemoved = Math.min(numberOfTicketsToRemove, tickets.size());
+    public synchronized int removeTicket(int numberOfTicketsToRemove){
+        while(tickets.isEmpty()){
+            try{
+                System.out.println("No tickets available. Waiting");
+                wait(); //Waits until tickets are avaialble
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return -1;
+            }
+        }
 
-             if(actualTicketsRemoved > 0){
-                 for(int i = 0; i < actualTicketsRemoved; i++){
-                     tickets.remove(0);
-                 }
-                 System.out.println(actualTicketsRemoved + " tickets removed. " + tickets.size() + "tickets remaining");
-                 return tickets.size(); //It returns the remaining ticket count
-             }
-             else{
-                 System.out.println("There are no available tickets to remove");
-                 return -1; //This indicated no tickets were available to remove
-             }
-         }
+        /* This ensures that the number of tickets requested to remove does not exceed the current no. of tickets*/
+        int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
+        for (int i = 0; i < ticketsToRemove; i++){
+            tickets.remove(0);
+        }
+
+        System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
+
+        return ticketsToRemove;
     }
 
     //An additional method to check if the pool has reached the maximum capacity
-    public boolean isMaxCapacity() {
+   public boolean isMaxCapacity() {
          synchronized (tickets){
              return tickets.size() >= maxCapacity;
          }
     }
-    public int getTicketCount(){
-         synchronized (tickets){
-             return tickets.size();
-         }
+
+    public synchronized int getTicketCount(){
+        return tickets.size();
     }
 }
