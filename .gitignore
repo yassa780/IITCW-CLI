@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+The controller package contains all the end points, the servcie package contains all the Business logic
+of the application, The repo package contains all the database interaction code(via spring data JPA)
+The entity package contains all the JPA entities(database models)
+and lastly the CLI package contains the command line interface

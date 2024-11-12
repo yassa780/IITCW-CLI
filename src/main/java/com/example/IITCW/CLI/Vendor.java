@@ -14,6 +14,11 @@ public class Vendor implements Runnable {
         this.ticketPool = ticketPool;
     }
 
+    public String getVendorId() {
+        return vendorId;
+    }
+
+
     private volatile boolean isRunning = true;
     public void stop() {
         isRunning = false;

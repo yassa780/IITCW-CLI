@@ -1,5 +1,9 @@
 package com.example.IITCW.CLI;
 
+import jakarta.persistence.criteria.CriteriaBuilder;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CLIApplication {
@@ -21,29 +25,35 @@ public class CLIApplication {
                 "                                 \n" +
                 "                                 \n" + ConfigurationManager.RESET);
 
-        System.out.println("Please select an option: ");
-        System.out.println("1. Start-program");
-        System.out.println("2. Configure");
-        System.out.println("3. end-program");
-        System.out.println("4. Help");
-        System.out.print("Enter your choice: ");
+        while(true){
+            System.out.println("Please select an option: ");
+            System.out.println("1. Start-program");
+            System.out.println("2. Configure");
+            System.out.println("3. end-program");
+            System.out.println("4. Help");
+            System.out.print("Enter your choice: ");
 
-        int choice  = input.nextInt();
+            int choice  = input.nextInt();
 
-        switch (choice){
-            case 1:
-                startProgram(ticketPool);
-                break;
-            case 2:
-                configureSystem(input, configurationManager);
-                break;
-            case 3:
-                System.exit(0);
-                break;
-            case 4:
-                displayHelp();
-                break;
+            switch (choice){
+                case 1:
+                    startProgram(ticketPool, input);
+                    break;
+                case 2:
+                    configureSystem(input, configurationManager);
+                    break;
+                case 3:
+                    System.exit(0);
+                    break;
+                case 4:
+                    displayHelp();
+                    break;
+                default:
+                    ConfigurationManager.errorMessage("Invalid choice. Please try again");
+            }
         }
+
+
     }
 
     //Collect and validate inputs
@@ -90,7 +100,114 @@ public class CLIApplication {
         configurationManager.writeJson(config);
     }
 
-    public static void startProgram(TicketPool ticketPool){
+    public static void startProgram(TicketPool ticketPool, Scanner input){
+
+        //Lists to manage Vendor and Customer Threads
+        List<Vendor> vendors = new ArrayList<>();
+        List<Customer> customers = new ArrayList<>();
+        List<Thread> vendorThreads = new ArrayList<>();
+        List<Thread> customerThreads = new ArrayList<>();
+
+        //Vendor Details
+        System.out.println("Enter the number of vendors present: ");
+        int vendorCount = InputValidation(input);
+
+        if(vendorCount <= 0){
+            ConfigurationManager.errorMessage("Error: You must have at least one vendor present");
+            return;
+        }
+
+        for(int i = 0; i < vendorCount; i++){
+            System.out.println("Enter details for vendor " + i + ": ");
+            System.out.println("Vendor Id: ");
+            String vendorId = input.next();
+
+            System.out.println("Number of tickets to release: ");
+            int ticketsPerRelease = InputValidation(input);
+
+            System.out.println("Release interval: ");
+            int releaseInterval = InputValidation(input);
+
+            Vendor vendor = new Vendor(vendorId, ticketsPerRelease, releaseInterval, ticketPool);
+            vendors.add(vendor);
+            Thread vendorThread = new Thread(vendor);
+            vendorThreads.add(vendorThread);
+            //vendorThread.start();
+
+        }
+
+        //The customer details
+        System.out.println("Enter the number of customers: ");
+        int customerCount = InputValidation(input);
+        if(customerCount <= 0){
+            ConfigurationManager.errorMessage("Error!: You must have atleast one customer present");
+            return;
+        }
+
+        for(int i = 1; i <= customerCount; i++){
+            System.out.println("customer " + i + ":");
+            System.out.println("customer Id: ");
+            String customerId = input.next();
+
+            System.out.println("Number of tickets to buy per attempt: ");
+            int ticketsToBuy =InputValidation(input);
+
+            System.out.println("Retrieval interval: ");
+            int retrievalInterval = InputValidation(input);
+
+            Customer customer = new Customer(customerId, retrievalInterval, ticketsToBuy, ticketPool);
+            customers.add(customer);
+            Thread customerThread = new Thread(customer);
+            customerThreads.add(customerThread);
+           // customerThread.start();
+        }
+
+        for(Thread vendorThread: vendorThreads) {
+            vendorThread.start();
+        }
+        for(Thread customerThread : customerThreads){
+            customerThread.start();
+        }
+        //Monitor ticketpoool and stop threads when tickets are sold out
+        while (true){
+            if(ticketPool.getTicketCount() == 0){
+                for(Vendor vendor : vendors){
+                    vendor.stop();
+                }
+                for(Customer customer: customers){
+                    customer.stop();
+                }
+                break;
+            }
+        }
+
+        //Join Threads
+        try{
+            for(Thread thread: vendorThreads){
+                thread.join();
+            }
+            for(Thread thread: customerThreads){
+                thread.join();
+            }
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interuppted during thread joining.");
+            Thread.currentThread().interrupt();
+        }
+
+        //Final output
+        System.out.println("\nFinal ticket pool status: ");
+        System.out.println("Tickets remaining in pool: " + ticketPool.getTicketCount());
+
+        for(Vendor vendor: vendors){
+            System.out.println("Vendor " + vendor.getVendorId() + " released " + vendor.getTotalTicketsReleased() + " tickets");
+        }
+        for(Customer customer: customers){
+            System.out.println("Customer " + customer.getCustomerId() + " purchased " + customer.getTotalTicketsPurchased() + " tickets");
+        }
+
+    }
+
+   /* public static void startProgram(TicketPool ticketPool){
         //Creating Vendor objects with different release intervals and ticket amounts
         Vendor vendor1 = new Vendor("1", 5,2000,ticketPool);
         Vendor vendor2 = new Vendor("2",3,1500,ticketPool);
@@ -152,7 +269,7 @@ public class CLIApplication {
         //Joining the threads for proper termination
         /* The join() ensures all threads have completed their work before the main threads proceeds*/
 
-        try{
+        /*try{
             vendorThread1.join();//It will pause the main thread and start executing the sub threads
             vendorThread2.join();
             vendorThread3.join();
@@ -173,18 +290,21 @@ public class CLIApplication {
         System.out.println("Total tickets released by Vendor 3: " + vendor3.getTotalTicketsReleased());
         System.out.println("Total tickets released by Vendor 4: " + vendor4.getTotalTicketsReleased());
         System.out.println("Final tickets in pool: " + ticketPool.getTicketCount());
+        System.out.println();
 
         //The final output
         System.out.println("Total tickets purchased by customer 1: " + customer1.getTotalTicketsPurchased());
         System.out.println("Total tickets purchased by customer 2: " + customer2.getTotalTicketsPurchased());
         System.out.println("Total tickets purchased by customer 3: " + customer3.getTotalTicketsPurchased());
         System.out.println("Total tickets purchased by customer 4: " + customer4.getTotalTicketsPurchased());
-    }
+        System.out.println();
+    }*/
 
     public static void displayHelp() {
         System.out.println("Help Information");
         System.out.println("Enter 1 to start the program");
         System.out.println("Enter 2 to configure the ticketing system");
         System.out.println("Enter 3 to terminate the program");
+        System.out.println();
     }
 }

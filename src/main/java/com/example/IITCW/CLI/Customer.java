@@ -14,6 +14,10 @@ public class Customer implements Runnable {
         this.ticketPool = ticketPool;
     }
 
+    public String getCustomerId() {
+        return customerId;
+    }
+
     public volatile boolean isRunning = true;
 
     public void stop(){
