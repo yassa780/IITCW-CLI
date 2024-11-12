@@ -147,6 +147,7 @@ public class CLIApplication {
             System.out.println("Main thread interrupted during sleep");
             Thread.currentThread().interrupt();
         }
+        System.out.println();
 
         //Joining the threads for proper termination
         /* The join() ensures all threads have completed their work before the main threads proceeds*/
