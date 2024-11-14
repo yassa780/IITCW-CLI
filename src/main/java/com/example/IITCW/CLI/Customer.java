@@ -1,63 +1,37 @@
 package com.example.IITCW.CLI;
 
 public class Customer implements Runnable {
-    private String customerId;
-    private int retrievalInterval;
-    private int ticketsToBuy;
-    private TicketPool ticketPool;
-    private int totalTicketsPurchased = 0;
+    private final TicketPool ticketPool;
+    private final int customerRetrievalRate;
+    private final int customerId;
 
-    public Customer(String customerId, int retrievalInterval, int ticketsToBuy,TicketPool ticketPool) {
-        this.customerId = customerId;
-        this.retrievalInterval = retrievalInterval;
-        this.ticketsToBuy = ticketsToBuy;
+    public Customer(TicketPool ticketPool, int customerRetrievalRate, int customerId) {
         this.ticketPool = ticketPool;
-    }
-
-    public String getCustomerId() {
-        return customerId;
-    }
-
-    public volatile boolean isRunning = true;
-
-    public void stop(){
-        isRunning = false;
+        this.customerRetrievalRate = customerRetrievalRate;
+        this.customerId = customerId;
     }
 
     @Override
     public void run() {
-        while (isRunning) {
-
-            //Checking if there are tickets in the pool
-            if (ticketPool.getTicketCount() == 0){
-                System.out.println("Customer " + customerId + "could not purchase tickets");
-                stop();
-            }
-            //Attempting ot purchase tickets
-            int ticketsRemoved = ticketPool.removeTicket(ticketsToBuy);
-
-            if(ticketsRemoved > 0){
-                //Tickets successfully purchased
-                totalTicketsPurchased += ticketsRemoved;
-                System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets.");
-            }
-            else{
-                System.out.println("Customer " + customerId + "could not purchase tickets");
-                break;
-            }
-            try{
-                Thread.sleep(retrievalInterval); //Wait before attempting the next purchase
-            }
-            catch (InterruptedException e){
-                System.out.println("Customer " + customerId + " was interrupted.");
-                Thread.currentThread().interrupt();//restore the interuppted status
-                break;
+        try{
+            while (true){
+                if(ticketPool.isEmpty()){
+                    System.out.println("Customer " + customerId + ": Pool is empty. Cant purchase anymore tickets");
+                    break;//Stop the thread
+                }
+                int ticketsRemoved = ticketPool.removeTicket(customerRetrievalRate);
+                if(ticketsRemoved > 0){
+                    System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
+                }
+                else{
+                    System.out.println("Customer " + customerId + " No tickets available to purchase");
+                }
+                Thread.sleep(1000);
             }
         }
-        System.out.println("Customer " + customerId + " has purchased tickets. Total tickets purchased: " + totalTicketsPurchased);
-    }
-
-    public int getTotalTicketsPurchased() {
-        return totalTicketsPurchased;
+        catch(InterruptedException e){
+            System.out.println("Customer " + customerId + " interrupted");
+            Thread.currentThread().interrupt();
+        }
     }
 }
