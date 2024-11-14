@@ -1,0 +1,65 @@
+2024-11-14 09:52:47-infoCustomer 1: Pool is empty. Cant purchase anymore tickets
+2024-11-14 09:52:47-infoCustomer 2: Pool is empty. Cant purchase anymore tickets
+2024-11-14 09:52:47-info3 tickets added. Total tickets: 3
+2024-11-14 09:52:47-info3 tickets added. Total tickets: 6
+2024-11-14 09:52:47-infoVendor 1 released 3 tickets.
+2024-11-14 09:52:47-infoVendor 3 released 3 tickets.
+2024-11-14 09:52:47-info3 tickets added. Total tickets: 9
+2024-11-14 09:52:47-infoVendor 2 released 3 tickets.
+2024-11-14 09:52:48-info3 tickets added. Total tickets: 12
+2024-11-14 09:52:48-infoVendor 3 released 3 tickets.
+2024-11-14 09:52:48-info3 tickets added. Total tickets: 15
+2024-11-14 09:52:48-infoVendor 2 released 3 tickets.
+2024-11-14 09:52:48-info3 tickets added. Total tickets: 18
+2024-11-14 09:52:48-infoVendor 1 released 3 tickets.
+2024-11-14 09:52:49-info2 tickets added. Total tickets: 20
+2024-11-14 09:52:49-infoVendor 3 released 3 tickets.
+2024-11-14 09:52:49-infoVendor 2: Maximum ticket capacity reach. Stopping ticket release
+2024-11-14 09:52:49-infoVendor 1: Maximum ticket capacity reach. Stopping ticket release
+2024-11-14 09:52:50-infoVendor 3: Pool is full. Stopping ticket release
+2024-11-14 09:54:27-Customer 1: Pool is empty. Cant purchase anymore tickets
+2024-11-14 09:54:27-3 tickets added. Total tickets: 3
+2024-11-14 09:54:27-Customer 2: Pool is empty. Cant purchase anymore tickets
+2024-11-14 09:54:27-3 tickets added. Total tickets: 6
+2024-11-14 09:54:27-Vendor 1 released 3 tickets.
+2024-11-14 09:54:27-Vendor 3 released 3 tickets.
+2024-11-14 09:54:27-3 tickets added. Total tickets: 9
+2024-11-14 09:54:27-Vendor 2 released 3 tickets.
+2024-11-14 09:54:28-3 tickets added. Total tickets: 12
+2024-11-14 09:54:28-Vendor 1 released 3 tickets.
+2024-11-14 09:54:28-3 tickets added. Total tickets: 15
+2024-11-14 09:54:28-3 tickets added. Total tickets: 18
+2024-11-14 09:54:28-Vendor 2 released 3 tickets.
+2024-11-14 09:54:28-Vendor 3 released 3 tickets.
+2024-11-14 09:54:29-2 tickets added. Total tickets: 20
+2024-11-14 09:54:29-Vendor 3 released 3 tickets.
+2024-11-14 09:54:29-Vendor 2: Maximum ticket capacity reach. Stopping ticket release
+2024-11-14 09:54:29-Vendor 1: Pool is full. Stopping ticket release
+2024-11-14 09:54:30-Vendor 3: Pool is full. Stopping ticket release
+2024-11-14 11:35:05-5 tickets added. Total tickets: 5
+2024-11-14 11:35:05-Customer 1: Pool is empty. Cant purchase anymore tickets
+2024-11-14 11:35:05-Customer 2: Pool is empty. Cant purchase anymore tickets
+2024-11-14 11:35:05-5 tickets added. Total tickets: 10
+2024-11-14 11:35:05-Vendor 1 released 5 tickets.
+2024-11-14 11:35:05-Vendor 4 released 5 tickets.
+2024-11-14 11:35:05-5 tickets added. Total tickets: 15
+2024-11-14 11:35:05-Vendor 3 released 5 tickets.
+2024-11-14 11:35:05-5 tickets added. Total tickets: 20
+2024-11-14 11:35:05-Vendor 2 released 5 tickets.
+2024-11-14 11:35:06-Vendor 4: Maximum ticket capacity reach. Stopping ticket release
+2024-11-14 11:35:06-Vendor 1: Maximum ticket capacity reach. Stopping ticket release
+2024-11-14 11:35:06-Vendor 3: Pool is full. Stopping ticket release
+2024-11-14 11:35:06-Vendor 2: Pool is full. Stopping ticket release
+2024-11-14 11:44:25-Customer 2: Pool is empty. Cant purchase anymore tickets
+2024-11-14 11:44:25-4 tickets added. Total tickets: 4
+2024-11-14 11:44:25-Customer 1: Pool is empty. Cant purchase anymore tickets
+2024-11-14 11:44:25-4 tickets added. Total tickets: 8
+2024-11-14 11:44:25-Vendor 3 released 4 tickets.
+2024-11-14 11:44:25-4 tickets added. Total tickets: 12
+2024-11-14 11:44:25-Vendor 1 released 4 tickets.
+2024-11-14 11:44:25-Vendor 2 released 4 tickets.
+2024-11-14 11:45:25-4 tickets added. Total tickets: 16
+2024-11-14 11:45:25-Vendor 2 released 4 tickets.
+2024-11-14 11:45:25-4 tickets added. Total tickets: 20
+2024-11-14 11:45:25-Vendor 1 released 4 tickets.
+2024-11-14 11:45:25-Vendor 3: Maximum ticket capacity reach. Stopping ticket release

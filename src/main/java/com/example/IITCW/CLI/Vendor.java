@@ -5,11 +5,14 @@ public class Vendor implements Runnable {
     private final TicketPool ticketPool;
     private final int ticketReleaseRate;
     private final int vendorId;
+    private final int releaseInterval;
 
-    public Vendor(TicketPool ticketPool, int ticketReleaseRate, int vendorId) {
+    public Vendor(TicketPool ticketPool, int ticketReleaseRate, int releaseInterval, int vendorId) {
         this.ticketPool = ticketPool;
         this.ticketReleaseRate = ticketReleaseRate;
+        this.releaseInterval = releaseInterval; //Set interval
         this.vendorId = vendorId;
+
     }
 
     @Override
@@ -18,15 +21,15 @@ public class Vendor implements Runnable {
             while(true) {
 
                 if(ticketPool.isFull()){
-                    System.out.println("Vendor " + vendorId + ": Pool is full. Stopping ticket release");
+                    Logger.info("Vendor " + vendorId + ": Pool is full. Stopping ticket release");
                     break;//Stop the thread
                 }
                 if (!ticketPool.addTickets(ticketReleaseRate)){
-                    System.out.println("Vendor " + vendorId + ": MAximum ticket capacity reach. Stopping ticket release");
+                    Logger.info("Vendor " + vendorId + ": Maximum ticket capacity reach. Stopping ticket release");
                     break;
                 }
-                System.out.println("Vendor " + vendorId + " released " + ticketReleaseRate + " tickets.");
-                Thread.sleep(1000);//Release tickets at specified intervals
+                Logger.info("Vendor " + vendorId + " released " + ticketReleaseRate + " tickets.");
+                Thread.sleep(releaseInterval);//Release tickets at specified intervals
             }
         }
         catch (InterruptedException e){

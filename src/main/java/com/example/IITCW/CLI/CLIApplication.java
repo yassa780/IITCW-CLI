@@ -103,13 +103,13 @@ public class CLIApplication  {
         List<Thread> customerThreads = new ArrayList<>();
         //Initialize and start the vendor threads
         for(int i =1; i <=numberOfVendors; i++){
-            Thread vendorThread = new Thread(new Vendor(ticketPool, ticketReleaseRate, i));
+            Thread vendorThread = new Thread(new Vendor(ticketPool, ticketReleaseRate,60000, i));
             vendorThreads.add(vendorThread);
             vendorThread.start();
             System.out.println("Purchasing started");
         }
         for(int i =1; i < numberOfCustomers; i++){
-            Thread customerThread = new Thread(new Customer(ticketPool, customerRetrievalRate, i));
+            Thread customerThread = new Thread(new Customer(ticketPool, customerRetrievalRate,30000, i));
             customerThreads.add(customerThread);
             customerThread.start();
         }

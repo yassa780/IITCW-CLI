@@ -35,7 +35,7 @@ public class TicketPool {
             tickets.add("Ticket " + (tickets.size() + 1));
         }
 
-        System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
+        Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
 
         isEmpty = false; //Reset the "empty" flag since tickets were added
         notifyAll();//Will notify the customers waiting for tickets
@@ -50,6 +50,7 @@ public class TicketPool {
                 notifyAll();
                 wait(); //Waits until tickets are avaialble
             } catch (InterruptedException e) {
+                Logger.logError("Thread interrupted while waiting for tickets");
                 Thread.currentThread().interrupt();
                 return -1;
             }
