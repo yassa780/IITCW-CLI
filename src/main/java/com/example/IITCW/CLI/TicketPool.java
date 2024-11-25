@@ -72,10 +72,11 @@ public class TicketPool {
         }
     }
 
+    //Mark ticket selling as complete
     public synchronized void setSellingComplete(boolean complete) {
         sellingComplete = complete;
         synchronized (tickets) {
-            tickets.notifyAll();
+            tickets.notifyAll();// Notify all waiting threads to check conditions
         }
     }
 
@@ -83,6 +84,7 @@ public class TicketPool {
         return tickets.size();
     }
 
+    //Check if the pool is full
     public boolean isFull() {
         return tickets.size() >= maxCapacity;
     }
@@ -91,6 +93,7 @@ public class TicketPool {
         return tickets.isEmpty();
     }
 
+    //Check if ticket selling is complete
     public synchronized boolean isSellingComplete() {
         return sellingComplete;
     }
