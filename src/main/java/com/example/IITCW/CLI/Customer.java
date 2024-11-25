@@ -15,24 +15,31 @@ public class Customer implements Runnable {
 
     @Override
     public void run() {
-        try{
-            while (true){
-                if(ticketPool.isEmpty()){
-                  Logger.info("Customer " + customerId + ": Pool is empty. Cant purchase anymore tickets");
-                    break;//Stop the thread
+        try {
+            while (true) {
+                synchronized (ticketPool) {
+                    // Exit if the pool is empty and no more tickets will be added
+                    if (ticketPool.isEmpty() && ticketPool.isSellingComplete()) {
+                        System.out.println("Customer " + customerId + ": No more tickets available. Stopping.");
+                        break; // Stop the thread gracefully
+                    }
+
+                    // Wait if the pool is empty
+                    while (ticketPool.isEmpty() && !ticketPool.isSellingComplete()) {
+                        System.out.println("Customer " + customerId + ": Pool is empty. Waiting for tickets.");
+                        ticketPool.wait(); // Wait for tickets to become available
+                    }
+
+                    // Attempt to remove tickets if available
+                    int ticketsRemoved = ticketPool.removeTickets(customerRetrievalRate);
+                    if (ticketsRemoved > 0) {
+                        System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets.");
+                    }
                 }
-                int ticketsRemoved = ticketPool.removeTicket(customerRetrievalRate);
-                if(ticketsRemoved > 0){
-                    Logger.info("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
-                }
-                else{
-                    Logger.info("Customer " + customerId + " No tickets available to purchase");
-                }
-                Thread.sleep(retrievalInterval);
+                Thread.sleep(retrievalInterval); // Simulate time taken for the customer
             }
-        }
-        catch(InterruptedException e){
-            System.out.println("Customer " + customerId + " interrupted");
+        } catch (InterruptedException e) {
+            System.out.println("Customer " + customerId + " interrupted.");
             Thread.currentThread().interrupt();
         }
     }

@@ -103,41 +103,53 @@ public class CLIApplication  {
         List<Thread> customerThreads = new ArrayList<>();
         //Initialize and start the vendor threads
         for(int i =1; i <=numberOfVendors; i++){
-            Thread vendorThread = new Thread(new Vendor(ticketPool, ticketReleaseRate,60000, i));
+            Thread vendorThread = new Thread(new Vendor(ticketPool, ticketReleaseRate,400, i));
             vendorThreads.add(vendorThread);
             vendorThread.start();
-            System.out.println("Purchasing started");
+            System.out.println("Vendor " + i + " started.");
         }
-        for(int i =1; i < numberOfCustomers; i++){
-            Thread customerThread = new Thread(new Customer(ticketPool, customerRetrievalRate,30000, i));
+        for(int i =1; i <= numberOfCustomers; i++){
+            Thread customerThread = new Thread(new Customer(ticketPool, customerRetrievalRate,300, i));
             customerThreads.add(customerThread);
             customerThread.start();
+            System.out.println("Customer " + i + " started.");
         }
 
         //Join the threads to ensure they complete execution
-        try{
-            for(Thread vendorThread : vendorThreads){
+        // Wait for vendor threads to complete
+        try {
+            for (Thread vendorThread : vendorThreads) {
                 vendorThread.join();
             }
-            for(Thread customerThread: customerThreads){
-                customerThread.join();
-            }
-        }
-        catch(InterruptedException e){
-            System.out.println("Main thread interuppted while waiting for Threads to complete.");
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted while waiting for vendor threads to complete.");
             Thread.currentThread().interrupt();
         }
 
-        System.out.println("All vendor Threads completed");
+        // Signal that ticket selling is complete
+        synchronized (ticketPool) {
+            ticketPool.setSellingComplete(true);
+            ticketPool.notifyAll(); // Notify waiting customer threads
+        }
 
+        // Wait for customer threads to complete
+        try {
+            for (Thread customerThread : customerThreads) {
+                customerThread.join();
+            }
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted while waiting for customer threads to complete.");
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("All vendor and customer threads have completed.");
     }
 
-
     public static void displayHelp() {
-        System.out.println("Help Information");
-        System.out.println("Enter 1 to start the program");
-        System.out.println("Enter 2 to configure the ticketing system");
-        System.out.println("Enter 3 to terminate the program");
-        System.out.println();
+        System.out.println("Help Information:");
+        System.out.println("1: Start Program - Start the ticketing system.");
+        System.out.println("2: Configure - Configure system parameters like max capacity, release rate, etc.");
+        System.out.println("3: End Program - Exit the application.");
+        System.out.println("4: Help - Display this help information.");
     }
 }

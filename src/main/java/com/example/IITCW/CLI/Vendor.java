@@ -10,31 +10,30 @@ public class Vendor implements Runnable {
     public Vendor(TicketPool ticketPool, int ticketReleaseRate, int releaseInterval, int vendorId) {
         this.ticketPool = ticketPool;
         this.ticketReleaseRate = ticketReleaseRate;
-        this.releaseInterval = releaseInterval; //Set interval
+        this.releaseInterval = releaseInterval; // Set interval
         this.vendorId = vendorId;
-
     }
 
     @Override
     public void run() {
-        try{
-            while(true) {
+        try {
+            while (true) {
+                synchronized (ticketPool) {
+                    if (ticketPool.isFull()) {
+                        System.out.println("Vendor " + vendorId + ": Pool is full. Stopping ticket release.");
+                        ticketPool.setSellingComplete(true); // Mark selling as complete
+                        break; // Stop the thread
+                    }
 
-                if(ticketPool.isFull()){
-                    Logger.info("Vendor " + vendorId + ": Pool is full. Stopping ticket release");
-                    break;//Stop the thread
+                    ticketPool.addTickets(ticketReleaseRate);
+                    System.out.println("Vendor " + vendorId + " released " + ticketReleaseRate + " tickets.");
                 }
-                if (!ticketPool.addTickets(ticketReleaseRate)){
-                    Logger.info("Vendor " + vendorId + ": Maximum ticket capacity reach. Stopping ticket release");
-                    break;
-                }
-                Logger.info("Vendor " + vendorId + " released " + ticketReleaseRate + " tickets.");
-                Thread.sleep(releaseInterval);//Release tickets at specified intervals
+
+                Thread.sleep(releaseInterval); // Release tickets at specified intervals
             }
-        }
-        catch (InterruptedException e){
-            System.out.println("Vendor " + vendorId + " interrupted");
-            Thread.currentThread().interrupt();
+        } catch (InterruptedException e) {
+            System.out.println("Vendor " + vendorId + " interrupted.");
+            Thread.currentThread().interrupt(); // Reset interrupt flag
         }
     }
 }

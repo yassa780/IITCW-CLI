@@ -11,81 +11,89 @@ import java.util.List;
  */
 
 public class TicketPool {
-     private final List<String> tickets; //Thread-safe list to hold tickets
-     private final int maxCapacity;
-     private boolean isFull = false;
-     private boolean isEmpty = true;
+    private final List<String> tickets; //Synchronized list to hold tickets
+    private final int maxCapacity;
+    private boolean sellingComplete = false;
 
-     public TicketPool(int maxCapacity) {
-         this.tickets = Collections.synchronizedList(new ArrayList<>());//Use Collections.synchronizedList to make it thread-safe
-         this.maxCapacity = maxCapacity;
-     }
-
-     //Method to add tickets(used by vendors)
-    public synchronized boolean addTickets(int numberOfTicketsToAdd) {
-        if (tickets.size() >= maxCapacity) {
-            isFull = true;//Set the flag if the pool is full
-            System.out.println("Ticket pool has reached its maximum capacity");
-            return false;
-        }
-
-        int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
-
-        for (int i = 0; i < ticketsToAdd; i++) {
-            tickets.add("Ticket " + (tickets.size() + 1));
-        }
-
-        Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
-
-        isEmpty = false; //Reset the "empty" flag since tickets were added
-        notifyAll();//Will notify the customers waiting for tickets
-        return true;
+    public TicketPool(int maxCapacity) {
+        this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized list
+        this.maxCapacity = maxCapacity;
     }
-    //Method to remove a ticket (used by customers)
-    public synchronized int removeTicket(int numberOfTicketsToRemove){
-        while(tickets.isEmpty()){
-            try{
-                isEmpty = true; //Set the flag if the poool is Empty
-                System.out.println("No tickets available. Waiting");
-                notifyAll();
-                wait(); //Waits until tickets are avaialble
-            } catch (InterruptedException e) {
-                Logger.logError("Thread interrupted while waiting for tickets");
-                Thread.currentThread().interrupt();
-                return -1;
+
+    //Method to add tickets (used by Vendors)
+    public void addTickets(int numberOfTicketsToAdd) {
+        synchronized (tickets) { //Synchronized the lists for compound actions
+            while (tickets.size() >= maxCapacity){
+                try{
+                    System.out.println("Ticketpool is full. Vendor is waiting.");
+                    tickets.wait(); //Wait until customers consume tickets
+                } catch (InterruptedException e){
+                    Thread.currentThread().interrupt();
+                    return;
+                }
             }
+
+            int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
+            for(int i = 0; i < ticketsToAdd; i++) {
+                tickets.add("Ticket" + (tickets.size() + 1));
+            }
+
+            System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
+            tickets.notifyAll(); //Notify customers that tickets are avaialble
         }
-
-        /* This ensures that the number of tickets requested to remove does not exceed the current no. of tickets*/
-        int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
-        for (int i = 0; i < ticketsToRemove; i++){
-            tickets.remove(0);
-        }
-
-        isFull = false; //Reset the "full" flag since tickets were removed
-        notifyAll();//Notify the waiting thread
-
-        System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-
-        return ticketsToRemove;
     }
 
-    //An additional method to check if the pool has reached the maximum capacity
-   /*public boolean isMaxCapacity() {
-         synchronized (tickets){
-             return tickets.size() >= maxCapacity;
-         }
+    //Method to remove tickets (used by customers)
+    public int removeTickets(int numberOfTicketsToRemove) {
+        synchronized (tickets) {
+            while (tickets.isEmpty() && !sellingComplete) {
+                try{
+                    System.out.println("No tickets available. Customer is waiting.");
+                    tickets.wait();// Wait for tickets to become avaialble
+                }
+                catch (InterruptedException e){
+                    Thread.currentThread().interrupt();
+                    return -1; //Exit gracefully on interruption
+                }
+            }
+
+            if (tickets.isEmpty() && sellingComplete) {
+                return 0; //Graceful exit if no tickets are available and selling is complete
+            }
+
+            int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
+            for (int i = 0; i < ticketsToRemove; i++) {
+                tickets.remove(0);
+            }
+
+            System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
+            tickets.notifyAll(); //Notify vendors hat space is available
+            return ticketsToRemove;
+        }
     }
-*/
-    public synchronized int getTicketCount(){
+
+    public synchronized void setSellingComplete(boolean complete) {
+        sellingComplete = complete;
+        synchronized (tickets) {
+            tickets.notifyAll();
+        }
+    }
+
+    public int getTicketCount () {
         return tickets.size();
     }
 
     public boolean isFull() {
-        return isFull;
+        return tickets.size() >= maxCapacity;
     }
 
-    public boolean isEmpty() {
-        return isEmpty;
+    public boolean isEmpty (){
+        return tickets.isEmpty();
     }
+
+    public synchronized boolean isSellingComplete() {
+        return sellingComplete;
+    }
+
 }
+

@@ -1,110 +1,98 @@
-package com.example.IITCW.CLI;
 
-public class Comments {
-     /*public static void startProgram(TicketPool ticketPool, Scanner input){
 
-        //Lists to manage Vendor and Customer Threads
-        List<Vendor> vendors = new ArrayList<>();
-        List<Customer> customers = new ArrayList<>();
-        List<Thread> vendorThreads = new ArrayList<>();
-        List<Thread> customerThreads = new ArrayList<>();
+/*public class Comments
+     public class TicketPool {
+    private final List<String> tickets; // Synchronized list to hold tickets
+    private final int maxCapacity;
+    private boolean sellingComplete = false; // Flag to indicate ticket selling is complete
 
-        //Vendor Details
-        System.out.println("Enter the number of vendors present: ");
-        int vendorCount = InputValidation(input);
+    public TicketPool(int maxCapacity) {
+        this.tickets = Collections.synchronizedList(new ArrayList<>()); // Use synchronizedList
+        this.maxCapacity = maxCapacity;
+    }
 
-        if(vendorCount <= 0){
-            ConfigurationManager.errorMessage("Error: You must have at least one vendor present");
-            return;
-        }
-
-        for(int i = 0; i < vendorCount; i++){
-            System.out.println("Enter details for vendor " + i + ": ");
-            System.out.println("Vendor Id: ");
-            String vendorId = input.next();
-
-            System.out.println("Number of tickets to release: ");
-            int ticketsPerRelease = InputValidation(input);
-
-            System.out.println("Release interval: ");
-            int releaseInterval = InputValidation(input);
-
-            Vendor vendor = new Vendor(vendorId, ticketsPerRelease, releaseInterval, ticketPool);
-            vendors.add(vendor);
-            Thread vendorThread = new Thread(vendor);
-            vendorThreads.add(vendorThread);
-            //vendorThread.start();
-
-        }
-
-        //The customer details
-        System.out.println("Enter the number of customers: ");
-        int customerCount = InputValidation(input);
-        if(customerCount <= 0){
-            ConfigurationManager.errorMessage("Error!: You must have atleast one customer present");
-            return;
-        }
-
-        for(int i = 1; i <= customerCount; i++){
-            System.out.println("customer " + i + ":");
-            System.out.println("customer Id: ");
-            String customerId = input.next();
-
-            System.out.println("Number of tickets to buy per attempt: ");
-            int ticketsToBuy =InputValidation(input);
-
-            System.out.println("Retrieval interval: ");
-            int retrievalInterval = InputValidation(input);
-
-            Customer customer = new Customer(customerId, retrievalInterval, ticketsToBuy, ticketPool);
-            customers.add(customer);
-            Thread customerThread = new Thread(customer);
-            customerThreads.add(customerThread);
-           // customerThread.start();
-        }
-
-        for(Thread vendorThread: vendorThreads) {
-            vendorThread.start();
-        }
-        for(Thread customerThread : customerThreads){
-            customerThread.start();
-        }
-        //Monitor ticketpoool and stop threads when tickets are sold out
-        while (true){
-            if(ticketPool.getTicketCount() == 0){
-                for(Vendor vendor : vendors){
-                    vendor.stop();
+    // Method to add tickets (used by vendors)
+    public void addTickets(int numberOfTicketsToAdd) {
+        synchronized (tickets) { // Synchronize on the list for compound actions
+            while (tickets.size() >= maxCapacity) {
+                try {
+                    System.out.println("Ticket pool is full. Vendor is waiting.");
+                    tickets.wait(); // Wait until customers consume tickets
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return;
                 }
-                for(Customer customer: customers){
-                    customer.stop();
+            }
+
+            int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
+            for (int i = 0; i < ticketsToAdd; i++) {
+                tickets.add("Ticket " + (tickets.size() + 1));
+            }
+
+            System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
+            tickets.notifyAll(); // Notify customers that tickets are available
+        }
+    }
+
+    // Method to remove tickets (used by customers)
+    public int removeTickets(int numberOfTicketsToRemove) {
+        synchronized (tickets) { // Synchronize on the list for compound actions
+            while (tickets.isEmpty() && !sellingComplete) {
+                try {
+                    System.out.println("No tickets available. Customer is waiting.");
+                    tickets.wait(); // Wait for tickets to become available
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    return -1; // Exit gracefully on interruption
                 }
-                break;
             }
-        }
 
-        //Join Threads
-        try{
-            for(Thread thread: vendorThreads){
-                thread.join();
+            if (tickets.isEmpty() && sellingComplete) {
+                return 0; // Graceful exit if no tickets are available and selling is complete
             }
-            for(Thread thread: customerThreads){
-                thread.join();
+
+            int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
+            for (int i = 0; i < ticketsToRemove; i++) {
+                tickets.remove(0);
             }
-        } catch (InterruptedException e) {
-            System.out.println("Main thread interuppted during thread joining.");
-            Thread.currentThread().interrupt();
-        }
 
-        //Final output
-        System.out.println("\nFinal ticket pool status: ");
-        System.out.println("Tickets remaining in pool: " + ticketPool.getTicketCount());
-
-        for(Vendor vendor: vendors){
-            System.out.println("Vendor " + vendor.getVendorId() + " released " + vendor.getTotalTicketsReleased() + " tickets");
+            System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
+            tickets.notifyAll(); // Notify vendors that space is available
+            return ticketsToRemove;
         }
-        for(Customer customer: customers){
-            System.out.println("Customer " + customer.getCustomerId() + " purchased " + customer.getTotalTicketsPurchased() + " tickets");
-        }
+    }
 
-    }*/
+    // Mark ticket selling as complete
+    public synchronized void setSellingComplete(boolean complete) {
+        sellingComplete = complete;
+        synchronized (tickets) {
+            tickets.notifyAll(); // Notify all waiting threads to check conditions
+        }
+    }
+
+    // Check if ticket selling is complete
+    public synchronized boolean isSellingComplete() {
+        return sellingComplete;
+    }
+
+    // Get the current ticket count
+    public synchronized int getTicketCount() {
+        synchronized (tickets) {
+            return tickets.size();
+        }
+    }
+
+    // Check if the pool is full
+    public synchronized boolean isFull() {
+        synchronized (tickets) {
+            return tickets.size() >= maxCapacity;
+        }
+    }
+
+    // Check if the pool is empty
+    public synchronized boolean isEmpty() {
+        synchronized (tickets) {
+            return tickets.isEmpty();
+        }
+    }
 }
