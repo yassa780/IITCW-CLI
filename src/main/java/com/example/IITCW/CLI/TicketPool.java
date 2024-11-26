@@ -27,15 +27,11 @@ public class TicketPool {
 
     //Method to add tickets (used by Vendors)
     public void addTickets(int numberOfTicketsToAdd) {
-        synchronized (tickets) { //Synchronized the lists for compound actions
+        lock.lock();
+        try{
             while (tickets.size() >= maxCapacity){
-                try{
-                    System.out.println("Ticketpool is full. Vendor is waiting.");
-                    notFull.await(); //Wait until customers consume tickets
-                } catch (InterruptedException e){
-                    Thread.currentThread().interrupt();
-                    return;
-                }
+                System.out.println("Ticketpool is full. Vendor is waiting.");
+                notFull.await(); //Wait until customers consume tickets
             }
 
             int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
@@ -44,64 +40,78 @@ public class TicketPool {
             }
 
             System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
-            tickets.notifyAll(); //Notify customers that tickets are avaialble
+            notEmpty.signalAll(); //Notify customers that tickets are avaialble
+        }catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }finally {
+            lock.unlock();
         }
-    }
+        }
 
     //Method to remove tickets (used by customers)
     public int removeTickets(int numberOfTicketsToRemove) {
-        synchronized (tickets) {
+        lock.lock();
+        try {
             while (tickets.isEmpty() && !sellingComplete) {
-                try{
-                    System.out.println("No tickets available. Customer is waiting.");
-                    tickets.wait();// Wait for tickets to become avaialble
-                }
-                catch (InterruptedException e){
-                    Thread.currentThread().interrupt();
-                    return -1; //Exit gracefully on interruption
-                }
+                System.out.println("No tickets available. Customer is waiting.");
+                notEmpty.await(); // Wait until tickets are added
             }
 
             if (tickets.isEmpty() && sellingComplete) {
-                return 0; //Graceful exit if no tickets are available and selling is complete
+                return 0; // Graceful exit if no tickets are available and selling is complete
             }
 
             int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
             for (int i = 0; i < ticketsToRemove; i++) {
                 tickets.remove(0);
             }
-
             System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-            tickets.notifyAll(); //Notify vendors hat space is available
+            notFull.signalAll(); // Notify waiting vendors
             return ticketsToRemove;
+
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            return -1; // Exit gracefully on interruption
+        } finally {
+            lock.unlock();
         }
     }
 
     //Mark ticket selling as complete
-    public synchronized void setSellingComplete(boolean complete) {
-        sellingComplete = complete;
-        synchronized (tickets) {
-            tickets.notifyAll();// Notify all waiting threads to check conditions
-        }
+    public void setSellingComplete(boolean complete) {
+       lock.lock();
+       try{
+           this.sellingComplete = complete;
+           notEmpty.signalAll(); //Notify waiting customers
+       }
+       finally{
+           lock.unlock();
+       }
     }
 
     public int getTicketCount () {
-        return tickets.size();
-    }
+        lock.lock();
+        try{
+            return tickets.size();
+        }
+        finally {
+            lock.unlock();
+        }
 
-    //Check if the pool is full
-    public boolean isFull() {
-        return tickets.size() >= maxCapacity;
     }
-
-    public boolean isEmpty (){
-        return tickets.isEmpty();
-    }
-
     //Check if ticket selling is complete
-    public synchronized boolean isSellingComplete() {
-        return sellingComplete;
+    public boolean isSellingComplete() {
+        lock.lock();
+        try{
+            return sellingComplete;
+        }
+        finally {
+            lock.unlock();
+        }
     }
 
+    public int getMaxCapacity() {
+        return maxCapacity;
+    }
 }
 

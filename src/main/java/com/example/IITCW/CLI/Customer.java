@@ -17,29 +17,20 @@ public class Customer implements Runnable {
     public void run() {
         try {
             while (true) {
-                synchronized (ticketPool) {
-                    // Exit if the pool is empty and no more tickets will be added
-                    if (ticketPool.isEmpty() && ticketPool.isSellingComplete()) {
-                        System.out.println("Customer " + customerId + ": No more tickets available. Stopping.");
-                        break; // Stop the thread gracefully
-                    }
+                int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1;//Randmoize ticket request
+                int ticketsRemoved = ticketPool.removeTickets(ticketsToRequest);
 
-                    // Wait if the pool is empty
-                    while (ticketPool.isEmpty() && !ticketPool.isSellingComplete()) {
-                        System.out.println("Customer " + customerId + ": Pool is empty. Waiting for tickets.");
-                        ticketPool.wait(); // Wait for tickets to become available
-                    }
-
-                    int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1; // Randomize ticket request
-                    // Attempt to remove tickets if available
-                    int ticketsRemoved = ticketPool.removeTickets(customerRetrievalRate);
-                    if (ticketsRemoved > 0) {
-                        System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets.");
-                    }
+                if (ticketsRemoved > 0) {
+                    System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
+                } else if (ticketsRemoved == 0) {
+                    System.out.println("Customer " + customerId + ": No more tickets available. Stopping");
+                    break; // Exit the loop gracefully
                 }
-                Thread.sleep(retrievalInterval); // Simulate time taken for the customer
+
+                Thread.sleep(retrievalInterval); //Stimulate a delay between actions
             }
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e) {
             System.out.println("Customer " + customerId + " interrupted.");
             Thread.currentThread().interrupt();
         }
