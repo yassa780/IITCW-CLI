@@ -3,6 +3,8 @@ package com.example.IITCW.CLI;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /*By synchronizing the methods and making synchromized lists, it ensures safe concurrent access
    we used synchronized methods to prevent multiple threads from addings tickets at the same time
@@ -14,6 +16,9 @@ public class TicketPool {
     private final List<String> tickets; //Synchronized list to hold tickets
     private final int maxCapacity;
     private boolean sellingComplete = false;
+    private final ReentrantLock lock = new ReentrantLock(true); // Fair lock
+    private final Condition notEmpty = lock.newCondition(); // Condition for non-empty pool
+    private final Condition notFull = lock.newCondition(); // Condition for non-full pool
 
     public TicketPool(int maxCapacity) {
         this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized list
@@ -26,7 +31,7 @@ public class TicketPool {
             while (tickets.size() >= maxCapacity){
                 try{
                     System.out.println("Ticketpool is full. Vendor is waiting.");
-                    tickets.wait(); //Wait until customers consume tickets
+                    notFull.await(); //Wait until customers consume tickets
                 } catch (InterruptedException e){
                     Thread.currentThread().interrupt();
                     return;

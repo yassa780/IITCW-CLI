@@ -152,4 +152,8 @@ public class CLIApplication  {
         System.out.println("3: End Program - Exit the application.");
         System.out.println("4: Help - Display this help information.");
     }
+
+    /*Synchronization ensures thread-safe operations when accessing shared resources like the ticketpool and
+    * notifyAll ensures that threads waiting on the ticketpool are awakend when
+    * conditions change*/
 }

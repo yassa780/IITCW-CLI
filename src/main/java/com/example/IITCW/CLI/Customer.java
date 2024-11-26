@@ -30,6 +30,7 @@ public class Customer implements Runnable {
                         ticketPool.wait(); // Wait for tickets to become available
                     }
 
+                    int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1; // Randomize ticket request
                     // Attempt to remove tickets if available
                     int ticketsRemoved = ticketPool.removeTickets(customerRetrievalRate);
                     if (ticketsRemoved > 0) {
