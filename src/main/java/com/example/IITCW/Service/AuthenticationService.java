@@ -12,7 +12,7 @@ public class AuthenticationService {
     private UserRepository userRepository;
 
     public String authenticate(String username, String password) {
-        User user = userRepository.findByUsername(username);
+        User user = userRepository.findByUserName(username);
 
         if (user == null || !user.getPassword().equals(password)) {
             return "Invalid username or password";
