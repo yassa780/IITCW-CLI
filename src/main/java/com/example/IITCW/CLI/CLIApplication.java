@@ -147,10 +147,10 @@ public class CLIApplication  {
 
     public static void displayHelp() {
         System.out.println("Help Information:");
-        System.out.println("1: Start Program - Start the ticketing system.");
-        System.out.println("2: Configure - Configure system parameters like max capacity, release rate, etc.");
-        System.out.println("3: End Program - Exit the application.");
-        System.out.println("4: Help - Display this help information.");
+        System.out.println(" Start Program - Start the ticketing system.");
+        System.out.println(" Configure - Configure system parameters like max capacity, release rate, etc.");
+        System.out.println(" End Program - Exit the application.");
+        System.out.println(" Help - Display this help information.");
     }
 
     /*Synchronization ensures thread-safe operations when accessing shared resources like the ticketpool and

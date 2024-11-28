@@ -54,3 +54,5 @@ After the vendors finish the main program sets sellingComplete to true
 synchronized (ticketPool) {
     ticketPool.setSellingComplete(true);
 }
+
+The program wont terminate until the vendors finished adding the tickets, after that only the setcomplete is set to true
