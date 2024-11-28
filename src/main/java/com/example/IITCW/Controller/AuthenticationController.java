@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/authentication")
 public class AuthenticationController {
@@ -33,6 +35,11 @@ public class AuthenticationController {
     public ResponseEntity<String> registerUser(@RequestBody User user) {
         userRepository.save(user); //Saves the user to the database
         return ResponseEntity.status(201).body("User registered successfully");
+    }
+
+    @GetMapping("/users")
+    public List<User>getAllUsers() {
+        return userRepository.findAll();
     }
 
 

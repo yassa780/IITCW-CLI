@@ -1,5 +1,7 @@
 package com.example.IITCW.Entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -16,6 +18,7 @@ public class Vendor {
     private String phoneNumber;
 
     @OneToMany(mappedBy = "vendor", cascade = CascadeType.ALL)//Enables cascading operations like save, delete
+    @JsonIgnoreProperties("vendor") // Prevent recursion when serializing Ticket
     private List<Ticket> tickets;
 
     public Vendor() {

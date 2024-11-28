@@ -1,5 +1,8 @@
 package com.example.IITCW.Entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 @Entity
@@ -15,6 +18,8 @@ public class Ticket {
 
 
     @ManyToOne
+    @JoinColumn(name = "vendor_id") // Foreign key column
+    @JsonIgnoreProperties("tickets") // Prevent recursion when serializing Vendor
     private Vendor vendor;
 
     public Ticket (){
@@ -59,6 +64,14 @@ public class Ticket {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     @Override

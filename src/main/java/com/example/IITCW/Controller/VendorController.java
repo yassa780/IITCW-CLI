@@ -4,6 +4,7 @@ import com.example.IITCW.Entities.Ticket;
 import com.example.IITCW.Entities.Vendor;
 import com.example.IITCW.Service.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -41,8 +42,9 @@ public class VendorController {
     }
 
     @PostMapping("/{vendorId}/tickets")
-    public Ticket addTickets(@PathVariable Long vendorId, @RequestBody Ticket ticket){
-        return vendorService.addTickets(vendorId, ticket);
+    public ResponseEntity<Ticket> addTickets(@PathVariable Long vendorId, @RequestBody Ticket ticket) {
+        Ticket addedTicket = vendorService.addTickets(vendorId, ticket);
+        return ResponseEntity.ok(addedTicket); // Return the full ticket with vendor details
     }
 
 
