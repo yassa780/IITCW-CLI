@@ -37,3 +37,20 @@ The controller package contains all the end points, the servcie package contains
 of the application, The repo package contains all the database interaction code(via spring data JPA)
 The entity package contains all the JPA entities(database models)
 and lastly the CLI package contains the command line interface
+
+In the add ticketmethod vendors stop adding tickets whetn the set complete is true
+In the remove method customers stop removing tickets if the pool is empty and selling complete is true
+When the pool is full using the notFull.await() vendors wait until there is space
+
+if the selling Complete is true they stop adding tickets
+using notEmpty.signalAll() it notifies the customers that tickets are available
+
+for (Thread vendorThread : vendorThreads) {
+    vendorThread.join();
+}
+Using this the mainprogram waits until vendor threads are completed
+
+After the vendors finish the main program sets sellingComplete to true
+synchronized (ticketPool) {
+    ticketPool.setSellingComplete(true);
+}

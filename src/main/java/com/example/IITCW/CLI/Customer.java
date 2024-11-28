@@ -22,7 +22,7 @@ public class Customer implements Runnable {
 
                 if (ticketsRemoved > 0) {
                     Logger.info("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
-                } else if (ticketsRemoved == 0) {
+                }else if (ticketsRemoved == 0 && ticketPool.isSellingComplete()) {
                     Logger.logError("Customer " + customerId + ": No more tickets available. Stopping");
                     break; // Exit the loop gracefully
                 }

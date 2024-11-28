@@ -29,10 +29,14 @@ public class TicketPool {
     public void addTickets(int numberOfTicketsToAdd) {
         lock.lock();
         try{
-            while (tickets.size() >= maxCapacity){
+            while (tickets.size() >= maxCapacity) {
                 System.out.println("Ticketpool is full. Vendor is waiting.");
                 notFull.await(); //Wait until customers consume tickets
-                if (sellingComplete) return; //Exit if selling is marked complete
+                if (sellingComplete) return; //Exit if selling is marked complete. The program is terminated by this
+            }
+            if (tickets.size() >= maxCapacity){
+                System.out.println("Ticketpool is full. Vendor is stopping");
+                return;
             }
 
             int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
@@ -49,6 +53,7 @@ public class TicketPool {
         }
     }
 
+
     //Method to remove tickets (used by customers)
     public int removeTickets(int numberOfTicketsToRemove) {
         lock.lock();
@@ -58,19 +63,17 @@ public class TicketPool {
                 notEmpty.await(); // Wait until tickets are added
                 if (sellingComplete) return 0;
             }
-
             if (tickets.isEmpty() && sellingComplete) {
+                System.out.println("Ticketpool is empty. Customer is stopping");
                 return 0; // Graceful exit if no tickets are available and selling is complete
             }
-
             int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
             for (int i = 0; i < ticketsToRemove; i++) {
                 tickets.remove(0);
             }
             System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-            notFull.signalAll(); // Notify waiting vendors
+            //notFull.signalAll(); // Notify waiting vendors
             return ticketsToRemove;
-
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             return -1; // Exit gracefully on interruption
@@ -78,6 +81,7 @@ public class TicketPool {
             lock.unlock();
         }
     }
+
 
     //Mark ticket selling as complete
     public void setSellingComplete(boolean complete) {

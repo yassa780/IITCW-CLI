@@ -31,16 +31,16 @@ public class CLIApplication  {
 
         while(true){
             System.out.println("Please select an option: ");
-            System.out.println("1. Start-program");
-            System.out.println("2. Configure");
-            System.out.println("3. end-program");
-            System.out.println("4. Help");
+            System.out.println("** start-program**");
+            System.out.println("** configure **");
+            System.out.println("** end-program **");
+            System.out.println("** help **");
             System.out.print("Enter your choice: ");
 
-            int choice  = input.nextInt();
+            String choice  = input.next();
 
             switch (choice){
-                case 1:
+                case "start-program":
                     if (config == null){
                         ConfigurationManager.errorMessage("Please configure the system first");
                     }
@@ -48,14 +48,14 @@ public class CLIApplication  {
                         startProgram(config,input); //Pass the configuration and Scanner
                     }
                     break;
-                case 2:
+                case "configure":
                     //Configure the system and initialize the Configuration object
                     config = configureSystem(input, configurationManager);
                     break;
-                case 3:
+                case "end-program":
                     System.exit(0);
                     break;
-                case 4:
+                case "help":
                     displayHelp();
                     break;
 
@@ -129,7 +129,7 @@ public class CLIApplication  {
         // Signal that ticket selling is complete
         synchronized (ticketPool) {
             ticketPool.setSellingComplete(true);
-            ticketPool.notifyAll(); // Notify waiting customer threads
+            //ticketPool.notifyAll(); // Notify waiting customer threads
         }
 
         // Wait for customer threads to complete
