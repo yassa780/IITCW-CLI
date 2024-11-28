@@ -21,9 +21,9 @@ public class Customer implements Runnable {
                 int ticketsRemoved = ticketPool.removeTickets(ticketsToRequest);
 
                 if (ticketsRemoved > 0) {
-                    System.out.println("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
+                    Logger.info("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
                 } else if (ticketsRemoved == 0) {
-                    System.out.println("Customer " + customerId + ": No more tickets available. Stopping");
+                    Logger.logError("Customer " + customerId + ": No more tickets available. Stopping");
                     break; // Exit the loop gracefully
                 }
 
@@ -31,7 +31,7 @@ public class Customer implements Runnable {
             }
         }
         catch (InterruptedException e) {
-            System.out.println("Customer " + customerId + " interrupted.");
+            Logger.logError("Customer " + customerId + " interrupted.");
             Thread.currentThread().interrupt();
         }
     }
