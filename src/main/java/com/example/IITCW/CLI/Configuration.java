@@ -52,7 +52,12 @@ public class Configuration implements Serializable {
     }
 
     public static Configuration configureSystem(Scanner input, ConfigurationManager configurationManager ){
-        System.out.print("Enter the total no. of tickets: ");
+        /*int totalTickets;
+        int ticketReleaseRate;
+        int customerRetrievalRate;*/
+        int maximunTicketCapacity;
+
+        System.out.print("Enter the total no. of tickets to be sold: ");
         int totalTickets = CLIApplication.inputValidation(input);
 
         System.out.print("Enter ticket release rate: ");
@@ -61,16 +66,27 @@ public class Configuration implements Serializable {
         System.out.print("Enter customer retrieval rate: ");
         int customerRetrievalRate = CLIApplication.inputValidation(input);
 
-        System.out.print("Enter the maximum ticket Capacity: ");
-        int maximunTicketCapacity = CLIApplication.inputValidation(input);
+        while (true){
+            System.out.print("Enter the maximum ticket Capacity of the Ticket Pool: ");
+            maximunTicketCapacity = CLIApplication.inputValidation(input);
+
+            //Validation to ensure maxTicketCapacity >= total Tickets to be sold
+
+            if (totalTickets > maximunTicketCapacity) {
+                ConfigurationManager.errorMessage("Maximum Ticket capacity should be greater than the total number of tickets");
+                continue;
+            }
+            break;
+        }
+
 
         //Output the results
         System.out.println();
         System.out.println("Configuration created successfully: ");
-        System.out.println("Total tickets: " + totalTickets);
+        System.out.println("Total tickets to be sold: " + totalTickets);
         System.out.println("Ticket release rate: " + ticketReleaseRate);
         System.out.println("Customer retrieval rate: " + customerRetrievalRate);
-        System.out.println("Maximum ticket capacity: " + maximunTicketCapacity);
+        System.out.println("Maximum ticket capacity of the Ticket Pool: " + maximunTicketCapacity);
 
         Configuration config = new Configuration(totalTickets,ticketReleaseRate,customerRetrievalRate,maximunTicketCapacity);
         configurationManager.writeJson(config);

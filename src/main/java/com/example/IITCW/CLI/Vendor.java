@@ -23,7 +23,7 @@ public class Vendor implements Runnable {
 
                 Thread.sleep(releaseInterval);//Stimulate ticket release rate
 
-                if (ticketPool.getTicketCount() >= ticketPool.getMaxCapacity()) {
+                if (ticketPool.getTicketCount() >= ticketPool.getMaxCapacity() || ticketPool.isSellingComplete()) {
                     Logger.logError("Vendor " + vendorId + ": Ticket pool is full.Stopping ticket release.");
                     break;
                 }

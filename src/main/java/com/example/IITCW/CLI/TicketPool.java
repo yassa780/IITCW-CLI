@@ -32,6 +32,7 @@ public class TicketPool {
             while (tickets.size() >= maxCapacity){
                 System.out.println("Ticketpool is full. Vendor is waiting.");
                 notFull.await(); //Wait until customers consume tickets
+                if (sellingComplete) return; //Exit if selling is marked complete
             }
 
             int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
@@ -46,7 +47,7 @@ public class TicketPool {
         }finally {
             lock.unlock();
         }
-        }
+    }
 
     //Method to remove tickets (used by customers)
     public int removeTickets(int numberOfTicketsToRemove) {
@@ -55,6 +56,7 @@ public class TicketPool {
             while (tickets.isEmpty() && !sellingComplete) {
                 System.out.println("No tickets available. Customer is waiting.");
                 notEmpty.await(); // Wait until tickets are added
+                if (sellingComplete) return 0;
             }
 
             if (tickets.isEmpty() && sellingComplete) {
