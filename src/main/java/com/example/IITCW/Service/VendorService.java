@@ -43,4 +43,12 @@ public class VendorService {
                 .orElseThrow(() -> new RuntimeException("Vendor not found with ID: " + id));
     }
 
+
+    public void deleteVendor(Long id) {
+        if (!vendorRepository.existsById(id)){
+            throw new RuntimeException("Vendor not found with ID: " + id);
+        }
+        vendorRepository.deleteById(id);
+    }
+
 }

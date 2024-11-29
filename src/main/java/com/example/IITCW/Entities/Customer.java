@@ -13,11 +13,8 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
     private String name;
 
-    //@Email
-    @NotNull
     private String email;
     private String phoneNumber;
 

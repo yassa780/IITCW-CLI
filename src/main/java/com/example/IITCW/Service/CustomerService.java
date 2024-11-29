@@ -15,8 +15,8 @@ public class CustomerService {
     private CustomerRepository customerRepository;
 
     //Save a customer
-    public List <Customer> saveCustomers(List <Customer> customers){
-        return customerRepository.saveAll(customers);
+    public Customer saveCustomer(Customer customer){
+        return customerRepository.save(customer);
     }
 
     //Retrieve all customers
@@ -28,5 +28,10 @@ public class CustomerService {
                 .orElseThrow(() -> new RuntimeException("Customer not found with ID: " + id));
     }
 
+   public void deleteCustomer(Long id) {
+        if (!customerRepository.existsById(id)){
+            throw new RuntimeException("Customer not found with ID: " + id);
+        }
+    }
 }
 

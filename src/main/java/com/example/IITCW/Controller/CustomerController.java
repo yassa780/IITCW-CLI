@@ -2,6 +2,7 @@ package com.example.IITCW.Controller;
 
 import com.example.IITCW.Entities.Customer;
 import com.example.IITCW.Entities.Ticket;
+
 import com.example.IITCW.Entities.Vendor;
 import com.example.IITCW.Service.CustomerService;
 import com.example.IITCW.Service.TicketService;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 /*We dont make the methods static in springboot or else we wont be able to use Spring dependency injection
  * always use non static methods because its preferred in Spring for dependency injection and better
  * testability*/
@@ -23,6 +25,8 @@ import java.util.stream.Collectors;
 public class CustomerController {
 
     private final CustomerService customerService;
+
+
 
     @Autowired
     public CustomerController(CustomerService customerService) {
@@ -36,9 +40,9 @@ public class CustomerController {
     private VendorService vendorService;
 
     //Save multiple customers
-    @PostMapping
-    public List<Customer> saveCustomers(@RequestBody List<Customer> customers){
-        return customerService.saveCustomers(customers);
+    @PostMapping()
+    public Customer saveCustomer(@RequestBody Customer customer){
+        return customerService.saveCustomer(customer);
     }
     @GetMapping
     public List<Customer> getAllCustomers(){
@@ -59,7 +63,7 @@ public class CustomerController {
         // Fetch all available tickets
         List<Ticket> availableTickets = ticketService.getAllTickets()
                 .stream()
-                .filter(Ticket::getStatus) // Only tickets with `status = true` (available)
+                .filter(ticket -> ticket.getStatus() && ticket.getQuantity() > 0) // Only tickets with `status = true` (available)
                 .collect(Collectors.toList());
 
         if (availableTickets.isEmpty()) {
@@ -67,12 +71,25 @@ public class CustomerController {
                     .body("No available tickets");
         }
 
-        // Purchase the first available ticket
-        Ticket ticket = availableTickets.get(0); // Get the first available ticket
-        ticket.setStatus(false); // Mark ticket as sold
+        // Reduce quantity by 1 for the first unavailable ticket
+        Ticket ticket = availableTickets.get(0); // Pick the first available ticket
+        ticket.setQuantity(ticket.getQuantity() - 1);
+
+        //If the quantitiy is now 0, set status to false
+        if (ticket.getQuantity() == 0){
+            ticket.setStatus(false);
+        }
+
+        //Save the updated ticket
         ticketService.saveTicket(ticket); // Save the updated ticket
 
         return ResponseEntity.ok("Ticket purchased successfully by " + customer.getName());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteCustomerById(@PathVariable Long id){
+        customerService.deleteCustomer(id);
+        return ResponseEntity.ok("Customer with ID " + id + " deleted successfully.");
     }
 
 
