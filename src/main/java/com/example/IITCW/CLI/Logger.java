@@ -20,12 +20,12 @@ public class Logger {
         System.out.println(logMessage);
 
         //Log to file
-      /*  try(FileWriter writer = new FileWriter(Log_File, true)){
+        try(FileWriter writer = new FileWriter(Log_File, true)){
             writer.write(logMessage + System.lineSeparator());
         }
         catch (IOException e){
             System.out.println("Error writing to log file: " + e.getMessage());
-        }*/
+        }
     }
 
     //Log error messages

@@ -35,7 +35,7 @@ public class CLIApplication  {
             System.out.println("** configure **");
             System.out.println("** end-program **");
             System.out.println("** help **");
-            System.out.print("Enter your choice: ");
+            System.out.print("Please select from the following: ");
 
             String choice  = input.next();
 

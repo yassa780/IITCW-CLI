@@ -30,12 +30,12 @@ public class TicketPool {
         lock.lock();
         try{
             while (tickets.size() >= maxCapacity) {
-                System.out.println("Ticketpool is full. Vendor is waiting.");
+                Logger.info("Ticketpool is full. Vendor is waiting.");
                 notFull.await(); //Wait until customers consume tickets
                 if (sellingComplete) return; //Exit if selling is marked complete. The program is terminated by this
             }
             if (tickets.size() >= maxCapacity){
-                System.out.println("Ticketpool is full. Vendor is stopping");
+               Logger.logError("Ticketpool is full. Vendor is stopping");
                 return;
             }
 
@@ -44,7 +44,7 @@ public class TicketPool {
                 tickets.add("Ticket" + (tickets.size() + 1));
             }
 
-            System.out.println(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
+            Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
             notEmpty.signalAll(); //Notify customers that tickets are avaialble
         }catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -59,19 +59,19 @@ public class TicketPool {
         lock.lock();
         try {
             while (tickets.isEmpty() && !sellingComplete) {
-                System.out.println("No tickets available. Customer is waiting.");
+                Logger.logError("No tickets available. Customer is waiting.");
                 notEmpty.await(); // Wait until tickets are added
                 if (sellingComplete) return 0;
             }
             if (tickets.isEmpty() && sellingComplete) {
-                System.out.println("Ticketpool is empty. Customer is stopping");
+                Logger.logError("Ticketpool is empty. Customer is stopping");
                 return 0; // Graceful exit if no tickets are available and selling is complete
             }
             int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
             for (int i = 0; i < ticketsToRemove; i++) {
                 tickets.remove(0);
             }
-            System.out.println(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
+            Logger.logError(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
             //notFull.signalAll(); // Notify waiting vendors
             return ticketsToRemove;
         } catch (InterruptedException e) {
