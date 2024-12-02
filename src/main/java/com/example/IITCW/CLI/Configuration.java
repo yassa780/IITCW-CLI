@@ -72,7 +72,7 @@ public class Configuration implements Serializable {
 
             //Validation to ensure maxTicketCapacity >= total Tickets to be sold
 
-            if (totalTickets > maximunTicketCapacity) {
+            if (maximunTicketCapacity > totalTickets) {
                 ConfigurationManager.errorMessage("Maximum Ticket capacity should be greater than the total number of tickets");
                 continue;
             }
