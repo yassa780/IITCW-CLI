@@ -13,7 +13,6 @@ public class SystemConfiguration {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//The database will assign an unqiue value to the id column using auto increment fucntionality
     private Long id;
-
     private int totalTickets;
     private int ticketReleaseRate;
     private int customerRetrievalRate;
@@ -25,21 +24,13 @@ public class SystemConfiguration {
     }
 
     //Parameterized constructor
-    public SystemConfiguration(Long id, int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
-        this.id = id;
+    public SystemConfiguration( int totalTickets, int ticketReleaseRate, int customerRetrievalRate, int maxTicketCapacity) {
         this.totalTickets = totalTickets;
         this.ticketReleaseRate = ticketReleaseRate;
         this.customerRetrievalRate = customerRetrievalRate;
         this.maxTicketCapacity = maxTicketCapacity;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public int getTotalTickets() {
         return totalTickets;

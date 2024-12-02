@@ -20,7 +20,7 @@ public class AuthenticationController {
     private UserRepository userRepository;
 
     @PostMapping("/login")
-    /*The Response Entity is used so I can set the HTTP status codes and I can sutmize the responses accordiing
+    /*The Response Entity is used so I can set the HTTP status codes and I can customize the responses accordiing
     * to the way I need*/
     public ResponseEntity<String> login(@RequestBody User loginRequest){
         String result = authenticationService.authenticate(loginRequest.getUserName(), loginRequest.getPassword());
