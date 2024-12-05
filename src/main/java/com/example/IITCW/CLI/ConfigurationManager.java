@@ -27,7 +27,7 @@ public class ConfigurationManager {
         }
     }
     //Write the configuration object to a JSON file using Gson
-    public  void  writeJson(Configuration config){
+    public void writeJson(Configuration config){
         Gson gson = new Gson();
         String path = "src/main/resources/" + JSON_FILE;
         try(FileWriter writer = new FileWriter(path)){
@@ -60,6 +60,11 @@ public class ConfigurationManager {
     public static void successMessage(String message){
         System.out.println(Green + message + RESET);
     }
+
+    /**
+     * If we use static method, we should call the respective method from the classNAme object, but if we dont use static
+     * we can call the that specific method by creating an instance on the class that we want to call the specific function
+     * **/
 
 
 }

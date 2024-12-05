@@ -15,37 +15,49 @@ import java.util.concurrent.locks.ReentrantLock;
 public class TicketPool {
     private final List<String> tickets; //Synchronized list to hold tickets
     private final int maxCapacity;
+    int totalTicketsRemaining; //Tickets remaining to be sold
     private boolean sellingComplete = false;
     private final ReentrantLock lock = new ReentrantLock(true); // Fair lock
     private final Condition notEmpty = lock.newCondition(); // Condition for non-empty pool
     private final Condition notFull = lock.newCondition(); // Condition for non-full pool
 
-    public TicketPool(int maxCapacity) {
+    public TicketPool(int maxCapacity, int totalTickets) {
         this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized list
         this.maxCapacity = maxCapacity;
+        this.totalTicketsRemaining = totalTickets; //Initialize the total tickets to be sold
     }
 
     //Method to add tickets (used by Vendors)
     public void addTickets(int numberOfTicketsToAdd) {
         lock.lock();
         try{
-            while (tickets.size() >= maxCapacity) {
+            while (tickets.size() == maxCapacity) {
                 Logger.info("Ticketpool is full. Vendor is waiting.");
                 notFull.await(); //Wait until customers consume tickets
-                if (sellingComplete) return; //Exit if selling is marked complete. The program is terminated by this
-            }
-            if (tickets.size() >= maxCapacity){
-               Logger.logError("Ticketpool is full. Vendor is stopping");
-                return;
-            }
 
+            }
+            if (totalTicketsRemaining == 0) {
+                Logger.info("All tickets have been sold. Vendor is stopping");
+                sellingComplete = true;
+                return;
+
+            }
             int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
             for(int i = 0; i < ticketsToAdd; i++) {
                 tickets.add("Ticket" + (tickets.size() + 1));
             }
 
+            totalTicketsRemaining -= ticketsToAdd;
+
             Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
             notEmpty.signalAll(); //Notify customers that tickets are avaialble
+
+            if (totalTicketsRemaining == 0) {
+                Logger.info("No more tickets to sell. Stopping ticket release");
+                sellingComplete = true;
+                notEmpty.signalAll(); //Notify any waiting customers
+                notFull.signalAll(); //Notify any waiting vendors
+            }
         }catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }finally {
@@ -64,7 +76,7 @@ public class TicketPool {
                 if (sellingComplete) return 0;
             }
             if (tickets.isEmpty() && sellingComplete) {
-                Logger.logError("Ticketpool is empty. Customer is stopping");
+                Logger.logError("All tickets sold. Ticketpool is empty");
                 return 0; // Graceful exit if no tickets are available and selling is complete
             }
             int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
@@ -72,7 +84,7 @@ public class TicketPool {
                 tickets.remove(0);
             }
             Logger.logError(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-            //notFull.signalAll(); // Notify waiting vendors
+            notFull.signalAll(); // Notify waiting vendors
             return ticketsToRemove;
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -89,6 +101,7 @@ public class TicketPool {
        try{
            this.sellingComplete = complete;
            notEmpty.signalAll(); //Notify waiting customers
+           notFull.signalAll(); //Notify all waiting vendors
        }
        finally{
            lock.unlock();

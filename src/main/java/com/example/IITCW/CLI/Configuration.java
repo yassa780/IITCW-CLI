@@ -52,9 +52,9 @@ public class Configuration implements Serializable {
     }
 
     public static Configuration configureSystem(Scanner input, ConfigurationManager configurationManager ){
-        /*int totalTickets;
-        int ticketReleaseRate;
-        int customerRetrievalRate;*/
+
+
+
         int maximunTicketCapacity;
 
         System.out.print("Enter the total no. of tickets to be sold: ");
@@ -73,7 +73,7 @@ public class Configuration implements Serializable {
             //Validation to ensure maxTicketCapacity >= total Tickets to be sold
 
             if (maximunTicketCapacity > totalTickets) {
-                ConfigurationManager.errorMessage("Maximum Ticket capacity should be greater than the total number of tickets");
+                ConfigurationManager.errorMessage("Total number of tickets to be sold should be greater than the maximum ticket capacity");
                 continue;
             }
             break;
