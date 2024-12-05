@@ -17,8 +17,8 @@ public class Customer implements Runnable {
     public void run() {
         try {
             while (true) {
-                int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1;//Randmoize ticket request
-                int ticketsRemoved = ticketPool.removeTickets(ticketsToRequest);
+                //int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1;//Randmoize ticket request
+                int ticketsRemoved = ticketPool.removeTickets(customerRetrievalRate);
 
                 if (ticketsRemoved > 0) {
                     Logger.info("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");

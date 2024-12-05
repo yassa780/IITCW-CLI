@@ -32,12 +32,12 @@ public class TicketPool {
     public void addTickets(int numberOfTicketsToAdd) {
         lock.lock();
         try{
-            while (tickets.size() >= maxCapacity) {
+            while (tickets.size() == maxCapacity) {
                 Logger.info("Ticketpool is full. Vendor is waiting.");
                 notFull.await(); //Wait until customers consume tickets
                 if (sellingComplete) return; //Exit if selling is marked complete. The program is terminated by this
             }
-            if (totalTicketsRemaining <= 0) {
+            if (totalTicketsRemaining == 0) {
                 Logger.info("All tickets have been sold. Vendor is stopping.");
                 sellingComplete = true;
                 notEmpty.signalAll(); // Notify any waiting customers
