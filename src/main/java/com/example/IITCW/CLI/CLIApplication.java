@@ -87,11 +87,12 @@ public class CLIApplication  {
 
     public static void startProgram(Configuration config, Scanner input){
         int maxCapacity = config.getMaxTicketCapacity();
+        int totalTickets = config.getTotalTickets();
         int ticketReleaseRate = config.getTicketReleaseRate();
         int customerRetrievalRate = config.getCustomerRetrievalRate();
 
         //Creating the Ticketpool object
-        TicketPool ticketPool = new TicketPool(maxCapacity);
+        TicketPool ticketPool = new TicketPool(maxCapacity, totalTickets);
 
         System.out.println("Enter the number of vendors: ");
         int numberOfVendors = inputValidation(input);
@@ -127,10 +128,10 @@ public class CLIApplication  {
         }
 
         // Signal that ticket selling is complete
-        synchronized (ticketPool) {
+       /* synchronized (ticketPool) {
             ticketPool.setSellingComplete(true);
             //ticketPool.notifyAll(); // Notify waiting customer threads
-        }
+        }*/
 
         // Wait for customer threads to complete
         try {

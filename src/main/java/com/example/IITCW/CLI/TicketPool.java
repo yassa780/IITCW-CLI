@@ -15,14 +15,17 @@ import java.util.concurrent.locks.ReentrantLock;
 public class TicketPool {
     private final List<String> tickets; //Synchronized list to hold tickets
     private final int maxCapacity;
+    private int totalTicketsRemaining; // Tracks remaining tickets to be sold
     private boolean sellingComplete = false;
+
     private final ReentrantLock lock = new ReentrantLock(true); // Fair lock
     private final Condition notEmpty = lock.newCondition(); // Condition for non-empty pool
     private final Condition notFull = lock.newCondition(); // Condition for non-full pool
 
-    public TicketPool(int maxCapacity) {
+    public TicketPool(int maxCapacity, int totalTickets) {
         this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized list
         this.maxCapacity = maxCapacity;
+        this.totalTicketsRemaining = totalTickets;
     }
 
     //Method to add tickets (used by Vendors)
@@ -34,8 +37,11 @@ public class TicketPool {
                 notFull.await(); //Wait until customers consume tickets
                 if (sellingComplete) return; //Exit if selling is marked complete. The program is terminated by this
             }
-            if (tickets.size() >= maxCapacity){
-                Logger.logError("Ticketpool is full. Vendor is stopping");
+            if (totalTicketsRemaining <= 0) {
+                Logger.info("All tickets have been sold. Vendor is stopping.");
+                sellingComplete = true;
+                notEmpty.signalAll(); // Notify any waiting customers
+                notFull.signalAll(); // Notify any waiting vendors
                 return;
             }
 
@@ -43,6 +49,9 @@ public class TicketPool {
             for(int i = 0; i < ticketsToAdd; i++) {
                 tickets.add("Ticket" + (tickets.size() + 1));
             }
+            totalTicketsRemaining -= ticketsToAdd;
+
+
 
             Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
             notEmpty.signalAll(); //Notify customers that tickets are avaialble
@@ -72,7 +81,7 @@ public class TicketPool {
                 tickets.remove(0);
             }
             Logger.logError(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-            //notFull.signalAll(); // Notify waiting vendors
+            notFull.signalAll(); // Notify waiting vendors
             return ticketsToRemove;
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -89,6 +98,7 @@ public class TicketPool {
         try{
             this.sellingComplete = complete;
             notEmpty.signalAll(); //Notify waiting customers
+            notFull.signalAll();
         }
         finally{
             lock.unlock();
