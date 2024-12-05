@@ -86,13 +86,12 @@ public class CLIApplication  {
 
 
     public static void startProgram(Configuration config, Scanner input){
-      int maxCapacity = config.getMaxTicketCapacity();
-      int totalTickets = config.getTotalTickets();
-      int ticketReleaseRate = config.getTicketReleaseRate();
-      int customerRetrievalRate = config.getCustomerRetrievalRate();
+        int maxCapacity = config.getMaxTicketCapacity();
+        int ticketReleaseRate = config.getTicketReleaseRate();
+        int customerRetrievalRate = config.getCustomerRetrievalRate();
 
-      //Creating the Ticketpool object
-      TicketPool ticketPool = new TicketPool(maxCapacity, totalTickets);
+        //Creating the Ticketpool object
+        TicketPool ticketPool = new TicketPool(maxCapacity);
 
         System.out.println("Enter the number of vendors: ");
         int numberOfVendors = inputValidation(input);
@@ -107,13 +106,13 @@ public class CLIApplication  {
             Thread vendorThread = new Thread(new Vendor(ticketPool, ticketReleaseRate,400, i));
             vendorThreads.add(vendorThread);
             vendorThread.start();
-
+            System.out.println("Vendor " + i + " started.");
         }
         for(int i =1; i <= numberOfCustomers; i++){
             Thread customerThread = new Thread(new Customer(ticketPool, customerRetrievalRate,300, i));
             customerThreads.add(customerThread);
             customerThread.start();
-
+            System.out.println("Customer " + i + " started.");
         }
 
         //Join the threads to ensure they complete execution
@@ -122,25 +121,29 @@ public class CLIApplication  {
             for (Thread vendorThread : vendorThreads) {
                 vendorThread.join();
             }
-            for (Thread customerThread : customerThreads) {
-                customerThread.join();
-            }
         } catch (InterruptedException e) {
             System.out.println("Main thread interrupted while waiting for vendor threads to complete.");
             Thread.currentThread().interrupt();
         }
 
         // Signal that ticket selling is complete
-        /*synchronized (ticketPool) {
+        synchronized (ticketPool) {
             ticketPool.setSellingComplete(true);
             //ticketPool.notifyAll(); // Notify waiting customer threads
-        }*/
+        }
 
         // Wait for customer threads to complete
+        try {
+            for (Thread customerThread : customerThreads) {
+                customerThread.join();
+            }
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted while waiting for customer threads to complete.");
+            Thread.currentThread().interrupt();
+        }
 
         System.out.println("All vendor and customer threads have completed.");
     }
-
     public static void displayHelp() {
         System.out.println("Help Information:");
         System.out.println(" Start Program - Start the ticketing system.");
