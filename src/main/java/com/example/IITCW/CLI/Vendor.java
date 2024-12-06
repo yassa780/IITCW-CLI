@@ -19,12 +19,12 @@ public class Vendor implements Runnable {
         try {
             while (true) {
                 ticketPool.addTickets(ticketReleaseRate);
-                Logger.info("Vendor" + vendorId + " released " + ticketReleaseRate);
+                Logger.info("Vendor " + vendorId + " released " + ticketReleaseRate + " tickets");
 
                 Thread.sleep(releaseInterval);//Stimulate ticket release rate
 
                 if (ticketPool.getTicketCount() >= ticketPool.getMaxCapacity() || ticketPool.isSellingComplete()) {
-                    Logger.logError("Vendor " + vendorId + ": Ticket pool is full.Stopping ticket release.");
+                    Logger.logError("Vendor " + vendorId + ": All tickets have been sold");
                     break;
                 }
             }
