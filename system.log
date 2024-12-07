@@ -25861,3 +25861,2163 @@
 2024-12-07 07:09:17-Customer 1: No tickets available to purchase.
 2024-12-07 07:09:17-Customer 4: No tickets available to purchase.
 2024-12-07 07:09:17-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-07 07:15:47-5 tickets added. Total tickets: 5
+2024-12-07 07:15:47-3 tickets removed. 2 tickets remaining.
+2024-12-07 07:15:47-Vendor 1 released 5 tickets
+2024-12-07 07:15:47-2 tickets removed. 0 tickets remaining.
+2024-12-07 07:15:47-Customer 2 purchased 3 tickets
+2024-12-07 07:15:47-5 tickets added. Total tickets: 5
+2024-12-07 07:15:47-Customer 1 purchased 2 tickets
+2024-12-07 07:15:47-Vendor 5 released 5 tickets
+2024-12-07 07:15:47-5 tickets added. Total tickets: 10
+2024-12-07 07:15:47-Vendor 4 released 5 tickets
+2024-12-07 07:15:47-5 tickets added. Total tickets: 15
+2024-12-07 07:15:47-Vendor 3 released 5 tickets
+2024-12-07 07:15:47-5 tickets added. Total tickets: 20
+2024-12-07 07:15:47-Vendor 2 released 5 tickets
+2024-12-07 07:15:47-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:47-Customer 2 purchased 3 tickets
+2024-12-07 07:15:47-3 tickets removed. 14 tickets remaining.
+2024-12-07 07:15:47-Customer 1 purchased 3 tickets
+2024-12-07 07:15:48-5 tickets added. Total tickets: 19
+2024-12-07 07:15:48-Vendor 1 released 5 tickets
+2024-12-07 07:15:48-1 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 2 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-Customer 2 purchased 3 tickets
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 4 released 5 tickets
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-Customer 1 purchased 3 tickets
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 5 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-Customer 1 purchased 3 tickets
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 3 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Customer 2 purchased 3 tickets
+2024-12-07 07:15:48-Vendor 2 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-Customer 1 purchased 3 tickets
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 1 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:48-Customer 2 purchased 3 tickets
+2024-12-07 07:15:48-3 tickets added. Total tickets: 20
+2024-12-07 07:15:48-Vendor 5 released 5 tickets
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:48-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-Customer 1 purchased 3 tickets
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Vendor 4 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-Customer 2 purchased 3 tickets
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Vendor 2 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-Customer 1 purchased 3 tickets
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Vendor 3 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-Customer 2 purchased 3 tickets
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Vendor 5 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Customer 1 purchased 3 tickets
+2024-12-07 07:15:49-Vendor 1 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:49-Customer 2 purchased 3 tickets
+2024-12-07 07:15:49-3 tickets added. Total tickets: 20
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Vendor 4 released 5 tickets
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:49-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 1 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Vendor 2 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 2 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Vendor 5 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 1 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Vendor 3 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 2 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Vendor 4 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 1 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Vendor 1 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 2 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Vendor 5 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 1 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Vendor 2 released 5 tickets
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:50-Customer 2 purchased 3 tickets
+2024-12-07 07:15:50-3 tickets added. Total tickets: 20
+2024-12-07 07:15:50-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:50-Vendor 4 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 1 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Vendor 3 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 2 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Vendor 1 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 2 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Vendor 5 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 1 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Vendor 4 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 2 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Vendor 2 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:51-Customer 1 purchased 3 tickets
+2024-12-07 07:15:51-3 tickets added. Total tickets: 20
+2024-12-07 07:15:51-Vendor 1 released 5 tickets
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:51-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-Customer 2 purchased 3 tickets
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Vendor 3 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-Customer 1 purchased 3 tickets
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Vendor 4 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-Customer 2 purchased 3 tickets
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Vendor 5 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-Customer 1 purchased 3 tickets
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Vendor 1 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Customer 2 purchased 3 tickets
+2024-12-07 07:15:52-Vendor 2 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:52-Customer 1 purchased 3 tickets
+2024-12-07 07:15:52-3 tickets added. Total tickets: 20
+2024-12-07 07:15:52-Vendor 4 released 5 tickets
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:52-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 2 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Vendor 3 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 1 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Vendor 1 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 2 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Vendor 5 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 1 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Vendor 4 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 2 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Vendor 2 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:53-Customer 1 purchased 3 tickets
+2024-12-07 07:15:53-3 tickets added. Total tickets: 20
+2024-12-07 07:15:53-Vendor 1 released 5 tickets
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:53-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 2 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 3 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 1 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 4 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Customer 2 purchased 3 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Vendor 5 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 1 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 1 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 2 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 2 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 1 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 3 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 1 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 4 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:54-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:54-Customer 2 purchased 3 tickets
+2024-12-07 07:15:54-3 tickets added. Total tickets: 20
+2024-12-07 07:15:54-Vendor 1 released 5 tickets
+2024-12-07 07:15:54-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Customer 1 purchased 3 tickets
+2024-12-07 07:15:55-Vendor 5 released 5 tickets
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-Customer 2 purchased 3 tickets
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Vendor 2 released 5 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Customer 1 purchased 3 tickets
+2024-12-07 07:15:55-Vendor 3 released 5 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-Customer 2 purchased 3 tickets
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Vendor 1 released 5 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-Customer 1 purchased 3 tickets
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Vendor 4 released 5 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:55-3 tickets added. Total tickets: 20
+2024-12-07 07:15:55-Vendor 2 released 5 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Customer 2 purchased 3 tickets
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:55-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-Customer 1 purchased 3 tickets
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Vendor 5 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-Customer 2 purchased 3 tickets
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Vendor 3 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-Customer 1 purchased 3 tickets
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Vendor 1 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-Customer 2 purchased 3 tickets
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Vendor 4 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Customer 1 purchased 3 tickets
+2024-12-07 07:15:56-Vendor 2 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:56-Customer 2 purchased 3 tickets
+2024-12-07 07:15:56-3 tickets added. Total tickets: 20
+2024-12-07 07:15:56-Vendor 3 released 5 tickets
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:56-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 1 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 5 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 2 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 4 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 1 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 1 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 2 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 3 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 1 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 2 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 2 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 4 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Customer 1 purchased 3 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-Vendor 5 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:57-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:57-Customer 2 purchased 3 tickets
+2024-12-07 07:15:57-3 tickets added. Total tickets: 20
+2024-12-07 07:15:57-Vendor 3 released 5 tickets
+2024-12-07 07:15:57-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 1 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 1 released 5 tickets
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 2 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 4 released 5 tickets
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 2 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 2 released 5 tickets
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 1 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 3 released 5 tickets
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 2 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 5 released 5 tickets
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:58-Customer 1 purchased 3 tickets
+2024-12-07 07:15:58-3 tickets added. Total tickets: 20
+2024-12-07 07:15:58-Vendor 4 released 5 tickets
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:58-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-Customer 2 purchased 3 tickets
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Vendor 1 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-Customer 1 purchased 3 tickets
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Vendor 2 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-Customer 2 purchased 3 tickets
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Vendor 3 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-Customer 1 purchased 3 tickets
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Vendor 4 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Customer 2 purchased 3 tickets
+2024-12-07 07:15:59-Vendor 5 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:15:59-Customer 1 purchased 3 tickets
+2024-12-07 07:15:59-3 tickets added. Total tickets: 20
+2024-12-07 07:15:59-Vendor 2 released 5 tickets
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:15:59-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-Customer 1 purchased 3 tickets
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Vendor 1 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Customer 2 purchased 3 tickets
+2024-12-07 07:16:00-Vendor 4 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-Customer 1 purchased 3 tickets
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Vendor 3 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-Customer 2 purchased 3 tickets
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Vendor 2 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Customer 1 purchased 3 tickets
+2024-12-07 07:16:00-Vendor 5 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:00-Customer 2 purchased 3 tickets
+2024-12-07 07:16:00-3 tickets added. Total tickets: 20
+2024-12-07 07:16:00-Vendor 4 released 5 tickets
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:00-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 1 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Vendor 1 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 2 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Vendor 2 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 1 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Vendor 3 released 5 tickets
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 2 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Vendor 5 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 1 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Vendor 4 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 2 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Vendor 2 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Customer 1 purchased 3 tickets
+2024-12-07 07:16:01-Vendor 1 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:01-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:01-Customer 2 purchased 3 tickets
+2024-12-07 07:16:01-3 tickets added. Total tickets: 20
+2024-12-07 07:16:01-Vendor 5 released 5 tickets
+2024-12-07 07:16:01-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:02-Customer 1 purchased 3 tickets
+2024-12-07 07:16:02-3 tickets added. Total tickets: 20
+2024-12-07 07:16:02-Vendor 3 released 5 tickets
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:02-Customer 2 purchased 3 tickets
+2024-12-07 07:16:02-3 tickets added. Total tickets: 20
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Vendor 4 released 5 tickets
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:02-Customer 1 purchased 3 tickets
+2024-12-07 07:16:02-3 tickets added. Total tickets: 20
+2024-12-07 07:16:02-Vendor 2 released 5 tickets
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:02-3 tickets added. Total tickets: 20
+2024-12-07 07:16:02-Customer 2 purchased 3 tickets
+2024-12-07 07:16:02-Vendor 5 released 5 tickets
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:02-3 tickets removed. 14 tickets remaining.
+2024-12-07 07:16:02-Customer 1 purchased 3 tickets
+2024-12-07 07:16:02-5 tickets added. Total tickets: 19
+2024-12-07 07:16:02-Customer 2 purchased 3 tickets
+2024-12-07 07:16:02-Vendor 1 released 5 tickets
+2024-12-07 07:16:02-1 tickets added. Total tickets: 20
+2024-12-07 07:16:02-Vendor 4 released 5 tickets
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:02-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 1 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Vendor 3 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 2 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Vendor 5 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 2 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Vendor 2 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 1 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Vendor 4 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 1 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Vendor 1 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:03-Customer 2 purchased 3 tickets
+2024-12-07 07:16:03-3 tickets added. Total tickets: 20
+2024-12-07 07:16:03-Vendor 5 released 5 tickets
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:03-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 1 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 3 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 2 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 2 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 1 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 4 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 2 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 1 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 1 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 5 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 2 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 2 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-Customer 1 purchased 3 tickets
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Vendor 3 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:04-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:04-3 tickets added. Total tickets: 20
+2024-12-07 07:16:04-Customer 2 purchased 3 tickets
+2024-12-07 07:16:04-Vendor 1 released 5 tickets
+2024-12-07 07:16:04-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 1 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Vendor 4 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 2 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Vendor 2 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 1 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Vendor 5 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 2 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Vendor 1 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 1 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Vendor 3 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:05-Customer 2 purchased 3 tickets
+2024-12-07 07:16:05-3 tickets added. Total tickets: 20
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Vendor 4 released 5 tickets
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:05-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Customer 1 purchased 3 tickets
+2024-12-07 07:16:06-Vendor 2 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-Customer 2 purchased 3 tickets
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Vendor 1 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-Customer 1 purchased 3 tickets
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Vendor 5 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-Customer 2 purchased 3 tickets
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Vendor 4 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-Customer 1 purchased 3 tickets
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Vendor 3 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:06-Customer 2 purchased 3 tickets
+2024-12-07 07:16:06-3 tickets added. Total tickets: 20
+2024-12-07 07:16:06-Vendor 2 released 5 tickets
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 1 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Vendor 1 released 5 tickets
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 2 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Vendor 5 released 5 tickets
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 1 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Vendor 4 released 5 tickets
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 2 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Vendor 2 released 5 tickets
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 1 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Vendor 3 released 5 tickets
+2024-12-07 07:16:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:07-Customer 2 purchased 3 tickets
+2024-12-07 07:16:07-3 tickets added. Total tickets: 20
+2024-12-07 07:16:07-Vendor 5 released 5 tickets
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:08-Customer 2 purchased 3 tickets
+2024-12-07 07:16:08-3 tickets added. Total tickets: 20
+2024-12-07 07:16:08-Vendor 1 released 5 tickets
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:08-Customer 1 purchased 3 tickets
+2024-12-07 07:16:08-3 tickets added. Total tickets: 20
+2024-12-07 07:16:08-Vendor 4 released 5 tickets
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:08-Customer 2 purchased 3 tickets
+2024-12-07 07:16:08-3 tickets added. Total tickets: 20
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Vendor 2 released 5 tickets
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-3 tickets removed. 17 tickets remaining.
+2024-12-07 07:16:08-Customer 1 purchased 3 tickets
+2024-12-07 07:16:08-3 tickets added. Total tickets: 20
+2024-12-07 07:16:08-Vendor 5 released 5 tickets
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:16:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-5 tickets added. Total tickets: 5
+2024-12-07 07:17:08-5 tickets added. Total tickets: 10
+2024-12-07 07:17:08-Vendor 1 released 5 tickets
+2024-12-07 07:17:08-Vendor 2 released 5 tickets
+2024-12-07 07:17:08-5 tickets added. Total tickets: 15
+2024-12-07 07:17:08-Vendor 3 released 5 tickets
+2024-12-07 07:17:08-5 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Vendor 4 released 5 tickets
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-2 tickets removed. 16 tickets remaining.
+2024-12-07 07:17:08-Customer 1 purchased 2 tickets
+2024-12-07 07:17:08-4 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Customer 2 purchased 2 tickets
+2024-12-07 07:17:08-Vendor 5 released 5 tickets
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-Customer 1 purchased 2 tickets
+2024-12-07 07:17:08-2 tickets removed. 16 tickets remaining.
+2024-12-07 07:17:08-Customer 2 purchased 2 tickets
+2024-12-07 07:17:08-4 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Vendor 1 released 5 tickets
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-Customer 1 purchased 2 tickets
+2024-12-07 07:17:08-2 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Vendor 4 released 5 tickets
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-Customer 2 purchased 2 tickets
+2024-12-07 07:17:08-2 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Vendor 2 released 5 tickets
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-Customer 2 purchased 2 tickets
+2024-12-07 07:17:08-2 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Vendor 3 released 5 tickets
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:08-Customer 1 purchased 2 tickets
+2024-12-07 07:17:08-2 tickets added. Total tickets: 20
+2024-12-07 07:17:08-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:08-Vendor 5 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 1 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Vendor 1 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 2 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Vendor 4 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 2 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Vendor 2 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 1 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Vendor 5 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 2 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Vendor 3 released 5 tickets
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:09-Customer 1 purchased 2 tickets
+2024-12-07 07:17:09-2 tickets added. Total tickets: 20
+2024-12-07 07:17:09-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:09-Vendor 4 released 5 tickets
+2024-12-07 07:17:10-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:10-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:10-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:10-Customer 2 purchased 2 tickets
+2024-12-07 07:17:10-2 tickets added. Total tickets: 20
+2024-12-07 07:17:10-Vendor 1 released 5 tickets
+2024-12-07 07:17:10-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:10-Ticketpool is full. Vendor is waiting.
+2024-12-07 07:17:10-2 tickets removed. 18 tickets remaining.
+2024-12-07 07:17:10-Customer 1 purchased 2 tickets
+2024-12-07 07:17:10-All tickets have been sold. Vendor is stopping.
+2024-12-07 07:17:10-Vendor 2 released 5 tickets
+2024-12-07 07:17:10-Vendor 5 released 5 tickets
+2024-12-07 07:17:10-Vendor 3: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:10-Vendor 4: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:10-2 tickets removed. 16 tickets remaining.
+2024-12-07 07:17:10-Customer 2 purchased 2 tickets
+2024-12-07 07:17:10-2 tickets removed. 14 tickets remaining.
+2024-12-07 07:17:10-Customer 1 purchased 2 tickets
+2024-12-07 07:17:10-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:10-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:10-Vendor 5: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:10-2 tickets removed. 12 tickets remaining.
+2024-12-07 07:17:10-Customer 2 purchased 2 tickets
+2024-12-07 07:17:10-2 tickets removed. 10 tickets remaining.
+2024-12-07 07:17:10-Customer 1 purchased 2 tickets
+2024-12-07 07:17:11-2 tickets removed. 8 tickets remaining.
+2024-12-07 07:17:11-Customer 2 purchased 2 tickets
+2024-12-07 07:17:11-2 tickets removed. 6 tickets remaining.
+2024-12-07 07:17:11-Customer 1 purchased 2 tickets
+2024-12-07 07:17:11-2 tickets removed. 4 tickets remaining.
+2024-12-07 07:17:11-Customer 2 purchased 2 tickets
+2024-12-07 07:17:11-2 tickets removed. 2 tickets remaining.
+2024-12-07 07:17:11-Customer 1 purchased 2 tickets
+2024-12-07 07:17:11-2 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:11-Customer 1 purchased 2 tickets
+2024-12-07 07:17:11-Customer 2: No tickets available to purchase.
+2024-12-07 07:17:12-Customer 1: No tickets available to purchase.
+2024-12-07 07:17:42-1 tickets added. Total tickets: 1
+2024-12-07 07:17:42-1 tickets added. Total tickets: 2
+2024-12-07 07:17:42-Vendor 2 released 1 tickets
+2024-12-07 07:17:42-Vendor 1 released 1 tickets
+2024-12-07 07:17:42-2 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:42-Customer 1 purchased 2 tickets
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-1 tickets added. Total tickets: 1
+2024-12-07 07:17:42-Vendor 1 released 1 tickets
+2024-12-07 07:17:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:42-Customer 2 purchased 1 tickets
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-1 tickets added. Total tickets: 1
+2024-12-07 07:17:42-Vendor 2 released 1 tickets
+2024-12-07 07:17:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:42-Customer 3 purchased 1 tickets
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:42-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 1 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-Customer 4 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 2 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-Customer 1 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 2 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-Customer 3 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 1 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-Customer 2 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 2 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-Customer 1 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-1 tickets added. Total tickets: 1
+2024-12-07 07:17:43-Vendor 1 released 1 tickets
+2024-12-07 07:17:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 07:17:43-Customer 4 purchased 1 tickets
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:43-No tickets available. Customer is waiting.
+2024-12-07 07:17:44-No tickets available. Customer is waiting.
+2024-12-07 07:17:44-No tickets available. Customer is waiting.
+2024-12-07 07:17:44-All tickets have been sold. Vendor is stopping.
+2024-12-07 07:17:44-Vendor 1 released 1 tickets
+2024-12-07 07:17:44-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-07 07:17:44-Customer 1: No tickets available to purchase.
+2024-12-07 07:17:44-Customer 2: No tickets available to purchase.
+2024-12-07 07:17:44-Customer 4: No tickets available to purchase.
+2024-12-07 07:17:44-Customer 3: No tickets available to purchase.
+2024-12-07 07:17:44-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-07 16:05:25-3 tickets added. Total tickets: 3
+2024-12-07 16:05:25-3 tickets added. Total tickets: 6
+2024-12-07 16:05:25-Vendor 1 released 3 tickets
+2024-12-07 16:05:25-Vendor 2 released 3 tickets
+2024-12-07 16:05:25-3 tickets added. Total tickets: 9
+2024-12-07 16:05:25-Vendor 3 released 3 tickets
+2024-12-07 16:05:25-3 tickets added. Total tickets: 12
+2024-12-07 16:05:25-Vendor 4 released 3 tickets
+2024-12-07 16:05:25-3 tickets added. Total tickets: 15
+2024-12-07 16:05:25-Vendor 5 released 3 tickets
+2024-12-07 16:05:25-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:25-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:25-Customer 1 purchased 5 tickets
+2024-12-07 16:05:25-Customer 2 purchased 5 tickets
+2024-12-07 16:05:25-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:25-Customer 3 purchased 5 tickets
+2024-12-07 16:05:25-No tickets available. Customer is waiting.
+2024-12-07 16:05:25-No tickets available. Customer is waiting.
+2024-12-07 16:05:25-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 5 released 3 tickets
+2024-12-07 16:05:26-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Customer 1 purchased 3 tickets
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 2 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 6
+2024-12-07 16:05:26-3 tickets added. Total tickets: 9
+2024-12-07 16:05:26-Vendor 1 released 3 tickets
+2024-12-07 16:05:26-Vendor 4 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 12
+2024-12-07 16:05:26-Vendor 3 released 3 tickets
+2024-12-07 16:05:26-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:26-Customer 2 purchased 5 tickets
+2024-12-07 16:05:26-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:26-Customer 3 purchased 5 tickets
+2024-12-07 16:05:26-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Customer 3 purchased 2 tickets
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Vendor 5 released 3 tickets
+2024-12-07 16:05:26-Customer 1 purchased 3 tickets
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 2 released 3 tickets
+2024-12-07 16:05:26-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Customer 2 purchased 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 4 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 6
+2024-12-07 16:05:26-Vendor 3 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 9
+2024-12-07 16:05:26-Vendor 1 released 3 tickets
+2024-12-07 16:05:26-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:26-Customer 3 purchased 5 tickets
+2024-12-07 16:05:26-4 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Customer 1 purchased 4 tickets
+2024-12-07 16:05:26-No tickets available. Customer is waiting.
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 5 released 3 tickets
+2024-12-07 16:05:26-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:26-Customer 2 purchased 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 3
+2024-12-07 16:05:26-Vendor 4 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 6
+2024-12-07 16:05:26-Vendor 2 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 9
+2024-12-07 16:05:26-Vendor 3 released 3 tickets
+2024-12-07 16:05:26-3 tickets added. Total tickets: 12
+2024-12-07 16:05:26-Vendor 1 released 3 tickets
+2024-12-07 16:05:26-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:26-Customer 3 purchased 5 tickets
+2024-12-07 16:05:27-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:27-Customer 1 purchased 5 tickets
+2024-12-07 16:05:27-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:27-Customer 2 purchased 2 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 3
+2024-12-07 16:05:27-Vendor 5 released 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 6
+2024-12-07 16:05:27-Vendor 4 released 3 tickets
+2024-12-07 16:05:27-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:27-Customer 3 purchased 5 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 4
+2024-12-07 16:05:27-Vendor 2 released 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 7
+2024-12-07 16:05:27-Vendor 3 released 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 10
+2024-12-07 16:05:27-Vendor 1 released 3 tickets
+2024-12-07 16:05:27-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:27-Customer 1 purchased 5 tickets
+2024-12-07 16:05:27-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:27-Customer 2 purchased 5 tickets
+2024-12-07 16:05:27-No tickets available. Customer is waiting.
+2024-12-07 16:05:27-3 tickets added. Total tickets: 3
+2024-12-07 16:05:27-Vendor 3 released 3 tickets
+2024-12-07 16:05:27-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:27-Customer 3 purchased 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 3
+2024-12-07 16:05:27-Vendor 5 released 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 6
+2024-12-07 16:05:27-Vendor 2 released 3 tickets
+2024-12-07 16:05:27-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:27-Customer 1 purchased 5 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 4
+2024-12-07 16:05:27-Vendor 4 released 3 tickets
+2024-12-07 16:05:27-3 tickets added. Total tickets: 7
+2024-12-07 16:05:27-Vendor 1 released 3 tickets
+2024-12-07 16:05:27-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:27-Customer 2 purchased 5 tickets
+2024-12-07 16:05:27-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:27-Customer 3 purchased 2 tickets
+2024-12-07 16:05:27-No tickets available. Customer is waiting.
+2024-12-07 16:05:28-3 tickets added. Total tickets: 3
+2024-12-07 16:05:28-Vendor 5 released 3 tickets
+2024-12-07 16:05:28-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:28-Customer 1 purchased 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 3
+2024-12-07 16:05:28-Vendor 3 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 6
+2024-12-07 16:05:28-Vendor 2 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 9
+2024-12-07 16:05:28-Vendor 4 released 3 tickets
+2024-12-07 16:05:28-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:28-Customer 2 purchased 5 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 7
+2024-12-07 16:05:28-Vendor 1 released 3 tickets
+2024-12-07 16:05:28-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:28-Customer 3 purchased 5 tickets
+2024-12-07 16:05:28-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:28-Customer 2 purchased 2 tickets
+2024-12-07 16:05:28-No tickets available. Customer is waiting.
+2024-12-07 16:05:28-3 tickets added. Total tickets: 3
+2024-12-07 16:05:28-Vendor 4 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 6
+2024-12-07 16:05:28-Vendor 3 released 3 tickets
+2024-12-07 16:05:28-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:28-Customer 1 purchased 5 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 4
+2024-12-07 16:05:28-Vendor 5 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 7
+2024-12-07 16:05:28-Vendor 2 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 10
+2024-12-07 16:05:28-Vendor 1 released 3 tickets
+2024-12-07 16:05:28-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:28-Customer 3 purchased 5 tickets
+2024-12-07 16:05:28-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:28-Customer 2 purchased 5 tickets
+2024-12-07 16:05:28-No tickets available. Customer is waiting.
+2024-12-07 16:05:28-3 tickets added. Total tickets: 3
+2024-12-07 16:05:28-Vendor 4 released 3 tickets
+2024-12-07 16:05:28-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:28-Customer 1 purchased 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 3
+2024-12-07 16:05:28-Vendor 5 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 6
+2024-12-07 16:05:28-Vendor 3 released 3 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 9
+2024-12-07 16:05:28-Vendor 2 released 3 tickets
+2024-12-07 16:05:28-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:28-Customer 3 purchased 5 tickets
+2024-12-07 16:05:28-3 tickets added. Total tickets: 7
+2024-12-07 16:05:28-Vendor 1 released 3 tickets
+2024-12-07 16:05:29-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:29-Customer 2 purchased 5 tickets
+2024-12-07 16:05:29-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:29-Customer 1 purchased 2 tickets
+2024-12-07 16:05:29-No tickets available. Customer is waiting.
+2024-12-07 16:05:29-No tickets available. Customer is waiting.
+2024-12-07 16:05:29-3 tickets added. Total tickets: 3
+2024-12-07 16:05:29-Vendor 5 released 3 tickets
+2024-12-07 16:05:29-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:29-Customer 3 purchased 3 tickets
+2024-12-07 16:05:29-No tickets available. Customer is waiting.
+2024-12-07 16:05:29-3 tickets added. Total tickets: 3
+2024-12-07 16:05:29-Vendor 4 released 3 tickets
+2024-12-07 16:05:29-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:29-Customer 2 purchased 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 3
+2024-12-07 16:05:29-Vendor 3 released 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 6
+2024-12-07 16:05:29-Vendor 2 released 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 9
+2024-12-07 16:05:29-Vendor 1 released 3 tickets
+2024-12-07 16:05:29-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:29-Customer 1 purchased 5 tickets
+2024-12-07 16:05:29-4 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:29-Customer 3 purchased 4 tickets
+2024-12-07 16:05:29-No tickets available. Customer is waiting.
+2024-12-07 16:05:29-3 tickets added. Total tickets: 3
+2024-12-07 16:05:29-Vendor 5 released 3 tickets
+2024-12-07 16:05:29-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:29-Customer 2 purchased 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 3
+2024-12-07 16:05:29-Vendor 3 released 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 6
+2024-12-07 16:05:29-Vendor 4 released 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 9
+2024-12-07 16:05:29-Vendor 2 released 3 tickets
+2024-12-07 16:05:29-3 tickets added. Total tickets: 12
+2024-12-07 16:05:29-Vendor 1 released 3 tickets
+2024-12-07 16:05:29-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:29-Customer 1 purchased 5 tickets
+2024-12-07 16:05:29-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:29-Customer 3 purchased 5 tickets
+2024-12-07 16:05:30-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:30-Customer 2 purchased 2 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 3
+2024-12-07 16:05:30-Vendor 5 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 6
+2024-12-07 16:05:30-Vendor 4 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 9
+2024-12-07 16:05:30-Vendor 3 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 12
+2024-12-07 16:05:30-Vendor 2 released 3 tickets
+2024-12-07 16:05:30-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:30-Customer 1 purchased 5 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 10
+2024-12-07 16:05:30-Vendor 1 released 3 tickets
+2024-12-07 16:05:30-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:30-Customer 3 purchased 5 tickets
+2024-12-07 16:05:30-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:30-Customer 2 purchased 5 tickets
+2024-12-07 16:05:30-No tickets available. Customer is waiting.
+2024-12-07 16:05:30-3 tickets added. Total tickets: 3
+2024-12-07 16:05:30-Vendor 5 released 3 tickets
+2024-12-07 16:05:30-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:30-3 tickets added. Total tickets: 3
+2024-12-07 16:05:30-Customer 1 purchased 3 tickets
+2024-12-07 16:05:30-Vendor 4 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 6
+2024-12-07 16:05:30-Vendor 3 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 9
+2024-12-07 16:05:30-Vendor 2 released 3 tickets
+2024-12-07 16:05:30-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:30-Customer 3 purchased 5 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 7
+2024-12-07 16:05:30-Vendor 1 released 3 tickets
+2024-12-07 16:05:30-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:30-Customer 2 purchased 5 tickets
+2024-12-07 16:05:30-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:30-Customer 1 purchased 2 tickets
+2024-12-07 16:05:30-No tickets available. Customer is waiting.
+2024-12-07 16:05:30-3 tickets added. Total tickets: 3
+2024-12-07 16:05:30-Vendor 5 released 3 tickets
+2024-12-07 16:05:30-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:30-Customer 3 purchased 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 3
+2024-12-07 16:05:30-Vendor 4 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 6
+2024-12-07 16:05:30-Vendor 3 released 3 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 9
+2024-12-07 16:05:30-Vendor 2 released 3 tickets
+2024-12-07 16:05:30-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:30-Customer 2 purchased 5 tickets
+2024-12-07 16:05:30-3 tickets added. Total tickets: 7
+2024-12-07 16:05:30-Vendor 1 released 3 tickets
+2024-12-07 16:05:31-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:31-Customer 1 purchased 5 tickets
+2024-12-07 16:05:31-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:31-Customer 3 purchased 2 tickets
+2024-12-07 16:05:31-No tickets available. Customer is waiting.
+2024-12-07 16:05:31-3 tickets added. Total tickets: 3
+2024-12-07 16:05:31-Vendor 5 released 3 tickets
+2024-12-07 16:05:31-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:31-Customer 2 purchased 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 3
+2024-12-07 16:05:31-Vendor 4 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 6
+2024-12-07 16:05:31-Vendor 2 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 9
+2024-12-07 16:05:31-Vendor 3 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 12
+2024-12-07 16:05:31-Vendor 1 released 3 tickets
+2024-12-07 16:05:31-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:31-Customer 1 purchased 5 tickets
+2024-12-07 16:05:31-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:31-Customer 3 purchased 5 tickets
+2024-12-07 16:05:31-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:31-Customer 2 purchased 2 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 3
+2024-12-07 16:05:31-Vendor 3 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 6
+2024-12-07 16:05:31-Vendor 2 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 9
+2024-12-07 16:05:31-Vendor 5 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 12
+2024-12-07 16:05:31-Vendor 4 released 3 tickets
+2024-12-07 16:05:31-3 tickets added. Total tickets: 15
+2024-12-07 16:05:31-Vendor 1 released 3 tickets
+2024-12-07 16:05:31-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:31-Customer 1 purchased 5 tickets
+2024-12-07 16:05:31-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:31-Customer 3 purchased 5 tickets
+2024-12-07 16:05:31-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:31-Customer 2 purchased 5 tickets
+2024-12-07 16:05:32-No tickets available. Customer is waiting.
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 3 released 3 tickets
+2024-12-07 16:05:32-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:32-Customer 1 purchased 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 2 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 6
+2024-12-07 16:05:32-Vendor 5 released 3 tickets
+2024-12-07 16:05:32-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:32-Customer 3 purchased 5 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 4
+2024-12-07 16:05:32-Vendor 4 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 7
+2024-12-07 16:05:32-Vendor 1 released 3 tickets
+2024-12-07 16:05:32-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:32-Customer 2 purchased 5 tickets
+2024-12-07 16:05:32-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:32-No tickets available. Customer is waiting.
+2024-12-07 16:05:32-Customer 1 purchased 2 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 3 released 3 tickets
+2024-12-07 16:05:32-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:32-Customer 3 purchased 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 4 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 6
+2024-12-07 16:05:32-Vendor 5 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 9
+2024-12-07 16:05:32-Vendor 1 released 3 tickets
+2024-12-07 16:05:32-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:32-Customer 2 purchased 5 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 7
+2024-12-07 16:05:32-Vendor 2 released 3 tickets
+2024-12-07 16:05:32-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:32-Customer 1 purchased 5 tickets
+2024-12-07 16:05:32-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:32-Customer 3 purchased 2 tickets
+2024-12-07 16:05:32-No tickets available. Customer is waiting.
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 4 released 3 tickets
+2024-12-07 16:05:32-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:32-Customer 2 purchased 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 3
+2024-12-07 16:05:32-Vendor 3 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 6
+2024-12-07 16:05:32-Vendor 1 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 9
+2024-12-07 16:05:32-Vendor 2 released 3 tickets
+2024-12-07 16:05:32-3 tickets added. Total tickets: 12
+2024-12-07 16:05:32-Vendor 5 released 3 tickets
+2024-12-07 16:05:33-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:33-Customer 1 purchased 5 tickets
+2024-12-07 16:05:33-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:33-Customer 3 purchased 5 tickets
+2024-12-07 16:05:33-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:33-Customer 2 purchased 2 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 3
+2024-12-07 16:05:33-Vendor 4 released 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 6
+2024-12-07 16:05:33-Vendor 3 released 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 9
+2024-12-07 16:05:33-Vendor 5 released 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 12
+2024-12-07 16:05:33-3 tickets added. Total tickets: 15
+2024-12-07 16:05:33-Vendor 1 released 3 tickets
+2024-12-07 16:05:33-Vendor 2 released 3 tickets
+2024-12-07 16:05:33-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:33-Customer 1 purchased 5 tickets
+2024-12-07 16:05:33-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:33-Customer 3 purchased 5 tickets
+2024-12-07 16:05:33-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:33-Customer 2 purchased 5 tickets
+2024-12-07 16:05:33-No tickets available. Customer is waiting.
+2024-12-07 16:05:33-3 tickets added. Total tickets: 3
+2024-12-07 16:05:33-Vendor 4 released 3 tickets
+2024-12-07 16:05:33-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:33-Customer 1 purchased 3 tickets
+2024-12-07 16:05:33-No tickets available. Customer is waiting.
+2024-12-07 16:05:33-3 tickets added. Total tickets: 3
+2024-12-07 16:05:33-Vendor 3 released 3 tickets
+2024-12-07 16:05:33-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:33-Customer 3 purchased 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 3
+2024-12-07 16:05:33-Vendor 1 released 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 6
+2024-12-07 16:05:33-Vendor 2 released 3 tickets
+2024-12-07 16:05:33-3 tickets added. Total tickets: 9
+2024-12-07 16:05:33-Vendor 5 released 3 tickets
+2024-12-07 16:05:33-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:33-Customer 2 purchased 5 tickets
+2024-12-07 16:05:34-4 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:34-Customer 1 purchased 4 tickets
+2024-12-07 16:05:34-No tickets available. Customer is waiting.
+2024-12-07 16:05:34-3 tickets added. Total tickets: 3
+2024-12-07 16:05:34-Vendor 4 released 3 tickets
+2024-12-07 16:05:34-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:34-Customer 3 purchased 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 3
+2024-12-07 16:05:34-Vendor 1 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 6
+2024-12-07 16:05:34-Vendor 3 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 9
+2024-12-07 16:05:34-Vendor 2 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 12
+2024-12-07 16:05:34-Vendor 5 released 3 tickets
+2024-12-07 16:05:34-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:34-Customer 2 purchased 5 tickets
+2024-12-07 16:05:34-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:34-Customer 1 purchased 5 tickets
+2024-12-07 16:05:34-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:34-Customer 3 purchased 2 tickets
+2024-12-07 16:05:34-No tickets available. Customer is waiting.
+2024-12-07 16:05:34-3 tickets added. Total tickets: 3
+2024-12-07 16:05:34-Vendor 1 released 3 tickets
+2024-12-07 16:05:34-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:34-Customer 2 purchased 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 3
+2024-12-07 16:05:34-Vendor 4 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 6
+2024-12-07 16:05:34-Vendor 5 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 9
+2024-12-07 16:05:34-Vendor 3 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 12
+2024-12-07 16:05:34-Vendor 2 released 3 tickets
+2024-12-07 16:05:34-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:34-Customer 1 purchased 5 tickets
+2024-12-07 16:05:34-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:34-Customer 3 purchased 5 tickets
+2024-12-07 16:05:34-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:34-Customer 2 purchased 2 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 3
+2024-12-07 16:05:34-Vendor 5 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 6
+2024-12-07 16:05:34-Vendor 4 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 9
+2024-12-07 16:05:34-Vendor 1 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 12
+2024-12-07 16:05:34-Vendor 3 released 3 tickets
+2024-12-07 16:05:34-3 tickets added. Total tickets: 15
+2024-12-07 16:05:34-Vendor 2 released 3 tickets
+2024-12-07 16:05:34-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:34-Customer 1 purchased 5 tickets
+2024-12-07 16:05:35-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:35-Customer 3 purchased 5 tickets
+2024-12-07 16:05:35-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:35-Customer 2 purchased 5 tickets
+2024-12-07 16:05:35-No tickets available. Customer is waiting.
+2024-12-07 16:05:35-3 tickets added. Total tickets: 3
+2024-12-07 16:05:35-Vendor 4 released 3 tickets
+2024-12-07 16:05:35-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:35-Customer 1 purchased 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 3
+2024-12-07 16:05:35-Vendor 5 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 6
+2024-12-07 16:05:35-Vendor 1 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 9
+2024-12-07 16:05:35-Vendor 3 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 12
+2024-12-07 16:05:35-Vendor 2 released 3 tickets
+2024-12-07 16:05:35-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:35-Customer 3 purchased 5 tickets
+2024-12-07 16:05:35-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:35-Customer 2 purchased 5 tickets
+2024-12-07 16:05:35-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:35-Customer 1 purchased 2 tickets
+2024-12-07 16:05:35-No tickets available. Customer is waiting.
+2024-12-07 16:05:35-3 tickets added. Total tickets: 3
+2024-12-07 16:05:35-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:35-Vendor 1 released 3 tickets
+2024-12-07 16:05:35-Customer 3 purchased 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 3
+2024-12-07 16:05:35-Vendor 4 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 6
+2024-12-07 16:05:35-Vendor 5 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 9
+2024-12-07 16:05:35-Vendor 3 released 3 tickets
+2024-12-07 16:05:35-3 tickets added. Total tickets: 12
+2024-12-07 16:05:35-Vendor 2 released 3 tickets
+2024-12-07 16:05:35-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:35-Customer 2 purchased 5 tickets
+2024-12-07 16:05:35-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:35-Customer 1 purchased 5 tickets
+2024-12-07 16:05:36-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:36-Customer 3 purchased 2 tickets
+2024-12-07 16:05:36-No tickets available. Customer is waiting.
+2024-12-07 16:05:36-3 tickets added. Total tickets: 3
+2024-12-07 16:05:36-Vendor 5 released 3 tickets
+2024-12-07 16:05:36-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:36-Customer 2 purchased 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 3
+2024-12-07 16:05:36-Vendor 3 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 6
+2024-12-07 16:05:36-Vendor 1 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 9
+2024-12-07 16:05:36-Vendor 4 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 12
+2024-12-07 16:05:36-Vendor 2 released 3 tickets
+2024-12-07 16:05:36-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:36-Customer 1 purchased 5 tickets
+2024-12-07 16:05:36-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:36-Customer 3 purchased 5 tickets
+2024-12-07 16:05:36-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:36-Customer 2 purchased 2 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 3
+2024-12-07 16:05:36-Vendor 1 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 6
+2024-12-07 16:05:36-Vendor 5 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 9
+2024-12-07 16:05:36-Vendor 3 released 3 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 12
+2024-12-07 16:05:36-Vendor 4 released 3 tickets
+2024-12-07 16:05:36-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:36-Customer 1 purchased 5 tickets
+2024-12-07 16:05:36-3 tickets added. Total tickets: 10
+2024-12-07 16:05:36-Vendor 2 released 3 tickets
+2024-12-07 16:05:36-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:36-Customer 3 purchased 5 tickets
+2024-12-07 16:05:36-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:36-Customer 2 purchased 5 tickets
+2024-12-07 16:05:36-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 1 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 6
+2024-12-07 16:05:37-Vendor 3 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 9
+2024-12-07 16:05:37-Vendor 2 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 12
+2024-12-07 16:05:37-Vendor 5 released 3 tickets
+2024-12-07 16:05:37-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:37-Customer 1 purchased 5 tickets
+2024-12-07 16:05:37-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:37-Customer 3 purchased 5 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 5
+2024-12-07 16:05:37-Vendor 4 released 3 tickets
+2024-12-07 16:05:37-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:37-Customer 2 purchased 5 tickets
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 3 released 3 tickets
+2024-12-07 16:05:37-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:37-Customer 1 purchased 3 tickets
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 5 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 6
+2024-12-07 16:05:37-Vendor 4 released 3 tickets
+2024-12-07 16:05:37-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 4
+2024-12-07 16:05:37-Customer 3 purchased 5 tickets
+2024-12-07 16:05:37-Vendor 1 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 7
+2024-12-07 16:05:37-Vendor 2 released 3 tickets
+2024-12-07 16:05:37-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:37-Customer 2 purchased 5 tickets
+2024-12-07 16:05:37-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:37-Customer 1 purchased 2 tickets
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 5 released 3 tickets
+2024-12-07 16:05:37-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:37-Customer 3 purchased 3 tickets
+2024-12-07 16:05:37-No tickets available. Customer is waiting.
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 3 released 3 tickets
+2024-12-07 16:05:37-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:37-Customer 2 purchased 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 3
+2024-12-07 16:05:37-Vendor 4 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 6
+2024-12-07 16:05:37-Vendor 2 released 3 tickets
+2024-12-07 16:05:37-3 tickets added. Total tickets: 9
+2024-12-07 16:05:37-Vendor 1 released 3 tickets
+2024-12-07 16:05:38-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:38-Customer 1 purchased 5 tickets
+2024-12-07 16:05:38-4 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:38-Customer 3 purchased 4 tickets
+2024-12-07 16:05:38-No tickets available. Customer is waiting.
+2024-12-07 16:05:38-3 tickets added. Total tickets: 3
+2024-12-07 16:05:38-Vendor 2 released 3 tickets
+2024-12-07 16:05:38-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:38-Customer 2 purchased 3 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 3
+2024-12-07 16:05:38-3 tickets added. Total tickets: 6
+2024-12-07 16:05:38-Vendor 1 released 3 tickets
+2024-12-07 16:05:38-Vendor 5 released 3 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 9
+2024-12-07 16:05:38-Vendor 3 released 3 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 12
+2024-12-07 16:05:38-Vendor 4 released 3 tickets
+2024-12-07 16:05:38-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:38-Customer 1 purchased 5 tickets
+2024-12-07 16:05:38-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:38-Customer 3 purchased 5 tickets
+2024-12-07 16:05:38-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:38-Customer 2 purchased 2 tickets
+2024-12-07 16:05:38-No tickets available. Customer is waiting.
+2024-12-07 16:05:38-3 tickets added. Total tickets: 3
+2024-12-07 16:05:38-Vendor 1 released 3 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 6
+2024-12-07 16:05:38-3 tickets added. Total tickets: 9
+2024-12-07 16:05:38-Vendor 2 released 3 tickets
+2024-12-07 16:05:38-Vendor 5 released 3 tickets
+2024-12-07 16:05:38-5 tickets removed. 4 tickets remaining.
+2024-12-07 16:05:38-Customer 1 purchased 5 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 7
+2024-12-07 16:05:38-Vendor 3 released 3 tickets
+2024-12-07 16:05:38-3 tickets added. Total tickets: 10
+2024-12-07 16:05:38-Vendor 4 released 3 tickets
+2024-12-07 16:05:38-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:38-Customer 3 purchased 5 tickets
+2024-12-07 16:05:38-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:38-Customer 2 purchased 5 tickets
+2024-12-07 16:05:38-No tickets available. Customer is waiting.
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 1 released 3 tickets
+2024-12-07 16:05:39-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:39-Customer 1 purchased 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 5 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 6
+2024-12-07 16:05:39-Vendor 2 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 9
+2024-12-07 16:05:39-Vendor 4 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 12
+2024-12-07 16:05:39-Vendor 3 released 3 tickets
+2024-12-07 16:05:39-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:39-Customer 3 purchased 5 tickets
+2024-12-07 16:05:39-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:39-Customer 2 purchased 5 tickets
+2024-12-07 16:05:39-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:39-Customer 1 purchased 2 tickets
+2024-12-07 16:05:39-No tickets available. Customer is waiting.
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 1 released 3 tickets
+2024-12-07 16:05:39-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:39-Customer 3 purchased 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 2 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 6
+2024-12-07 16:05:39-Vendor 5 released 3 tickets
+2024-12-07 16:05:39-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:39-Customer 2 purchased 5 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 4
+2024-12-07 16:05:39-Vendor 4 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 7
+2024-12-07 16:05:39-Vendor 3 released 3 tickets
+2024-12-07 16:05:39-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:39-Customer 1 purchased 5 tickets
+2024-12-07 16:05:39-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:39-Customer 3 purchased 2 tickets
+2024-12-07 16:05:39-No tickets available. Customer is waiting.
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 1 released 3 tickets
+2024-12-07 16:05:39-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:39-Customer 2 purchased 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 3
+2024-12-07 16:05:39-Vendor 2 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 6
+2024-12-07 16:05:39-Vendor 5 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 9
+2024-12-07 16:05:39-Vendor 3 released 3 tickets
+2024-12-07 16:05:39-3 tickets added. Total tickets: 12
+2024-12-07 16:05:39-Vendor 4 released 3 tickets
+2024-12-07 16:05:39-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:39-Customer 1 purchased 5 tickets
+2024-12-07 16:05:40-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:40-Customer 3 purchased 5 tickets
+2024-12-07 16:05:40-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:40-Customer 2 purchased 2 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 3
+2024-12-07 16:05:40-Vendor 1 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 6
+2024-12-07 16:05:40-Vendor 2 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 9
+2024-12-07 16:05:40-Vendor 3 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 12
+2024-12-07 16:05:40-Vendor 5 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 15
+2024-12-07 16:05:40-Vendor 4 released 3 tickets
+2024-12-07 16:05:40-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:40-Customer 1 purchased 5 tickets
+2024-12-07 16:05:40-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:40-Customer 3 purchased 5 tickets
+2024-12-07 16:05:40-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:40-Customer 2 purchased 5 tickets
+2024-12-07 16:05:40-No tickets available. Customer is waiting.
+2024-12-07 16:05:40-3 tickets added. Total tickets: 3
+2024-12-07 16:05:40-Vendor 1 released 3 tickets
+2024-12-07 16:05:40-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:40-Customer 1 purchased 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 3
+2024-12-07 16:05:40-Vendor 3 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 6
+2024-12-07 16:05:40-Vendor 2 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 9
+2024-12-07 16:05:40-Vendor 4 released 3 tickets
+2024-12-07 16:05:40-3 tickets added. Total tickets: 12
+2024-12-07 16:05:40-Vendor 5 released 3 tickets
+2024-12-07 16:05:40-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:40-Customer 3 purchased 5 tickets
+2024-12-07 16:05:40-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:40-Customer 2 purchased 5 tickets
+2024-12-07 16:05:40-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:40-Customer 1 purchased 2 tickets
+2024-12-07 16:05:40-No tickets available. Customer is waiting.
+2024-12-07 16:05:41-3 tickets added. Total tickets: 3
+2024-12-07 16:05:41-Vendor 1 released 3 tickets
+2024-12-07 16:05:41-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:41-Customer 3 purchased 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 3
+2024-12-07 16:05:41-Vendor 2 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 6
+2024-12-07 16:05:41-Vendor 5 released 3 tickets
+2024-12-07 16:05:41-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:41-Customer 2 purchased 5 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 4
+2024-12-07 16:05:41-Vendor 4 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 7
+2024-12-07 16:05:41-Vendor 3 released 3 tickets
+2024-12-07 16:05:41-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:41-Customer 1 purchased 5 tickets
+2024-12-07 16:05:41-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:41-Customer 3 purchased 2 tickets
+2024-12-07 16:05:41-No tickets available. Customer is waiting.
+2024-12-07 16:05:41-3 tickets added. Total tickets: 3
+2024-12-07 16:05:41-Vendor 2 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 6
+2024-12-07 16:05:41-Vendor 5 released 3 tickets
+2024-12-07 16:05:41-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:41-Customer 2 purchased 5 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 4
+2024-12-07 16:05:41-Vendor 1 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 7
+2024-12-07 16:05:41-Vendor 4 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 10
+2024-12-07 16:05:41-Vendor 3 released 3 tickets
+2024-12-07 16:05:41-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:41-Customer 1 purchased 5 tickets
+2024-12-07 16:05:41-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:41-Customer 3 purchased 5 tickets
+2024-12-07 16:05:41-No tickets available. Customer is waiting.
+2024-12-07 16:05:41-No tickets available. Customer is waiting.
+2024-12-07 16:05:41-3 tickets added. Total tickets: 3
+2024-12-07 16:05:41-Vendor 2 released 3 tickets
+2024-12-07 16:05:41-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:41-Customer 2 purchased 3 tickets
+2024-12-07 16:05:41-No tickets available. Customer is waiting.
+2024-12-07 16:05:41-3 tickets added. Total tickets: 3
+2024-12-07 16:05:41-Vendor 4 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 6
+2024-12-07 16:05:41-Vendor 5 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 9
+2024-12-07 16:05:41-Vendor 1 released 3 tickets
+2024-12-07 16:05:41-3 tickets added. Total tickets: 12
+2024-12-07 16:05:41-Vendor 3 released 3 tickets
+2024-12-07 16:05:41-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:41-Customer 1 purchased 5 tickets
+2024-12-07 16:05:41-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:41-Customer 3 purchased 5 tickets
+2024-12-07 16:05:42-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:42-Customer 2 purchased 2 tickets
+2024-12-07 16:05:42-No tickets available. Customer is waiting.
+2024-12-07 16:05:42-3 tickets added. Total tickets: 3
+2024-12-07 16:05:42-Vendor 5 released 3 tickets
+2024-12-07 16:05:42-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:42-Customer 1 purchased 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 3
+2024-12-07 16:05:42-Vendor 2 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 6
+2024-12-07 16:05:42-Vendor 1 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 9
+2024-12-07 16:05:42-Vendor 3 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 12
+2024-12-07 16:05:42-Vendor 4 released 3 tickets
+2024-12-07 16:05:42-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:42-Customer 3 purchased 5 tickets
+2024-12-07 16:05:42-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:42-Customer 2 purchased 5 tickets
+2024-12-07 16:05:42-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:42-Customer 1 purchased 2 tickets
+2024-12-07 16:05:42-No tickets available. Customer is waiting.
+2024-12-07 16:05:42-3 tickets added. Total tickets: 3
+2024-12-07 16:05:42-Vendor 5 released 3 tickets
+2024-12-07 16:05:42-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:42-Customer 3 purchased 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 3
+2024-12-07 16:05:42-Vendor 2 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 6
+2024-12-07 16:05:42-Vendor 3 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 9
+2024-12-07 16:05:42-Vendor 1 released 3 tickets
+2024-12-07 16:05:42-3 tickets added. Total tickets: 12
+2024-12-07 16:05:42-Vendor 4 released 3 tickets
+2024-12-07 16:05:42-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:42-Customer 2 purchased 5 tickets
+2024-12-07 16:05:42-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:42-Customer 1 purchased 5 tickets
+2024-12-07 16:05:42-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:42-Customer 3 purchased 2 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 3
+2024-12-07 16:05:43-Vendor 5 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 6
+2024-12-07 16:05:43-Vendor 2 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 9
+2024-12-07 16:05:43-Vendor 3 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 12
+2024-12-07 16:05:43-Vendor 1 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 15
+2024-12-07 16:05:43-Vendor 4 released 3 tickets
+2024-12-07 16:05:43-5 tickets removed. 10 tickets remaining.
+2024-12-07 16:05:43-Customer 2 purchased 5 tickets
+2024-12-07 16:05:43-5 tickets removed. 5 tickets remaining.
+2024-12-07 16:05:43-Customer 1 purchased 5 tickets
+2024-12-07 16:05:43-5 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:43-Customer 3 purchased 5 tickets
+2024-12-07 16:05:43-No tickets available. Customer is waiting.
+2024-12-07 16:05:43-3 tickets added. Total tickets: 3
+2024-12-07 16:05:43-Vendor 5 released 3 tickets
+2024-12-07 16:05:43-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:43-3 tickets added. Total tickets: 3
+2024-12-07 16:05:43-Customer 2 purchased 3 tickets
+2024-12-07 16:05:43-Vendor 3 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 6
+2024-12-07 16:05:43-Vendor 2 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 9
+2024-12-07 16:05:43-Vendor 1 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 12
+2024-12-07 16:05:43-Vendor 4 released 3 tickets
+2024-12-07 16:05:43-5 tickets removed. 7 tickets remaining.
+2024-12-07 16:05:43-Customer 1 purchased 5 tickets
+2024-12-07 16:05:43-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:43-Customer 3 purchased 5 tickets
+2024-12-07 16:05:43-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:43-Customer 2 purchased 2 tickets
+2024-12-07 16:05:43-No tickets available. Customer is waiting.
+2024-12-07 16:05:43-3 tickets added. Total tickets: 3
+2024-12-07 16:05:43-Vendor 2 released 3 tickets
+2024-12-07 16:05:43-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:43-3 tickets added. Total tickets: 3
+2024-12-07 16:05:43-Customer 1 purchased 3 tickets
+2024-12-07 16:05:43-Vendor 5 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 6
+2024-12-07 16:05:43-Vendor 3 released 3 tickets
+2024-12-07 16:05:43-5 tickets removed. 1 tickets remaining.
+2024-12-07 16:05:43-Customer 3 purchased 5 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 4
+2024-12-07 16:05:43-Vendor 1 released 3 tickets
+2024-12-07 16:05:43-3 tickets added. Total tickets: 7
+2024-12-07 16:05:43-Vendor 4 released 3 tickets
+2024-12-07 16:05:44-5 tickets removed. 2 tickets remaining.
+2024-12-07 16:05:44-Customer 2 purchased 5 tickets
+2024-12-07 16:05:44-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:05:44-Customer 1 purchased 2 tickets
+2024-12-07 16:05:44-No tickets available. Customer is waiting.
+2024-12-07 16:07:06-5 tickets added. Total tickets: 5
+2024-12-07 16:07:06-5 tickets added. Total tickets: 10
+2024-12-07 16:07:06-Vendor 1 released 5 tickets
+2024-12-07 16:07:06-Vendor 2 released 5 tickets
+2024-12-07 16:07:06-5 tickets added. Total tickets: 15
+2024-12-07 16:07:06-Vendor 3 released 5 tickets
+2024-12-07 16:07:06-5 tickets added. Total tickets: 20
+2024-12-07 16:07:06-Vendor 4 released 5 tickets
+2024-12-07 16:07:06-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:06-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:06-3 tickets removed. 14 tickets remaining.
+2024-12-07 16:07:06-Customer 1 purchased 3 tickets
+2024-12-07 16:07:06-Customer 2 purchased 3 tickets
+2024-12-07 16:07:06-3 tickets removed. 11 tickets remaining.
+2024-12-07 16:07:06-Customer 3 purchased 3 tickets
+2024-12-07 16:07:06-5 tickets added. Total tickets: 16
+2024-12-07 16:07:06-Vendor 5 released 5 tickets
+2024-12-07 16:07:07-3 tickets removed. 13 tickets remaining.
+2024-12-07 16:07:07-Customer 3 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets removed. 10 tickets remaining.
+2024-12-07 16:07:07-Customer 1 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets removed. 7 tickets remaining.
+2024-12-07 16:07:07-Customer 2 purchased 3 tickets
+2024-12-07 16:07:07-5 tickets added. Total tickets: 12
+2024-12-07 16:07:07-Vendor 4 released 5 tickets
+2024-12-07 16:07:07-5 tickets added. Total tickets: 17
+2024-12-07 16:07:07-Vendor 2 released 5 tickets
+2024-12-07 16:07:07-3 tickets added. Total tickets: 20
+2024-12-07 16:07:07-Vendor 1 released 5 tickets
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:07-Customer 3 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets added. Total tickets: 20
+2024-12-07 16:07:07-Vendor 3 released 5 tickets
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:07-Customer 1 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets added. Total tickets: 20
+2024-12-07 16:07:07-Vendor 5 released 5 tickets
+2024-12-07 16:07:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:07-Customer 2 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets added. Total tickets: 20
+2024-12-07 16:07:07-Vendor 1 released 5 tickets
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:07-Customer 1 purchased 3 tickets
+2024-12-07 16:07:07-3 tickets added. Total tickets: 20
+2024-12-07 16:07:07-Vendor 4 released 5 tickets
+2024-12-07 16:07:07-Ticketpool is full. Vendor is waiting.
+2024-12-07 16:07:07-3 tickets removed. 17 tickets remaining.
+2024-12-07 16:07:07-Customer 3 purchased 3 tickets
+2024-12-07 16:07:07-All tickets have been sold. Vendor is stopping.
+2024-12-07 16:07:07-Vendor 2 released 5 tickets
+2024-12-07 16:07:07-3 tickets removed. 14 tickets remaining.
+2024-12-07 16:07:07-Customer 2 purchased 3 tickets
+2024-12-07 16:07:07-Vendor 5: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:07-Vendor 3: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:08-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:08-3 tickets removed. 11 tickets remaining.
+2024-12-07 16:07:08-Customer 2 purchased 3 tickets
+2024-12-07 16:07:08-3 tickets removed. 8 tickets remaining.
+2024-12-07 16:07:08-3 tickets removed. 5 tickets remaining.
+2024-12-07 16:07:08-Customer 1 purchased 3 tickets
+2024-12-07 16:07:08-Customer 3 purchased 3 tickets
+2024-12-07 16:07:08-Vendor 4: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:08-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:08-3 tickets removed. 2 tickets remaining.
+2024-12-07 16:07:08-Customer 2 purchased 3 tickets
+2024-12-07 16:07:08-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:08-Customer 1 purchased 2 tickets
+2024-12-07 16:07:08-Customer 3: No tickets available to purchase.
+2024-12-07 16:07:08-Customer 1: No tickets available to purchase.
+2024-12-07 16:07:08-Customer 2: No tickets available to purchase.
+2024-12-07 16:07:41-1 tickets added. Total tickets: 1
+2024-12-07 16:07:41-Vendor 1 released 1 tickets
+2024-12-07 16:07:41-1 tickets added. Total tickets: 2
+2024-12-07 16:07:41-Vendor 2 released 1 tickets
+2024-12-07 16:07:41-1 tickets added. Total tickets: 3
+2024-12-07 16:07:41-Vendor 3 released 1 tickets
+2024-12-07 16:07:41-3 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:41-Customer 1 purchased 3 tickets
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-1 tickets added. Total tickets: 1
+2024-12-07 16:07:41-Vendor 3 released 1 tickets
+2024-12-07 16:07:41-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:41-Customer 2 purchased 1 tickets
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-1 tickets added. Total tickets: 1
+2024-12-07 16:07:41-Vendor 1 released 1 tickets
+2024-12-07 16:07:41-1 tickets added. Total tickets: 2
+2024-12-07 16:07:41-Vendor 2 released 1 tickets
+2024-12-07 16:07:41-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:41-Customer 3 purchased 2 tickets
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:41-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-1 tickets added. Total tickets: 1
+2024-12-07 16:07:42-Vendor 3 released 1 tickets
+2024-12-07 16:07:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:42-Customer 4 purchased 1 tickets
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-1 tickets added. Total tickets: 1
+2024-12-07 16:07:42-Vendor 2 released 1 tickets
+2024-12-07 16:07:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:42-Customer 5 purchased 1 tickets
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-1 tickets added. Total tickets: 1
+2024-12-07 16:07:42-Vendor 1 released 1 tickets
+2024-12-07 16:07:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:42-Customer 1 purchased 1 tickets
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-1 tickets added. Total tickets: 1
+2024-12-07 16:07:42-Vendor 3 released 1 tickets
+2024-12-07 16:07:42-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:42-Customer 2 purchased 1 tickets
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-1 tickets added. Total tickets: 1
+2024-12-07 16:07:42-Vendor 2 released 1 tickets
+2024-12-07 16:07:42-1 tickets added. Total tickets: 2
+2024-12-07 16:07:42-Vendor 1 released 1 tickets
+2024-12-07 16:07:42-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:42-Customer 3 purchased 2 tickets
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:42-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-1 tickets added. Total tickets: 1
+2024-12-07 16:07:43-Vendor 3 released 1 tickets
+2024-12-07 16:07:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-Customer 4 purchased 1 tickets
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-1 tickets added. Total tickets: 1
+2024-12-07 16:07:43-Vendor 2 released 1 tickets
+2024-12-07 16:07:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:43-Customer 5 purchased 1 tickets
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-1 tickets added. Total tickets: 1
+2024-12-07 16:07:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:43-Vendor 1 released 1 tickets
+2024-12-07 16:07:43-Customer 1 purchased 1 tickets
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-1 tickets added. Total tickets: 1
+2024-12-07 16:07:43-Vendor 3 released 1 tickets
+2024-12-07 16:07:43-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-Customer 2 purchased 1 tickets
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-1 tickets added. Total tickets: 1
+2024-12-07 16:07:43-Vendor 1 released 1 tickets
+2024-12-07 16:07:43-1 tickets added. Total tickets: 2
+2024-12-07 16:07:43-Vendor 2 released 1 tickets
+2024-12-07 16:07:43-2 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:43-Customer 3 purchased 2 tickets
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:43-No tickets available. Customer is waiting.
+2024-12-07 16:07:44-1 tickets added. Total tickets: 1
+2024-12-07 16:07:44-Vendor 3 released 1 tickets
+2024-12-07 16:07:44-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:44-Customer 5 purchased 1 tickets
+2024-12-07 16:07:44-No tickets available. Customer is waiting.
+2024-12-07 16:07:44-No tickets available. Customer is waiting.
+2024-12-07 16:07:44-No tickets available. Customer is waiting.
+2024-12-07 16:07:44-No tickets available. Customer is waiting.
+2024-12-07 16:07:44-1 tickets added. Total tickets: 1
+2024-12-07 16:07:44-Vendor 2 released 1 tickets
+2024-12-07 16:07:44-All tickets have been sold. Vendor is stopping.
+2024-12-07 16:07:44-Vendor 1 released 1 tickets
+2024-12-07 16:07:44-1 tickets removed. 0 tickets remaining.
+2024-12-07 16:07:44-Customer 5 purchased 1 tickets
+2024-12-07 16:07:44-Customer 1: No tickets available to purchase.
+2024-12-07 16:07:44-Customer 2: No tickets available to purchase.
+2024-12-07 16:07:44-Customer 4: No tickets available to purchase.
+2024-12-07 16:07:44-Customer 3: No tickets available to purchase.
+2024-12-07 16:07:44-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:44-Vendor 3: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:44-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-07 16:07:44-Customer 5: No tickets available to purchase.
