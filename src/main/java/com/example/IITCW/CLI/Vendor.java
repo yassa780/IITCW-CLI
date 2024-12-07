@@ -19,7 +19,7 @@ public class Vendor implements Runnable {
         try {
             while (true) {
                 if (ticketPool.isSellingComplete()) {
-                    Logger.info("Vendor " + vendorId + ": Selling is complete. Stopping.");
+                    Logger.info("Vendor " + vendorId + ": All tickets sold. Stopping ticket Release.");
                     break; // Exit loop when selling is complete
                 }
 
@@ -28,10 +28,6 @@ public class Vendor implements Runnable {
 
                 Thread.sleep(releaseInterval);//Stimulate ticket release rate
 
-                /*if (ticketPool.getTicketCount() >= ticketPool.getMaxCapacity() || ticketPool.isSellingComplete()) {
-                    Logger.logError("Vendor " + vendorId + ": All tickets have been sold");
-                    break;
-                }*/
             }
         } catch (InterruptedException e) {
             Logger.logError("Vendor " + vendorId + " interrupted.");

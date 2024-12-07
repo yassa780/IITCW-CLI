@@ -18,7 +18,7 @@ public class Customer implements Runnable {
         try {
             while (true) {
                 if (ticketPool.isSellingComplete() && ticketPool.getTicketCount() == 0) {
-                    Logger.info("Customer " + customerId + ": Selling is complete. Stopping.");
+                    Logger.info("Customer " + customerId + ": No tickets available to purchase.");
                     break; // Exit loop when selling is complete
                 }
                 //int ticketsToRequest = (int) (Math.random() * customerRetrievalRate) + 1;//Randmoize ticket request
@@ -26,11 +26,7 @@ public class Customer implements Runnable {
 
                 if (ticketsRemoved > 0) {
                     Logger.info("Customer " + customerId + " purchased " + ticketsRemoved + " tickets");
-                }/*else if (ticketsRemoved == 0 && ticketPool.isSellingComplete()) {
-                    Logger.logError("Customer " + customerId + ": No more tickets are available to purchase.");
-                    break; // Exit the loop gracefully
-                }*/
-
+                }
                 Thread.sleep(retrievalInterval); //Stimulate a delay between actions
             }
         }
