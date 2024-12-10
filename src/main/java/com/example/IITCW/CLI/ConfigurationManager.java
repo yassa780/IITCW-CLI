@@ -15,14 +15,14 @@ public class ConfigurationManager {
     public static final String Green = "\u001B[32m"; //Green text for success messages
 
     //File paths for saving serializations and JSON configurations
-    private static final String SERIALIZED_FILE = "config.ser";/*Defines the filenames used for saving the configuration*/
+    private static final String SERIALIZED_FILE = "config.ser";//Defines the filenames used for saving the configuration*/
     private static final String JSON_FILE = "config.json"; //JSON configuation file
 
     /**
      * Saves the configuration object using JAVA Serialization
      * @param config The configuration object to save
      */
-    public static void saveSerialized(Configuration config){
+    public void saveSerialized(Configuration config){
         String path = "src/main/resources/" + SERIALIZED_FILE;
         try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(path)))//Used to serialize the object and save it to a file
         {

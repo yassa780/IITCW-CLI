@@ -78,7 +78,7 @@ public class Configuration implements Serializable {
      */
     public static Configuration configureSystem(Scanner input, ConfigurationManager configurationManager ){
 
-        int maximunTicketCapacity; //Variable to store the maximum ticket pool capacity
+        int maximumTicketCapacity; //Variable to store the maximum ticket pool capacity
 
         //prompt the user for total tickets sold
         System.out.print("Enter the total no. of tickets to be sold: ");
@@ -94,11 +94,11 @@ public class Configuration implements Serializable {
 
         while (true){
             System.out.print("Enter the maximum ticket Capacity of the Ticket Pool: ");
-            maximunTicketCapacity = CLIApplication.inputValidation(input);
+            maximumTicketCapacity = CLIApplication.inputValidation(input);
 
             //Validation to ensure maxTicketCapacity >= total Tickets to be sold
 
-            if (maximunTicketCapacity > totalTickets) {
+            if (maximumTicketCapacity > totalTickets) {
                 ConfigurationManager.errorMessage("Total number of tickets to be sold should be greater than the maximum ticket capacity");
                 continue;
             }
@@ -112,11 +112,12 @@ public class Configuration implements Serializable {
         System.out.println("Total tickets to be sold: " + totalTickets);
         System.out.println("Ticket release rate: " + ticketReleaseRate);
         System.out.println("Customer retrieval rate: " + customerRetrievalRate);
-        System.out.println("Maximum ticket capacity of the Ticket Pool: " + maximunTicketCapacity);
+        System.out.println("Maximum ticket capacity of the Ticket Pool: " + maximumTicketCapacity);
 
         //Create and save the configuration
-        Configuration config = new Configuration(totalTickets,ticketReleaseRate,customerRetrievalRate,maximunTicketCapacity);
+        Configuration config = new Configuration(totalTickets,ticketReleaseRate,customerRetrievalRate,maximumTicketCapacity);
         configurationManager.writeJson(config);
+        configurationManager.saveSerialized(config);
 
         return config; //Return the created Configuration object
     }

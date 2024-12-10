@@ -38,8 +38,5 @@ public class Logger {
         log(message);
     }
 
-    //Log debug messages
-    public static void debug(String message){
-        log(message);
-    }
+
 }

@@ -45,7 +45,7 @@ public class Customer implements Runnable {
         }
         catch (InterruptedException e) {
             Logger.logError("Customer " + customerId + " interrupted."); //Handles the thread exception
-            Thread.currentThread().interrupt(); //Reset the thread's interrupt flag
+            Thread.currentThread().interrupt(); //Reset the thread's interrupt flagr
         }
     }
 }
