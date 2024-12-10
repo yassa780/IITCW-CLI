@@ -5,19 +5,21 @@ import java.util.Scanner;
 
 import static com.example.IITCW.CLI.Configuration.configureSystem;
 
-
+/**
+ * This serves as the entry point for the Ticketing System
+ * It allows users to configure the system, start the program and manage vendor and customer threads
+ */
 public class CLIApplication  {
 
-
-
+    //ANSI colour code for yellow text (used for the console output)
     public static final String YELLOW = "\u001B[33m";
 
     public static void main(String[] args) {//This is the main thread
         Scanner input = new Scanner(System.in);
         ConfigurationManager configurationManager = new ConfigurationManager();
-        Configuration config = null;
+        Configuration config = null; //Holds the current system configuration
 
-
+        //Displays the applicat
         System.out.println( YELLOW +
                 "\n" +
                 " _____                _   _      \n" +
@@ -28,7 +30,7 @@ public class CLIApplication  {
                 "\\____/ \\_/ \\___|_| |_|\\__|_/_/\\_\\\n" +
                 "                                 \n" +
                 "                                 \n" + ConfigurationManager.RESET);
-
+        //Main loop to handle the user input and actions
         while(true){
             System.out.println("Please select an option: ");
             System.out.println("** start-program**");
@@ -45,7 +47,7 @@ public class CLIApplication  {
                         ConfigurationManager.errorMessage("Please configure the system first");
                     }
                     else{
-                        startProgram(config,input); //Pass the configuration and Scanner
+                        startProgram(config,input); //Start the program using the configured settings
                     }
                     break;
                 case "configure":
@@ -53,10 +55,10 @@ public class CLIApplication  {
                     config = configureSystem(input, configurationManager);
                     break;
                 case "end-program":
-                    System.exit(0);
+                    System.exit(0); //Exits the program
                     break;
                 case "help":
-                    displayHelp();
+                    displayHelp(); //Display help information
                     break;
 
                 default:
@@ -65,7 +67,13 @@ public class CLIApplication  {
         }
     }
 
-    //Collect and validate inputs
+    /**
+     * Validates user input to ensure its a positive integer
+     *
+     * @param input the Scanner object to read the user input
+     * @return A valid positive integer entered by the user
+     */
+
     public static int inputValidation(Scanner input){
         int number;
         while(true){
@@ -79,11 +87,16 @@ public class CLIApplication  {
                 }
             } catch (Exception e) {
                 ConfigurationManager.errorMessage("Invalid input. Please enter a valid integer: ");
-                input.next();
+                input.next(); //Clear the invalid inpuy
             }
         }
     }
 
+    /**
+     * Starts the program by creating and managing vendor and customer threads
+     *
+     * @param config The Configuration object containing the system parameters.
+     * @param input the Scanner object to read user input*/
 
     public static void startProgram(Configuration config, Scanner input){
         int maxCapacity = config.getMaxTicketCapacity();
@@ -116,7 +129,9 @@ public class CLIApplication  {
             System.out.println("Customer " + i + " started.");
         }
 
-        //Join the threads to ensure they complete execution
+        /**
+         * Join the threads to ensure they complete execution
+         */
         // Wait for vendor threads to complete
         try {
             for (Thread vendorThread : vendorThreads) {
@@ -126,12 +141,6 @@ public class CLIApplication  {
             System.out.println("Main thread interrupted while waiting for vendor threads to complete.");
             Thread.currentThread().interrupt();
         }
-
-        // Signal that ticket selling is complete
-       /* synchronized (ticketPool) {
-            ticketPool.setSellingComplete(true);
-            //ticketPool.notifyAll(); // Notify waiting customer threads
-        }*/
 
         // Wait for customer threads to complete
         try {
@@ -143,8 +152,11 @@ public class CLIApplication  {
             Thread.currentThread().interrupt();
         }
 
+        //Signals that all the threads have completed
         System.out.println("All vendor and customer threads have completed.");
     }
+    /**
+     * Displays the help information to guide the user */
     public static void displayHelp() {
         System.out.println("Help Information:");
         System.out.println(" Start Program - Start the ticketing system.");

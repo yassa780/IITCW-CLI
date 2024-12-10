@@ -28021,3 +28021,1315 @@
 2024-12-07 16:07:44-Vendor 3: All tickets sold. Stopping ticket Release.
 2024-12-07 16:07:44-Vendor 2: All tickets sold. Stopping ticket Release.
 2024-12-07 16:07:44-Customer 5: No tickets available to purchase.
+2024-12-10 07:51:22-5 tickets added. Total tickets: 5
+2024-12-10 07:51:22-Vendor 1 released 5 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 10
+2024-12-10 07:51:22-Vendor 2 released 5 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 15
+2024-12-10 07:51:22-Vendor 3 released 5 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 20
+2024-12-10 07:51:22-Vendor 4 released 5 tickets
+2024-12-10 07:51:22-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:22-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:22-3 tickets removed. 14 tickets remaining.
+2024-12-10 07:51:22-Customer 1 purchased 3 tickets
+2024-12-10 07:51:22-3 tickets removed. 11 tickets remaining.
+2024-12-10 07:51:22-Customer 2 purchased 3 tickets
+2024-12-10 07:51:22-Customer 3 purchased 3 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 16
+2024-12-10 07:51:22-Vendor 5 released 5 tickets
+2024-12-10 07:51:22-3 tickets removed. 13 tickets remaining.
+2024-12-10 07:51:22-Customer 1 purchased 3 tickets
+2024-12-10 07:51:22-3 tickets removed. 10 tickets remaining.
+2024-12-10 07:51:22-Customer 2 purchased 3 tickets
+2024-12-10 07:51:22-3 tickets removed. 7 tickets remaining.
+2024-12-10 07:51:22-Customer 3 purchased 3 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 12
+2024-12-10 07:51:22-Vendor 1 released 5 tickets
+2024-12-10 07:51:22-5 tickets added. Total tickets: 17
+2024-12-10 07:51:22-Vendor 4 released 5 tickets
+2024-12-10 07:51:22-3 tickets added. Total tickets: 20
+2024-12-10 07:51:22-Vendor 2 released 5 tickets
+2024-12-10 07:51:22-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:22-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:23-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:23-Customer 2 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets added. Total tickets: 20
+2024-12-10 07:51:23-Vendor 5 released 5 tickets
+2024-12-10 07:51:23-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:23-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:23-Customer 1 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets added. Total tickets: 20
+2024-12-10 07:51:23-Vendor 3 released 5 tickets
+2024-12-10 07:51:23-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:23-Customer 3 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets added. Total tickets: 20
+2024-12-10 07:51:23-Vendor 1 released 5 tickets
+2024-12-10 07:51:23-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:23-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:23-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:23-Customer 2 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets added. Total tickets: 20
+2024-12-10 07:51:23-Vendor 2 released 5 tickets
+2024-12-10 07:51:23-Ticketpool is full. Vendor is waiting.
+2024-12-10 07:51:23-3 tickets removed. 17 tickets remaining.
+2024-12-10 07:51:23-Customer 3 purchased 3 tickets
+2024-12-10 07:51:23-All tickets have been sold. Vendor is stopping.
+2024-12-10 07:51:23-Vendor 4 released 5 tickets
+2024-12-10 07:51:23-3 tickets removed. 14 tickets remaining.
+2024-12-10 07:51:23-Customer 1 purchased 3 tickets
+2024-12-10 07:51:23-Vendor 5: All tickets sold. Stopping ticket Release.
+2024-12-10 07:51:23-Vendor 3: All tickets sold. Stopping ticket Release.
+2024-12-10 07:51:23-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 07:51:23-3 tickets removed. 11 tickets remaining.
+2024-12-10 07:51:23-Customer 2 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets removed. 8 tickets remaining.
+2024-12-10 07:51:23-Customer 1 purchased 3 tickets
+2024-12-10 07:51:23-3 tickets removed. 5 tickets remaining.
+2024-12-10 07:51:23-Customer 3 purchased 3 tickets
+2024-12-10 07:51:23-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-10 07:51:23-Vendor 4: All tickets sold. Stopping ticket Release.
+2024-12-10 07:51:24-3 tickets removed. 2 tickets remaining.
+2024-12-10 07:51:24-Customer 1 purchased 3 tickets
+2024-12-10 07:51:24-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:51:24-Customer 2 purchased 2 tickets
+2024-12-10 07:51:24-Ticketpool is empty. Customer is stopping
+2024-12-10 07:51:24-Customer 2: No tickets available to purchase.
+2024-12-10 07:51:24-Customer 3: No tickets available to purchase.
+2024-12-10 07:51:24-Customer 1: No tickets available to purchase.
+2024-12-10 07:52:16-1 tickets added. Total tickets: 1
+2024-12-10 07:52:16-Vendor 1 released 1 tickets
+2024-12-10 07:52:16-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:16-Customer 1 purchased 1 tickets
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-1 tickets added. Total tickets: 1
+2024-12-10 07:52:16-Vendor 1 released 1 tickets
+2024-12-10 07:52:16-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:16-Customer 2 purchased 1 tickets
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:16-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-1 tickets added. Total tickets: 1
+2024-12-10 07:52:17-Vendor 1 released 1 tickets
+2024-12-10 07:52:17-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:17-Customer 3 purchased 1 tickets
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-1 tickets added. Total tickets: 1
+2024-12-10 07:52:17-Vendor 1 released 1 tickets
+2024-12-10 07:52:17-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-Customer 4 purchased 1 tickets
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:17-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-1 tickets added. Total tickets: 1
+2024-12-10 07:52:18-Vendor 1 released 1 tickets
+2024-12-10 07:52:18-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:18-Customer 5 purchased 1 tickets
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-1 tickets added. Total tickets: 1
+2024-12-10 07:52:18-Vendor 1 released 1 tickets
+2024-12-10 07:52:18-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:18-Customer 1 purchased 1 tickets
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:18-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-1 tickets added. Total tickets: 1
+2024-12-10 07:52:19-Vendor 1 released 1 tickets
+2024-12-10 07:52:19-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:19-Customer 2 purchased 1 tickets
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-1 tickets added. Total tickets: 1
+2024-12-10 07:52:19-Vendor 1 released 1 tickets
+2024-12-10 07:52:19-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:19-Customer 3 purchased 1 tickets
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-1 tickets added. Total tickets: 1
+2024-12-10 07:52:19-Vendor 1 released 1 tickets
+2024-12-10 07:52:19-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:19-Customer 4 purchased 1 tickets
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:19-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-1 tickets added. Total tickets: 1
+2024-12-10 07:52:20-Vendor 1 released 1 tickets
+2024-12-10 07:52:20-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:20-Customer 5 purchased 1 tickets
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-1 tickets added. Total tickets: 1
+2024-12-10 07:52:20-Vendor 1 released 1 tickets
+2024-12-10 07:52:20-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:20-Customer 1 purchased 1 tickets
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:20-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-1 tickets added. Total tickets: 1
+2024-12-10 07:52:21-Vendor 1 released 1 tickets
+2024-12-10 07:52:21-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:21-Customer 2 purchased 1 tickets
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-1 tickets added. Total tickets: 1
+2024-12-10 07:52:21-Vendor 1 released 1 tickets
+2024-12-10 07:52:21-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:21-Customer 3 purchased 1 tickets
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-1 tickets added. Total tickets: 1
+2024-12-10 07:52:21-Vendor 1 released 1 tickets
+2024-12-10 07:52:21-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-Customer 4 purchased 1 tickets
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:21-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-1 tickets added. Total tickets: 1
+2024-12-10 07:52:22-Vendor 1 released 1 tickets
+2024-12-10 07:52:22-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:22-Customer 5 purchased 1 tickets
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-1 tickets added. Total tickets: 1
+2024-12-10 07:52:22-Vendor 1 released 1 tickets
+2024-12-10 07:52:22-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:22-Customer 1 purchased 1 tickets
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:22-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-1 tickets added. Total tickets: 1
+2024-12-10 07:52:23-Vendor 1 released 1 tickets
+2024-12-10 07:52:23-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:23-Customer 2 purchased 1 tickets
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-1 tickets added. Total tickets: 1
+2024-12-10 07:52:23-Vendor 1 released 1 tickets
+2024-12-10 07:52:23-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:23-Customer 3 purchased 1 tickets
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-1 tickets added. Total tickets: 1
+2024-12-10 07:52:23-Vendor 1 released 1 tickets
+2024-12-10 07:52:23-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:23-Customer 4 purchased 1 tickets
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:23-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-1 tickets added. Total tickets: 1
+2024-12-10 07:52:24-Vendor 1 released 1 tickets
+2024-12-10 07:52:24-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:24-Customer 5 purchased 1 tickets
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-1 tickets added. Total tickets: 1
+2024-12-10 07:52:24-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:24-Customer 1 purchased 1 tickets
+2024-12-10 07:52:24-Vendor 1 released 1 tickets
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:24-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-1 tickets added. Total tickets: 1
+2024-12-10 07:52:25-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:25-Vendor 1 released 1 tickets
+2024-12-10 07:52:25-Customer 2 purchased 1 tickets
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-1 tickets added. Total tickets: 1
+2024-12-10 07:52:25-Vendor 1 released 1 tickets
+2024-12-10 07:52:25-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:25-Customer 3 purchased 1 tickets
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-1 tickets added. Total tickets: 1
+2024-12-10 07:52:25-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:25-Vendor 1 released 1 tickets
+2024-12-10 07:52:25-Customer 4 purchased 1 tickets
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:25-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-1 tickets added. Total tickets: 1
+2024-12-10 07:52:26-Vendor 1 released 1 tickets
+2024-12-10 07:52:26-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:26-Customer 5 purchased 1 tickets
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-1 tickets added. Total tickets: 1
+2024-12-10 07:52:26-Vendor 1 released 1 tickets
+2024-12-10 07:52:26-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:26-Customer 1 purchased 1 tickets
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:26-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-1 tickets added. Total tickets: 1
+2024-12-10 07:52:27-Vendor 1 released 1 tickets
+2024-12-10 07:52:27-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:27-Customer 2 purchased 1 tickets
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-1 tickets added. Total tickets: 1
+2024-12-10 07:52:27-Vendor 1 released 1 tickets
+2024-12-10 07:52:27-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:27-Customer 3 purchased 1 tickets
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-1 tickets added. Total tickets: 1
+2024-12-10 07:52:27-Vendor 1 released 1 tickets
+2024-12-10 07:52:27-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:27-Customer 4 purchased 1 tickets
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:27-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-1 tickets added. Total tickets: 1
+2024-12-10 07:52:28-Vendor 1 released 1 tickets
+2024-12-10 07:52:28-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:52:28-Customer 5 purchased 1 tickets
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-No tickets available. Customer is waiting.
+2024-12-10 07:52:28-All tickets have been sold. Vendor is stopping.
+2024-12-10 07:52:28-Vendor 1 released 1 tickets
+2024-12-10 07:52:29-Customer 5: No tickets available to purchase.
+2024-12-10 07:52:29-Customer 2: No tickets available to purchase.
+2024-12-10 07:52:29-Customer 1: No tickets available to purchase.
+2024-12-10 07:52:29-Customer 4: No tickets available to purchase.
+2024-12-10 07:52:29-Customer 3: No tickets available to purchase.
+2024-12-10 07:52:29-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 07:53:46-2 tickets added. Total tickets: 2
+2024-12-10 07:53:46-Vendor 1 released 2 tickets
+2024-12-10 07:53:46-2 tickets added. Total tickets: 4
+2024-12-10 07:53:46-Vendor 2 released 2 tickets
+2024-12-10 07:53:46-4 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:46-Customer 1 purchased 4 tickets
+2024-12-10 07:53:46-No tickets available. Customer is waiting.
+2024-12-10 07:53:46-No tickets available. Customer is waiting.
+2024-12-10 07:53:46-No tickets available. Customer is waiting.
+2024-12-10 07:53:46-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-2 tickets added. Total tickets: 2
+2024-12-10 07:53:47-Vendor 2 released 2 tickets
+2024-12-10 07:53:47-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:47-Customer 2 purchased 2 tickets
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-2 tickets added. Total tickets: 2
+2024-12-10 07:53:47-Vendor 1 released 2 tickets
+2024-12-10 07:53:47-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:47-Customer 3 purchased 2 tickets
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-2 tickets added. Total tickets: 2
+2024-12-10 07:53:47-Vendor 1 released 2 tickets
+2024-12-10 07:53:47-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:47-Customer 4 purchased 2 tickets
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-2 tickets added. Total tickets: 2
+2024-12-10 07:53:47-Vendor 2 released 2 tickets
+2024-12-10 07:53:47-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:47-Customer 5 purchased 2 tickets
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:47-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 2 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-Customer 1 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 1 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-Customer 3 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 2 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-Customer 2 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 1 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-Customer 4 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 1 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-Customer 5 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-2 tickets added. Total tickets: 2
+2024-12-10 07:53:48-Vendor 2 released 2 tickets
+2024-12-10 07:53:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:48-Customer 1 purchased 2 tickets
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:48-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-2 tickets added. Total tickets: 2
+2024-12-10 07:53:49-Vendor 1 released 2 tickets
+2024-12-10 07:53:49-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:49-Customer 3 purchased 2 tickets
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-2 tickets added. Total tickets: 2
+2024-12-10 07:53:49-Vendor 2 released 2 tickets
+2024-12-10 07:53:49-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-Customer 4 purchased 2 tickets
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-2 tickets added. Total tickets: 2
+2024-12-10 07:53:49-Vendor 1 released 2 tickets
+2024-12-10 07:53:49-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:53:49-Customer 2 purchased 2 tickets
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-No tickets available. Customer is waiting.
+2024-12-10 07:53:49-All tickets have been sold. Vendor is stopping.
+2024-12-10 07:53:49-Vendor 2 released 2 tickets
+2024-12-10 07:53:49-Customer 2: No tickets available to purchase.
+2024-12-10 07:53:49-Customer 1: No tickets available to purchase.
+2024-12-10 07:53:49-Customer 4: No tickets available to purchase.
+2024-12-10 07:53:49-Customer 5: No tickets available to purchase.
+2024-12-10 07:53:49-Customer 3: No tickets available to purchase.
+2024-12-10 07:53:50-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 07:53:50-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-10 07:57:27-1 tickets added. Total tickets: 1
+2024-12-10 07:57:27-1 tickets added. Total tickets: 2
+2024-12-10 07:57:27-Vendor 1 released 1 tickets
+2024-12-10 07:57:27-Vendor 2 released 1 tickets
+2024-12-10 07:57:27-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-Customer 1 purchased 2 tickets
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-1 tickets added. Total tickets: 1
+2024-12-10 07:57:27-Vendor 1 released 1 tickets
+2024-12-10 07:57:27-1 tickets added. Total tickets: 2
+2024-12-10 07:57:27-Vendor 2 released 1 tickets
+2024-12-10 07:57:27-2 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:27-Customer 2 purchased 2 tickets
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-1 tickets added. Total tickets: 1
+2024-12-10 07:57:27-Vendor 2 released 1 tickets
+2024-12-10 07:57:27-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:27-Customer 3 purchased 1 tickets
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-1 tickets added. Total tickets: 1
+2024-12-10 07:57:27-Vendor 1 released 1 tickets
+2024-12-10 07:57:27-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:27-Customer 4 purchased 1 tickets
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:27-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-1 tickets added. Total tickets: 1
+2024-12-10 07:57:28-Vendor 2 released 1 tickets
+2024-12-10 07:57:28-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:28-Customer 5 purchased 1 tickets
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-1 tickets added. Total tickets: 1
+2024-12-10 07:57:28-Vendor 1 released 1 tickets
+2024-12-10 07:57:28-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:28-Customer 1 purchased 1 tickets
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-1 tickets added. Total tickets: 1
+2024-12-10 07:57:28-Vendor 2 released 1 tickets
+2024-12-10 07:57:28-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:28-Customer 2 purchased 1 tickets
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-1 tickets added. Total tickets: 1
+2024-12-10 07:57:28-Vendor 1 released 1 tickets
+2024-12-10 07:57:28-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:28-Customer 3 purchased 1 tickets
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:28-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-1 tickets added. Total tickets: 1
+2024-12-10 07:57:29-Vendor 2 released 1 tickets
+2024-12-10 07:57:29-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:29-Customer 4 purchased 1 tickets
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-1 tickets added. Total tickets: 1
+2024-12-10 07:57:29-Vendor 1 released 1 tickets
+2024-12-10 07:57:29-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:29-Customer 5 purchased 1 tickets
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-1 tickets added. Total tickets: 1
+2024-12-10 07:57:29-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:29-Vendor 1 released 1 tickets
+2024-12-10 07:57:29-Customer 1 purchased 1 tickets
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-1 tickets added. Total tickets: 1
+2024-12-10 07:57:29-Vendor 2 released 1 tickets
+2024-12-10 07:57:29-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:29-Customer 3 purchased 1 tickets
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:29-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 1 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-Customer 2 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 2 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-Customer 5 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 1 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-Customer 4 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 2 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-Customer 1 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 1 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-Customer 3 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-1 tickets added. Total tickets: 1
+2024-12-10 07:57:30-Vendor 2 released 1 tickets
+2024-12-10 07:57:30-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-Customer 2 purchased 1 tickets
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:30-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-1 tickets added. Total tickets: 1
+2024-12-10 07:57:31-Vendor 1 released 1 tickets
+2024-12-10 07:57:31-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:31-Customer 5 purchased 1 tickets
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-1 tickets added. Total tickets: 1
+2024-12-10 07:57:31-Vendor 2 released 1 tickets
+2024-12-10 07:57:31-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:31-Customer 4 purchased 1 tickets
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-1 tickets added. Total tickets: 1
+2024-12-10 07:57:31-Vendor 1 released 1 tickets
+2024-12-10 07:57:31-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:31-Customer 1 purchased 1 tickets
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-1 tickets added. Total tickets: 1
+2024-12-10 07:57:31-Vendor 2 released 1 tickets
+2024-12-10 07:57:31-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:31-Customer 3 purchased 1 tickets
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:31-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-Vendor 1 released 1 tickets
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-Customer 2 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-Vendor 2 released 1 tickets
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-Customer 5 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-Vendor 1 released 1 tickets
+2024-12-10 07:57:32-Customer 4 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-Vendor 2 released 1 tickets
+2024-12-10 07:57:32-Customer 1 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-Vendor 1 released 1 tickets
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-Customer 3 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-1 tickets added. Total tickets: 1
+2024-12-10 07:57:32-Vendor 2 released 1 tickets
+2024-12-10 07:57:32-1 tickets removed. 0 tickets remaining.
+2024-12-10 07:57:32-Customer 2 purchased 1 tickets
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:32-No tickets available. Customer is waiting.
+2024-12-10 07:57:33-No tickets available. Customer is waiting.
+2024-12-10 07:57:33-No tickets available. Customer is waiting.
+2024-12-10 07:57:33-All tickets have been sold. Vendor is stopping.
+2024-12-10 07:57:33-Vendor 1 released 1 tickets
+2024-12-10 07:57:33-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:33-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:34-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:35-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:36-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:37-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:38-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:39-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:40-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:41-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:42-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:43-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:44-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:45-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:46-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:47-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:48-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:49-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:50-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:51-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:52-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:53-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 07:57:54-Ticketpool is empty. Customer is stopping
+2024-12-10 08:02:45-5 tickets added. Total tickets: 5
+2024-12-10 08:02:45-Vendor 1 released 5 tickets
+2024-12-10 08:02:45-5 tickets added. Total tickets: 10
+2024-12-10 08:02:45-Vendor 2 released 5 tickets
+2024-12-10 08:02:45-5 tickets added. Total tickets: 15
+2024-12-10 08:02:45-Vendor 3 released 5 tickets
+2024-12-10 08:02:45-5 tickets added. Total tickets: 20
+2024-12-10 08:02:45-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:45-Vendor 4 released 5 tickets
+2024-12-10 08:02:45-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:45-2 tickets removed. 16 tickets remaining.
+2024-12-10 08:02:45-Customer 1 purchased 2 tickets
+2024-12-10 08:02:45-2 tickets removed. 14 tickets remaining.
+2024-12-10 08:02:45-Customer 2 purchased 2 tickets
+2024-12-10 08:02:45-Customer 3 purchased 2 tickets
+2024-12-10 08:02:45-5 tickets added. Total tickets: 19
+2024-12-10 08:02:45-Vendor 5 released 5 tickets
+2024-12-10 08:02:46-2 tickets removed. 17 tickets remaining.
+2024-12-10 08:02:46-Customer 3 purchased 2 tickets
+2024-12-10 08:02:46-2 tickets removed. 15 tickets remaining.
+2024-12-10 08:02:46-Customer 1 purchased 2 tickets
+2024-12-10 08:02:46-2 tickets removed. 13 tickets remaining.
+2024-12-10 08:02:46-Customer 2 purchased 2 tickets
+2024-12-10 08:02:46-5 tickets added. Total tickets: 18
+2024-12-10 08:02:46-Vendor 3 released 5 tickets
+2024-12-10 08:02:46-2 tickets added. Total tickets: 20
+2024-12-10 08:02:46-Vendor 1 released 5 tickets
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:46-Customer 3 purchased 2 tickets
+2024-12-10 08:02:46-2 tickets added. Total tickets: 20
+2024-12-10 08:02:46-Vendor 5 released 5 tickets
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:46-Customer 1 purchased 2 tickets
+2024-12-10 08:02:46-2 tickets removed. 16 tickets remaining.
+2024-12-10 08:02:46-Customer 2 purchased 2 tickets
+2024-12-10 08:02:46-4 tickets added. Total tickets: 20
+2024-12-10 08:02:46-Vendor 2 released 5 tickets
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:46-2 tickets added. Total tickets: 20
+2024-12-10 08:02:46-Customer 2 purchased 2 tickets
+2024-12-10 08:02:46-Vendor 4 released 5 tickets
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:46-Customer 3 purchased 2 tickets
+2024-12-10 08:02:46-2 tickets removed. 16 tickets remaining.
+2024-12-10 08:02:46-Customer 1 purchased 2 tickets
+2024-12-10 08:02:46-4 tickets added. Total tickets: 20
+2024-12-10 08:02:46-Vendor 3 released 5 tickets
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:46-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:47-Customer 2 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets added. Total tickets: 20
+2024-12-10 08:02:47-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-Vendor 1 released 5 tickets
+2024-12-10 08:02:47-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:47-Customer 3 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets added. Total tickets: 20
+2024-12-10 08:02:47-Vendor 5 released 5 tickets
+2024-12-10 08:02:47-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:47-Customer 1 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets added. Total tickets: 20
+2024-12-10 08:02:47-Vendor 2 released 5 tickets
+2024-12-10 08:02:47-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-Ticketpool is full. Vendor is waiting.
+2024-12-10 08:02:47-2 tickets removed. 18 tickets remaining.
+2024-12-10 08:02:47-Customer 1 purchased 2 tickets
+2024-12-10 08:02:47-All tickets have been sold. Vendor is stopping.
+2024-12-10 08:02:47-Vendor 4 released 5 tickets
+2024-12-10 08:02:47-Vendor 3 released 5 tickets
+2024-12-10 08:02:47-2 tickets removed. 16 tickets remaining.
+2024-12-10 08:02:47-Customer 2 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets removed. 14 tickets remaining.
+2024-12-10 08:02:47-Customer 3 purchased 2 tickets
+2024-12-10 08:02:47-Vendor 5: All tickets sold. Stopping ticket Release.
+2024-12-10 08:02:47-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 08:02:47-Vendor 2: All tickets sold. Stopping ticket Release.
+2024-12-10 08:02:47-2 tickets removed. 12 tickets remaining.
+2024-12-10 08:02:47-Customer 1 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets removed. 10 tickets remaining.
+2024-12-10 08:02:47-Customer 2 purchased 2 tickets
+2024-12-10 08:02:47-2 tickets removed. 8 tickets remaining.
+2024-12-10 08:02:47-Customer 3 purchased 2 tickets
+2024-12-10 08:02:47-Vendor 3: All tickets sold. Stopping ticket Release.
+2024-12-10 08:02:47-Vendor 4: All tickets sold. Stopping ticket Release.
+2024-12-10 08:02:48-2 tickets removed. 6 tickets remaining.
+2024-12-10 08:02:48-Customer 2 purchased 2 tickets
+2024-12-10 08:02:48-2 tickets removed. 4 tickets remaining.
+2024-12-10 08:02:48-Customer 3 purchased 2 tickets
+2024-12-10 08:02:48-2 tickets removed. 2 tickets remaining.
+2024-12-10 08:02:48-Customer 1 purchased 2 tickets
+2024-12-10 08:02:48-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:02:48-Customer 1 purchased 2 tickets
+2024-12-10 08:02:48-Customer 3: No tickets available to purchase.
+2024-12-10 08:02:48-Customer 2: No tickets available to purchase.
+2024-12-10 08:02:48-Customer 1: No tickets available to purchase.
+2024-12-10 08:04:15-2 tickets added. Total tickets: 2
+2024-12-10 08:04:15-2 tickets added. Total tickets: 4
+2024-12-10 08:04:15-Vendor 1 released 2 tickets
+2024-12-10 08:04:15-Vendor 2 released 2 tickets
+2024-12-10 08:04:15-4 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:15-No tickets available. Customer is waiting.
+2024-12-10 08:04:15-Customer 1 purchased 4 tickets
+2024-12-10 08:04:15-No tickets available. Customer is waiting.
+2024-12-10 08:04:15-No tickets available. Customer is waiting.
+2024-12-10 08:04:15-No tickets available. Customer is waiting.
+2024-12-10 08:04:15-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-2 tickets added. Total tickets: 2
+2024-12-10 08:04:16-Vendor 1 released 2 tickets
+2024-12-10 08:04:16-2 tickets added. Total tickets: 4
+2024-12-10 08:04:16-Vendor 2 released 2 tickets
+2024-12-10 08:04:16-4 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:16-Customer 2 purchased 4 tickets
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-2 tickets added. Total tickets: 2
+2024-12-10 08:04:16-Vendor 1 released 2 tickets
+2024-12-10 08:04:16-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:16-Customer 3 purchased 2 tickets
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-2 tickets added. Total tickets: 2
+2024-12-10 08:04:16-Vendor 2 released 2 tickets
+2024-12-10 08:04:16-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:16-Customer 4 purchased 2 tickets
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-2 tickets added. Total tickets: 2
+2024-12-10 08:04:16-Vendor 1 released 2 tickets
+2024-12-10 08:04:16-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:16-Customer 5 purchased 2 tickets
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-2 tickets added. Total tickets: 2
+2024-12-10 08:04:16-Vendor 2 released 2 tickets
+2024-12-10 08:04:16-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:16-Customer 1 purchased 2 tickets
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:16-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-2 tickets added. Total tickets: 2
+2024-12-10 08:04:17-Vendor 1 released 2 tickets
+2024-12-10 08:04:17-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:17-Customer 2 purchased 2 tickets
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-2 tickets added. Total tickets: 2
+2024-12-10 08:04:17-Vendor 2 released 2 tickets
+2024-12-10 08:04:17-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:17-Customer 4 purchased 2 tickets
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-2 tickets added. Total tickets: 2
+2024-12-10 08:04:17-Vendor 1 released 2 tickets
+2024-12-10 08:04:17-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:17-Customer 3 purchased 2 tickets
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-2 tickets added. Total tickets: 2
+2024-12-10 08:04:17-Vendor 2 released 2 tickets
+2024-12-10 08:04:17-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:17-Customer 5 purchased 2 tickets
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:17-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-2 tickets added. Total tickets: 2
+2024-12-10 08:04:18-Vendor 1 released 2 tickets
+2024-12-10 08:04:18-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:18-Customer 1 purchased 2 tickets
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-2 tickets added. Total tickets: 2
+2024-12-10 08:04:18-Vendor 2 released 2 tickets
+2024-12-10 08:04:18-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-Customer 2 purchased 2 tickets
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-2 tickets added. Total tickets: 2
+2024-12-10 08:04:18-Vendor 1 released 2 tickets
+2024-12-10 08:04:18-2 tickets removed. 0 tickets remaining.
+2024-12-10 08:04:18-Customer 4 purchased 2 tickets
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-No tickets available. Customer is waiting.
+2024-12-10 08:04:18-All tickets have been sold. Vendor is stopping.
+2024-12-10 08:04:18-Vendor 2 released 2 tickets
+2024-12-10 08:04:18-Customer 4: No tickets available to purchase.
+2024-12-10 08:04:18-Customer 2: No tickets available to purchase.
+2024-12-10 08:04:18-Customer 3: No tickets available to purchase.
+2024-12-10 08:04:18-Customer 5: No tickets available to purchase.
+2024-12-10 08:04:18-Customer 1: No tickets available to purchase.
+2024-12-10 08:04:18-Vendor 1: All tickets sold. Stopping ticket Release.
+2024-12-10 08:04:18-Vendor 2: All tickets sold. Stopping ticket Release.

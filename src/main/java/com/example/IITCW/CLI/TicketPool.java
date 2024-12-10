@@ -6,31 +6,36 @@ import java.util.List;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-/*By synchronizing the methods and making synchromized lists, it ensures safe concurrent access
-   we used synchronized methods to prevent multiple threads from addings tickets at the same time
-   same goes for the remove method. Only one thread at a time can access the ticketLists, this prevents
-   race conditions and keeps the data consistent, even when multiple threads are working concurrently.
- */
+/*
+ * Ticketpool manages a synchronized pool of tickets to ensure safe concurrent access by multiple threads.
+ * It uses synchronization mechanisms to prevent race conditions and maintain data consistency
+ * */
+
 
 public class TicketPool {
     private final List<String> tickets; //Synchronized list to hold tickets
-    private final int maxCapacity;
+    private final int maxCapacity; //Maximum capacity of the ticketpool
     private int totalTicketsRemaining; // Tracks remaining tickets to be sold
-    private boolean sellingComplete = false;
+    private boolean sellingComplete = false; //Flag to indicate that the selling is complete
 
-    private final ReentrantLock lock = new ReentrantLock(true); // Fair lock
+    private final ReentrantLock lock = new ReentrantLock(true); // Fair lock for thread-safe operations
     private final Condition notEmpty = lock.newCondition(); // Condition for non-empty pool
     private final Condition notFull = lock.newCondition(); // Condition for non-full pool
 
+    /**
+     * Constructor for Ticketpool
+     * @param maxCapacity Maximum capacity of the ticketpool
+     * @param totalTickets Total number of tickets available for sale
+     */
     public TicketPool(int maxCapacity, int totalTickets) {
-        this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized list
+        this.tickets = Collections.synchronizedList(new ArrayList<>()); //A synchronized thread-safe list
         this.maxCapacity = maxCapacity;
         this.totalTicketsRemaining = totalTickets;
     }
 
     //Method to add tickets (used by Vendors)
     public void addTickets(int numberOfTicketsToAdd) {
-        lock.lock();
+        lock.lock(); //Aquire the lock for thread-safe operation
         try{
             while (tickets.size() == maxCapacity) {
                 Logger.info("Ticketpool is full. Vendor is waiting.");
@@ -39,69 +44,78 @@ public class TicketPool {
             }
             if (totalTicketsRemaining == 0) {
                 Logger.info("All tickets have been sold. Vendor is stopping.");
-                sellingComplete = true;
+                sellingComplete = true; //Mark selling as completed
                 notEmpty.signalAll(); // Notify any waiting customers
                 notFull.signalAll(); // Notify any waiting vendors
                 return;
             }
 
+            //Calculates how many tickets can be added without exceeding maxCapacity
             int ticketsToAdd = Math.min(numberOfTicketsToAdd, maxCapacity - tickets.size());
             for(int i = 0; i < ticketsToAdd; i++) {
-                tickets.add("Ticket" + (tickets.size() + 1));
+                tickets.add("Ticket" + (tickets.size() + 1)); //Add tickets to the pool
             }
-            totalTicketsRemaining -= ticketsToAdd;
+            totalTicketsRemaining -= ticketsToAdd; //Update remaining tickets count
 
 
 
             Logger.info(ticketsToAdd + " tickets added. Total tickets: " + tickets.size());
-            notEmpty.signalAll(); //Notify customers that tickets are avaialble
+            notEmpty.signalAll(); //Notify customers that tickets are available
         }catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
+            Thread.currentThread().interrupt(); //Handle thread interruption
         }finally {
-            lock.unlock();
+            lock.unlock(); //Release the lock
         }
     }
 
 
-    //Method to remove tickets (used by customers)
+    /**
+     * Removes tickets from the pool. This method is used by customer threads.
+     * @param numberOfTicketsToRemove Number of tickets to remove from the pool
+     * @return Number of tickets successfully removed
+     */
     public int removeTickets(int numberOfTicketsToRemove) {
-        lock.lock();
+        lock.lock(); //Acquire the lock for thread-safe operation
         try {
             while (tickets.isEmpty() && !sellingComplete) {
                 Logger.logError("No tickets available. Customer is waiting.");
                 notEmpty.await(); // Wait until tickets are added
-                if (sellingComplete) return 0;
+                if (sellingComplete) return 0; //Exit if selling is marked complete
             }
             if (tickets.isEmpty() && sellingComplete) {
                 Logger.logError("Ticketpool is empty. Customer is stopping");
                 return 0; // Graceful exit if no tickets are available and selling is complete
             }
+            //Calculate how many tickets can be removed without exceeding available tickets
             int ticketsToRemove = Math.min(numberOfTicketsToRemove, tickets.size());
             for (int i = 0; i < ticketsToRemove; i++) {
-                tickets.remove(0);
+                tickets.remove(0); //Remove the tickets from the ticketpool
             }
             Logger.logError(ticketsToRemove + " tickets removed. " + tickets.size() + " tickets remaining.");
-            notFull.signalAll(); // Notify waiting vendors
-            return ticketsToRemove;
+            notFull.signalAll(); // Notify vendors that space is available
+            return ticketsToRemove; //Return the number of tickets removed
         } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
+            Thread.currentThread().interrupt(); //Handle thread interruption
             return -1; // Exit gracefully on interruption
         } finally {
-            lock.unlock();
+            lock.unlock(); //Releases the lock
         }
     }
 
 
-    //Mark ticket selling as complete
+    /**
+     * Marks ticket selling as complete and notifies all waiting threads
+     * @param complete Boolean indicating whether selling is complete
+     */
     public void setSellingComplete(boolean complete) {
-        lock.lock();
+        lock.lock(); //Acquire the lock for thread-safe operation
         try{
             this.sellingComplete = complete;
             notEmpty.signalAll(); //Notify waiting customers
-            notFull.signalAll();
+            notFull.signalAll(); //Notify waiting vendors
         }
         finally{
-            lock.unlock();
+            lock.unlock(); //Release the lock
         }
     }
 
